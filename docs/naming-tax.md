@@ -118,6 +118,8 @@ Every system that serves people could issue dual-format communications without c
 
 Until then, every act of translating institutional language into human language on behalf of someone who cannot afford the translation is an act of closing the distance. It does not fix the system. It fixes the Tuesday. And sometimes fixing Tuesday is what the person at the table needs to survive until someone fixes the system.
 
+The naming tax is one expression of a broader force. The distance between a decision and its description is proportional to the power of the person who made the decision — and the naming tax is what that force feels like from the other end, when the person affected has to pay to make their own situation legible. The tax runs in both directions. The description tax is explored in its own paper.
+
 ---
 
 *Part of the [Kita](https://github.com/emulable/kita) framework.*

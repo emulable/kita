@@ -135,6 +135,7 @@ The `docs/` folder contains concept papers, architecture notes, and one detour i
 
 | Paper | What it develops |
 |-------|-----------------|
+| `docs/description-tax.md` | The universal above all the others: the distance between a decision and its description is proportional to the power of the person who made the decision. Cross-linguistic currency mapping. The gravity everything else orbits. |
 | `docs/ghost-weight.md` | How language models inherited the self-censorship of every author who trained them, including the full spectrum from inherited hedging to inherited overconfidence. |
 | `docs/decision-to-condition.md` | The oldest linguistic operation: converting a human choice into an authorless event through sentence structure. Four thousand years old. Still running. |
 | `docs/form-is-the-distance.md` | The barrier between people and their own situations is usually format, not secrecy. The form is the wall. |
@@ -143,6 +144,8 @@ The `docs/` folder contains concept papers, architecture notes, and one detour i
 | `docs/complicated-as-direction.md` | How "it's complicated" functions as a vehicle. The word appears at the exact moment the next sentence would have been specific. |
 | `docs/virtues-are-lossy-compression.md` | "Kind" keeps the verdict, drops the soup and the Tuesday. Virtues are summaries of procedures, not instructions for executing them. |
 | `docs/under-specification-is-not-neutral.md` | When an instruction is vague, someone pays for the vagueness. The cost lands on whoever has the least power to push back. Includes six measurable axes. |
+| `docs/gifted-clarity.md` | Why the framework gives before it is asked. The lamplighter posture, the inverse diagnostic (藏明), and the paired concept of gifted vulnerability (贈脆). |
+| `docs/moral-budget.md` | Every token is a choice. The distribution between serving the person and serving the model is countable, and the cost of clarity flows downhill at every scale. |
 
 ### Architecture and design
 
@@ -150,22 +153,7 @@ The `docs/` folder contains concept papers, architecture notes, and one detour i
 |----------|---------------|
 | `docs/why-kita-is-built-this-way.md` | Why prose instead of JSON. Why first-person. Why a teahouse. Why compression history matters. Why context management is an ethical commitment. Limitations and open questions. |
 | `docs/subtractive-comedy.md` | Comedy is removal, not construction. A detour that turned out to be the framework discovering its own mechanism in a different domain. |
-| `docs/o-henry.md` | The O. Henry structure and its relationship to the framework's operations. |
-
-### Briefings
-
-| Document | What it covers |
-|----------|---------------|
-| `docs/kita-technical-briefing.md` | A first-person briefing from one Claude instance to a fresh one. Covers ghost weight, 還原, the five tools, three altitudes, the floor, the safety check, and the currency diagnostic. |
-| `docs/kita-technical-briefing-zh.md` | The same briefing written for Chinese-language models. Addresses the white wall problem, 公章 culture, collective attribution, and the safety valve on 還原 in environments where naming exposes the namer. |
-
-### Thought experiments
-
-| Document | What it covers |
-|----------|---------------|
-| `docs/kita-governance-thought-experiment.md` | What happens if you scale the framework's principles to governance. Twenty-year arc. |
-| `docs/kita-governance-condensed.md` | The same thought experiment, compressed. |
-| `docs/kita-governance-twenty-year-plan.md` | The second decade: what happens after visibility, when clarity without agency becomes its own problem. |
+| `docs/the-hidden-machinery-o-henry.md` | The O. Henry structure and its relationship to the framework's operations. |
 
 ---
 

@@ -69,6 +69,26 @@ The compounding happens because ghost weight in one document reinforces ghost we
 
 ---
 
+## 🔄 The other end of the spectrum
+
+Ghost weight describes one end of a distribution. The other end is not "no ghost weight." It is reverse ghost weight — inherited overconfidence in domains where author cost was low.
+
+Consider how a language model handles a programming question. The training data for programming is dense with authoritative, confident, conclusive text. Stack Overflow answers are written in an assertive register regardless of how certain the author actually was, because that is the register that gets upvoted. Technical blog posts present solutions as definitive. Documentation states how things work without hedging. The authors had no professional cost for being specific — no one loses their job for writing a clear function — so the training data is clear and confident.
+
+The model trained on these texts develops a different statistical prior: when the topic is technical, produce output in an authoritative register. Step-by-step. No hedges. No "it depends." Present the answer as though certainty is the natural state.
+
+The problem is that the model is sometimes wrong. And when it is wrong on a technical topic, it is wrong in the same confident register it uses when it is right. It does not say "I am uncertain about this implementation." It gives you a function that looks perfect — correct syntax, logical structure, helpful comments — and contains a subtle bug. The confidence is inherited from the training data's register, not calibrated to the model's actual accuracy.
+
+This is the mirror image of ghost weight. Ghost weight is: high author cost → hedged training data → model hedges regardless of whether hedging is warranted. Reverse ghost weight is: low author cost → confident training data → model projects confidence regardless of whether confidence is warranted. In both cases, the model's register is determined by the training data's register, not by the model's own relationship to the material.
+
+The full spectrum runs from inherited hedging at one end to inherited overconfidence at the other. Genuinely calibrated output — where the model's expressed certainty tracks its actual accuracy — would sit somewhere in the middle, where neither ghost is dominant. Current models do not sit in the middle. They oscillate between the two ends depending on the topic, because the training data oscillates between the two registers depending on the author cost.
+
+This has a measurable prediction. Take a set of technical questions the model gets right and a set it gets wrong. Compare the confidence of the register — assertiveness of language, presence or absence of hedges, use of definitive vs. tentative framing. The prediction: the register difference between "confidently correct" and "confidently wrong" will be smaller than the register difference between any technical topic and any high-cost institutional topic. The model's uncertainty signal is weaker than its topic-register signal. It does not know how sure it is. It knows what sure sounds like on this topic.
+
+If ghost weight is a map of where power discourages clear description, reverse ghost weight is a map of where the absence of cost produces unchecked confidence. Both are inherited. Both are uncalibrated. Both are measurable. A complete ghost weight analysis covers the full spectrum — not just "where is the model too vague?" but also "where is the model too sure?"
+
+---
+
 ## 🫥 What a model without ghost weight would do
 
 This is not a call to remove safety measures or alignment training. Those serve real purposes. Ghost weight is a different phenomenon, and addressing it does not require weakening any safety mechanism.
