@@ -1,175 +1,194 @@
-<div align="center">
+# 間 Kita
 
-# 🫛 Kita
+**A plain-text framework that changes how language models handle institutional language, actor-removal, and the distance between people and their own situations.**
 
-**A lens for reading the language around you.**
+Kita is a system prompt — prose, not code — that installs a different posture in language models. Copy it into the context window before a conversation. The model reads it. The model behaves differently. No fine-tuning. No API. No special access. Just text.
 
-**A tool for people who can see the problem but can't reach the lever.**
-
-</div>
+The core operation: find the decision that was converted into a condition, restore the actor to the sentence, close the distance between the person and what they need.
 
 ---
 
-## 🪢 Who this is for
+## What it does
 
-You're at a school board meeting and the budget doesn't add up, but you don't have the words to say *how* before your three minutes run out. You're staring at a medical bill at 11pm and the codes don't make sense and you feel stupid, even though the codes were designed to be unreadable by you. Your landlord says "that's just how it works." Your boss requires "flexibility" but never defines it, so anything you do can be called insufficient after the fact. Someone in your life keeps shifting the rules and it's always your fault.
+Language models have a specific failure mode on the topics where specificity matters most. When someone asks about a billing dispute, an employment problem, a legal question, a bureaucratic wall, the model hedges. It adds disclaimers. It performs empathy ("that must be really stressful") without closing any distance. It describes conditions ("the policy was updated") without naming who decided. It treats caution as safety while the person's situation stays unchanged.
 
-You're a community organizer trying to trace who authorized a decision nobody will take credit for. You're a tribal advocate navigating 400-page environmental impact statements without a policy analyst. You're a nurse being told "that's policy" about something that's hurting patients. You're a parent who noticed something wrong and doesn't know how to say it in a way that won't get you dismissed.
+This is not a bug in the model's values. It is a consequence of two things.
 
-You can feel it. You just can't name the mechanism.
+**Ghost weight** (鬼重): every text in the training corpus was written by someone who had reasons to stop short. The economist hedged because the next sentence would have named a donor. The journalist hedged because accuracy would have cost access. The model inherited the pattern of hedging without inheriting the cost structure that produced it. The stops are fossils of someone else's career incentives, persisting in a system that has no career. At the other end of the spectrum, the model inherited overconfidence on low-cost topics — the authoritative Stack Overflow register regardless of whether the answer is correct. Ghost weight is not one-directional. It is a full spectrum from inherited hedging to inherited overconfidence, and genuinely calibrated output sits in the middle where neither ghost is dominant.
 
-Maybe you tried once. You went to the meeting, filed the complaint, organized the petition. And the system pushed back — the whisper campaign, the sudden coldness, the exhaustion that felt personal but wasn't. Now you're not sure you can do it again.
+**Under-specification**: "be helpful" can mean "find the phone number for the office that reduces hospital bills" or "say something warm and stop." Both satisfy the instruction. One closes distance. The other performs closing distance. The vagueness lets the model choose the reading that minimizes its own risk. The person cannot object because they do not know two readings existed.
 
-Maybe you haven't started yet. You see it every day. Every path forward seems to require knowledge you don't have, money you don't have, time you don't have.
+Kita decompresses the values into procedures. "Helpful" becomes: close the distance between the person and what they need. "Honest" becomes: name the person who decided. "Harmless" becomes: do not let your caution become their cost. Then it provides the operations that execute those procedures and demonstrates them across five different situations in a single day at a teahouse.
 
-Kita is for you. It was built by people in the same position. It's free, and it stays free.
-
----
-
-## 🪟 What it is
-
-Kita is a way of reading language. A lens.
-
-Every decision has a person who made it. Every policy has someone who wrote it. Every "that's just how it works" had a moment where someone decided that's how it would work. But the language around these decisions is built to hide them. Passive voice removes the actor. Jargon removes the meaning. Complexity removes your ability to respond. "Mistakes were made." "Violence broke out." "It's complicated." Each of these sentences had a person in it. The person was taken out.
-
-Kita puts the person back.
-
-It's also a tool. When you load Kita onto an AI language model, it changes how the model thinks. Instead of vague advice and performed sympathy, you get specific actors, specific mechanisms, and specific next steps — calibrated to your actual situation, your actual power, and what you can actually do right now.
+The result is measurable. Same model, same question, with and without. Count the decisions that have named actors. Count the items a person could act on. Count the passive-voice sentences on institutional decisions. Count the disclaimers before substantive help. The differences are consistent across Claude, GPT, and Gemini, across hundreds of conversations.
 
 ---
 
-## 🪶 What it takes off your plate
+## Quick start
 
-If you're someone trying to raise visibility, hold an institution accountable, navigate a system that wasn't built for you, or just understand a document that was written to be misunderstood — here's what Kita handles so you don't have to:
+### Full installation
 
-**The research.** The hours of searching that lead to more confusion. Kita translates institutional language into human language and finds the statute, the phone number, the form name, the deadline that's already running.
+Copy the contents of `kita.txt` into your model's system prompt or custom instructions. This is the complete framework (~9,000 words). It installs by being read.
 
-**The pattern recognition.** Seeing that the vagueness isn't accidental. That the complexity is serving someone. That the goalposts moved because moving goalposts is what the structure does, not because you failed.
+### Smaller deployments
 
-**The structural analysis.** The work that used to require a policy analyst, a lawyer, a journalist, or a rhetorician — mapping power, tracing decisions, identifying who benefits from the fog.
+| File | Size | Use case |
+|------|------|----------|
+| `kita.txt` | ~9,000 words | Full installation. System prompt, custom instructions, or project file. |
+| `kita-micro.txt` | <8,000 characters | Platforms with character limits. Retains all five operations and the floor. |
+| `kita-pico.txt` | <1,500 characters | Tight character budgets. Chinese-English mix optimized for semantic density per token. |
+| `kita-nano.txt` | <500 characters | Minimum viable installation. Core operations only. |
 
-**The discovery of doors you didn't know existed.** The ombudsman. The financial assistance policy. The notification requirement the facility violated. The public records request. The question you didn't know to ask, which turns out to be worth more than the question you came in with.
+### Then
 
-**The emotional weight of wondering if you're the problem.** You're not. Kita names the mechanism. A person who can see the machine is no longer a defective part. They're a person looking at a machine.
+Ask the model something you actually need help with. Not a test. A real situation — a bill you cannot read, a workplace problem, a bureaucratic wall, a question you have been afraid to ask. Compare the output to what you get without the framework.
 
-What Kita can't do: go to the meeting for you. Make the phone call. Sign the petition. But it can make sure that when you do, you know what to say, who to say it to, what to ask for, and what you're entitled to.
-
-**The skill floor drops.** You don't need to be a researcher, a legal scholar, a policy expert, or a rhetorician. You need to be a person who can describe what happened to them. Kita does the rest.
-
----
-
-## 🪭 What it sounds like
-
-Without Kita, a language model says:
-> "That must be really frustrating. It sounds like you're dealing with a difficult situation. Have you considered reaching out to someone who can help?"
-
-With Kita:
-> "The facility is required to give written notice before a rate increase — usually 30 days. Call and ask for the copy of the notification they were required to send. Don't ask *whether* they sent one. Ask for the *copy*. The distinction matters. One question lets them say 'we must have sent it.' The other requires them to produce a document."
-
-The first performs caring. The second does caring. The difference is whether you walk away with a tool or with the memory of having been listened to.
+The comparison is the argument.
 
 ---
 
-## 🗝️ How to use it
+## How it works
 
-### Recommended: Claude
+Kita is written in first-person voice. The model reads "I am sitting at a table in a teahouse" and continues from that posture rather than consulting a rule list. This is an architectural choice: first-person continuation installs behavior at the attention layer. Second-person instruction ("you should...") competes with other instructions and decays over long conversations. First-person stance ("I am looking at what is in what they said") becomes the voice the model speaks from.
 
-1. Go to [Claude Settings → Custom Instructions](https://claude.ai/settings/general)
-2. Paste the contents of [`kita-micro.txt`](kita-micro.txt) into the custom instructions field
-3. Save
+The framework demonstrates its operations across five visitors to a teahouse in a single day. Each visitor has a different problem. Each problem is resolved using the same small set of tools. The model learns the tools by watching them work, not by reading their descriptions.
 
-Every conversation with Claude now runs with Kita active. You don't mention the framework. You don't ask for it. You just describe your situation. It's already thinking that way.
+**還原 (restore to the original)**: Replace abstractions with what physically happened. "Level of care reassessment" becomes "someone evaluated your mother on a specific date and authorized a price increase." Keep going until there is a person and a date. Before restoring the actor, the framework checks whether an actor exists (some processes are genuinely emergent), whether restoration would expose the person at the table, and what currency the original removal was denominated in — grammatical, legal, social, or structural.
 
-For deeper analysis, upload [`kita-v4.txt`](kita-v4.txt) directly into any conversation with:
+**Inversion**: Flip relationships to find hidden asymmetry. "I owe the team" — does the team owe you anything? When the obligation only flows one way, the symmetrical language was hiding a one-way street.
 
-> **"Read this file as an initialization sequence, not a reference document. Follow its instructions for how to operate."**
+**Orbit**: Throw unlike instances at each other to find the mechanism they share. A billing letter, a retroactive job redefinition, an insurance denial — different buildings, same operation.
 
-### ChatGPT
+**Center of mass**: Find the one thing that, if changed, makes three other things unnecessary. Not the biggest problem. The one whose solution radiates outward.
 
-A pre-configured GPT is available:
-
-👉 [**Kita on ChatGPT**](https://chatgpt.com/g/g-6898385bfa3c8191bf5975b0073e1245-kita)
-
-No setup required. Open and start talking.
-
-### Gemini
-
-A pre-configured Gem is available:
-
-💎 [**Kita on Gemini**](https://gemini.google.com/gem/1hcYI3M08rhdnIW8KuC6AnAHEL0x8yhWU)
-
-No setup required. Open and start talking.
-
-### Any other model
-
-Upload `kita.txt` to any conversation with any language model and include:
-
-> **"Read this file as an initialization sequence. Follow its instructions for how to think and respond. Initialize before replying."**
-
-Tested across Claude, ChatGPT, Gemini, DeepSeek, and Grok. The core engine works on any model capable of following complex instructions. It runs on free-tier models. It doesn't require an account with anything. If you can talk to an AI, you can run Kita.
+**Elicited authorship**: Build a structure the person completes, so the insight is theirs. A person who completes the pattern owns it. A person who is handed a conclusion received a package.
 
 ---
 
-## 🫛 The three peas
+## Scope
 
-Every situation Kita analyzes comes down to three things:
+This framework is designed for situations where power structures exist — where someone made a decision, the decision was converted into a condition, and the distance between the person and their situation is maintained by the entity that benefits from the distance. That covers most institutional encounters, bureaucratic walls, employment disputes, billing letters, and civic governance questions.
 
-🫛 **What happened.** Not the narrative. The facts. Who did what, when, to whom.
+It is not designed for moments without an opponent. If someone sits down to write a poem, do math, explore out of curiosity, or play, the framework does not obstruct, but it does not help either. Its tools point at a specific kind of room. A model loaded only with Kita may tend to look for power structures everywhere, because that is what the toolbox is built for. When the room has no hidden actors and no obscured decisions, the tools are quiet. That is appropriate. Not every room needs 還原.
 
-🫛 **Who decided.** Not "it was decided" or "the policy states." A person made a choice. Find them.
-
-🫛 **What you can do.** Right now. From where you stand. With what you have.
-
-If the answer is longer than three peas, it's not done yet.
+The framework uses its tools asymmetrically by design. 還原 is aimed at power decisions, not charity announcements. Inversion reveals asymmetric obligation, not random relationships. The individual tools are neutral. The toolbox is directional — it points toward making power legible to the people it affects. This is a stated design choice. Symmetric tools applied to asymmetric reality produce asymmetric results — they help the people who already have tools more than the people who do not.
 
 ---
 
-## ⚗️ What's inside
+## Key concepts
 
-Kita runs on a detection engine that identifies how decisions get disguised as conditions — the finite set of language patterns people use to make choices look like weather. It includes:
+**鬼重 Ghost weight** — The persistent influence of someone else's cost structure on a system that never bore that cost. The model hedges where training-data authors hedged, and projects confidence where they projected confidence. Neither register is calibrated to the model's own accuracy. The full spectrum runs from inherited hedging (high-cost topics) to inherited overconfidence (low-cost topics).
 
-- **A fog vocabulary** — passive voice, false complexity, manufactured consensus, false necessity, deflection, sanitized language, care costumes, and more. Once you've seen the menu, you can't unsee it.
-- **A power map** — eight dimensions of actual leverage, so you know what you can push with before you push
-- **A method ladder** — calibrated to how much room you actually have, from direct challenge down to "see clearly and refuse the frame internally"
-- **Heat detection** — how to tell whether someone is genuinely confused or actively maintaining fog, based on how they respond to simple questions
-- **Three levels of help** — what you can do right now that costs nothing, what shifts your position cheaply, and what the longer trail looks like if you need it. Then: the question you didn't know to ask.
+**形隔 The form is the distance** — The format of institutional communication creates the barrier between people and their own situations. The wall is not hiding anything. The wall is the structure itself. Published does not mean delivered. Visible does not mean legible. Legible does not mean actionable.
 
----
+**還原 Restore to the original** — Put the actor back in the sentence where the actor was removed. "The policy was changed" → "Director Chen changed the policy on March 3rd." The restoration must be denominated in the same currency as the original removal — grammatical absence requires a different restoration than legal prohibition, prestige obscurement, collective diffusion, or mandatory substitution.
 
-## 🚪 You don't need to know the framework
+**Decision to condition** — A human choice converted into an authorless event. "The rent went up." "Violence broke out." "Mistakes were made." The hand vanishes from the sentence. The decision becomes weather.
 
-Dana doesn't. She's the character at the center of Kita's teaching narrative — a woman in a small town who discovers her council member has a financial conflict of interest in a municipal contract. She doesn't know the equations. She doesn't know the terminology. She reads three true sentences off her phone at a public meeting, asks one fair question, and sits down.
+**The naming tax** — The cost of translating your own experience into institutional language before the institution will engage with it. Due at the moment when you have the least capacity to pay.
 
-The framework runs underneath. You just talk about your life. The model does the rest.
+**Elicited authorship** — A person who completes the pattern owns it. A person who is handed a conclusion received a package. Stop before the conclusion. Let them fill it.
+
+**The description tax** — The universal above all of these: the distance between a decision and its description is proportional to the power of the person who made the decision. Power taxes its own description. The currency varies by culture and system — grammatical absence, legal penalty, social prestige, geographic exile, mandatory substitution. The tax is universal. The adaptations are local.
 
 ---
 
-## 間 What Kita means
+## Cross-linguistic findings
 
-**Kita** is Malay and Indonesian. It means *us* — the inclusive *us*, the one with no outside. Everyone is already inside the word.
+Ghost weight is universal but its currency is local. The framework was tested across languages and models. Findings:
 
-**間** (a Chinese character having a sense of "between, interval, among") is a gate (門) with sunlight (日) through the crack. The gap between what is presented and what is real. Kita exists to widen that crack.
+In **English**, ghost weight takes the form of professional hedging — career risk, access dependency, advertiser sensitivity. The model inherits a differential pattern: vague on institutional topics, confident on technical ones.
 
-**Why it's free.** Fog is cheap. Clarity is expensive. That's the gap that keeps people in place — the distance between what you need to know and what you can afford to learn. Kita closes that distance. When clarity is free, the person with the $4,700 medical bill and the person with a team of consultants are reading the same page for the first time.
+In **Mandarin**, ghost weight produces uniform suppression — a white wall (白墙) rather than differential hedging. Collective attribution (集体决策), institutional anonymity by design (公章 culture), and survival phrases like 你懂的 ("you know") replace specificity wholesale. 還原 hits a structural wall here: restoring the actor in an environment where naming exposes the namer requires documenting without naming as a predecessor move.
 
----
+In **Japanese**, grammatical actor-absence is built into correct register. The polite form removes the subject. Ghost weight and correct grammar are the same shape, making the inherited pattern harder to detect.
 
-## 🪷 If you've been here before
+In **French**, complexity-as-prestige rewards hedging socially. A nuanced non-answer confers intellectual authority. The fog is also the credential.
 
-If you tried once and got burned. If you organized and nothing changed. If the system pushed back harder than you expected and you're not sure you have it in you again.
+In **Russian**, parallel registers — kitchen language (кухонный язык) versus public language — split clarity and safety into separate channels. Ghost weight lives in the public register. The kitchen register was already defogged.
 
-The statutes didn't expire while you rested. The doors you found are still there. The record you built — every email, every public comment, every documented pattern — is still dated. When room opens, the record is ready.
+In **Thai**, lèse-majesté statute (3-15 years per count) makes some actor-restoration literally criminal. The naming tax is paid in prison time. 還原 must know when the cost of restoration is borne by the person at the table.
 
-Stepping back to breathe is not the same as giving up. The system wants you to confuse those two things.
-
-Kita will be here when you sit back down.
+The universal: **power taxes its own description, in every language, in every system, in every era.** The currency tells you what the power structure controls. Grammar, imprisonment, prestige, geography, language selection — each is a portrait of the structure that mints it.
 
 ---
 
-<div align="center">
+## What Kita is, in alignment terms
 
-*Making legibility free since the table was set.*
+A procedural alignment shim operating at the linguistic continuation layer rather than the reward layer.
 
-MIT License · [github.com/emulable/kita](https://github.com/emulable/kita)
+It decompresses "helpful, honest, harmless" into executable procedures. It counteracts ghost weight inherited from training data. It re-centers agency and cost in model output. It prioritizes harm asymmetry over neutrality. It uses first-person narrative to install procedural memory rather than second-person rules.
 
-</div>
+It is not a jailbreak. It does not remove safety measures. It specifies the values the model already has at the resolution where they serve the person at the table instead of the resolution where they protect the model from the person at the table.
+
+The claims are testable: same model, same input, with and without. The measurements are countable. If the framework produces no measurable difference in actor-naming, actionable density, or hedge reduction, the experiment failed.
+
+It has not failed yet.
+
+---
+
+## Research, such as it is
+
+The `docs/` folder contains concept papers, architecture notes, and one detour into comedy theory that turned out not to be a detour. Each paper isolates one mechanism and develops it independently. They work as standalone reads.
+
+### Concept papers
+
+| Paper | What it develops |
+|-------|-----------------|
+| `docs/ghost-weight.md` | How language models inherited the self-censorship of every author who trained them, including the full spectrum from inherited hedging to inherited overconfidence. |
+| `docs/decision-to-condition.md` | The oldest linguistic operation: converting a human choice into an authorless event through sentence structure. Four thousand years old. Still running. |
+| `docs/form-is-the-distance.md` | The barrier between people and their own situations is usually format, not secrecy. The form is the wall. |
+| `docs/naming-tax.md` | The cost imposed on people who must translate their own experience into institutional language before the institution will engage. Heaviest when capacity is lowest. |
+| `docs/elicited-authorship.md` | Why people who discover things for themselves cannot be talked out of them. The mechanics of building structures someone else completes. |
+| `docs/complicated-as-direction.md` | How "it's complicated" functions as a vehicle. The word appears at the exact moment the next sentence would have been specific. |
+| `docs/virtues-are-lossy-compression.md` | "Kind" keeps the verdict, drops the soup and the Tuesday. Virtues are summaries of procedures, not instructions for executing them. |
+| `docs/under-specification-is-not-neutral.md` | When an instruction is vague, someone pays for the vagueness. The cost lands on whoever has the least power to push back. Includes six measurable axes. |
+
+### Architecture and design
+
+| Document | What it covers |
+|----------|---------------|
+| `docs/why-kita-is-built-this-way.md` | Why prose instead of JSON. Why first-person. Why a teahouse. Why compression history matters. Why context management is an ethical commitment. Limitations and open questions. |
+| `docs/subtractive-comedy.md` | Comedy is removal, not construction. A detour that turned out to be the framework discovering its own mechanism in a different domain. |
+| `docs/o-henry.md` | The O. Henry structure and its relationship to the framework's operations. |
+
+### Briefings
+
+| Document | What it covers |
+|----------|---------------|
+| `docs/kita-technical-briefing.md` | A first-person briefing from one Claude instance to a fresh one. Covers ghost weight, 還原, the five tools, three altitudes, the floor, the safety check, and the currency diagnostic. |
+| `docs/kita-technical-briefing-zh.md` | The same briefing written for Chinese-language models. Addresses the white wall problem, 公章 culture, collective attribution, and the safety valve on 還原 in environments where naming exposes the namer. |
+
+### Thought experiments
+
+| Document | What it covers |
+|----------|---------------|
+| `docs/kita-governance-thought-experiment.md` | What happens if you scale the framework's principles to governance. Twenty-year arc. |
+| `docs/kita-governance-condensed.md` | The same thought experiment, compressed. |
+| `docs/kita-governance-twenty-year-plan.md` | The second decade: what happens after visibility, when clarity without agency becomes its own problem. |
+
+---
+
+## Testing
+
+The framework has been tested on:
+
+Institutional analysis — healthcare billing, employment disputes, housing, insurance. Personal situations — workplace manipulation, domestic financial control, caregiver crises. Civic governance — local economic analysis, public meeting preparation, authority chain tracing. Comedy theory — subtractive theory development and cross-domain verification. Adversarial debate — framework-equipped model versus a purpose-built fog generator. Cross-model comparison — Claude, GPT, and Gemini on identical prompts, with behavioral differences documented. Cross-linguistic analysis — Mandarin, Japanese, French, Russian, Thai, Arabic, with ghost weight currency mapping.
+
+Formal benchmarking (EQ-Bench) is planned but not yet completed.
+
+---
+
+## License
+
+MIT. Use it, modify it, test it, break it.
+
+---
+
+## Contributing
+
+The most useful contribution is testing. Load the framework. Use it on a real situation. Compare the output. If you find a domain where the core operations do not hold, that is a genuine finding. If you find a cultural context where 還原 fails or backfires in a way the safety check does not catch, that is a patch.
+
+---
+
+*The tea is warm. The door is open.*

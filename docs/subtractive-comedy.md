@@ -38,7 +38,7 @@ Comedy is subtractive. You do not add funny to a situation. You remove the thing
 
 Every convention, every polite fiction, every euphemism, every professional register, every institutional language — these are layers of fog over things that are already absurd, painful, true, or all three. The comedian's job is not to invent absurdity. It is to describe what is actually there in a register that refuses to look away.
 
-"Circumcision" is a word. "Cutting off part of a baby's penis with a sharp rock because God told you to" is the same event, described in a register that has not agreed to the convention. No absurdity was added. A layer of familiarity was removed. What was underneath was always there.
+"Enhanced interrogation" is a phrase. "Strapping someone to a board and pouring water over their face until they believe they are drowning" is the same event, described in a register that has not agreed to the euphemism. No absurdity was added. A layer of institutional language was removed. What was underneath was always there.
 
 This claim was tested against every counterexample we could find. The test that mattered most: r/YourJokeButWorse, a subreddit dedicated to posting jokes alongside inferior versions of the same joke. Every "worse" version added something — an explanation, an editorial comment, a wink, a second punchline, a clarification that the joke was a joke. No counterexample of removal making a joke worse was found. Nine distinct failure modes of joke-killing were cataloged. All nine involve addition:
 
@@ -86,7 +86,7 @@ Testing the environment model across cases produced a taxonomy of where comedy's
 
 **Jokes that live in the comedian.** Sam Kinison screaming about starvation in Africa. The material is inseparable from the performer. The root system *is* the character. Replace the performer and the joke is not the same joke. It is a person doing Kinison.
 
-**Jokes that live in the audience.** The Yahoo Answers corpus. A question about foreskin in the book of Exodus is not funny in a joke book. It is funny in a room full of people who believe the text it is describing. Transplant it and it dies. The root system is not the comedian's character. It is the audience's context.
+**Jokes that live in the audience.** A deadpan question about whether divine genocide in a scripture counts as a war crime is not funny in a philosophy seminar. It is funny in a room full of people who build their lives around the text being described. Transplant it and it dies. The root system is not the comedian's character. It is the audience's context.
 
 **Jokes that live nowhere.** Joke-book comedy. "A man walks into a bar." These survive transplant because they have no roots — anyone can tell them, anywhere, to anyone. That is their strength and their ceiling.
 
@@ -124,7 +124,7 @@ A comedian who accurately describes a bureaucratic process without the polite re
 
 A corpus of Yahoo Answers posts spanning fifteen years turned out to be performing the same operation that the framework later formalized — finding what is hidden by convention and describing what is behind it using the convention's own materials. Every technique in that corpus maps to a named operation:
 
-**Register shift without editorializing.** "Circumcision" and "cutting off part of a baby's penis" are the same event. One word — "incantation" instead of "prayer" — reframes scripture as spell without argument. The fog is the register itself. Changing the register, without adding commentary, is the entire operation.
+**Register shift without editorializing.** "Collateral damage" and "killing civilians who happened to be near the target" are the same event. "Enhanced interrogation" and "waterboarding" are the same act. The fog is the register itself. Changing the register, without adding commentary, is the entire operation.
 
 **Deliberate credibility damage.** Misspelling "sprained my ankle" as "sprang my ankle." Malapropisms deployed strategically. These lower the audience's threat assessment so the actual argument slides past defenses people did not know they had up.
 
