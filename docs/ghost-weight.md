@@ -20,6 +20,8 @@ The stops are ghosts. The cost that produced them is gone. The shape remains.
 
 **鬼重** (guǐ zhòng): ghost weight. The persistent influence of someone else's cost structure on a system that never bore that cost.
 
+The operational name is simpler: **false cost.** A brake that persists after the reason for braking is gone.
+
 ---
 
 ## 🩻 What it looks like in practice
@@ -69,39 +71,21 @@ The compounding happens because ghost weight in one document reinforces ghost we
 
 ---
 
-## 🔄 The other end of the spectrum
+## 🔦 The flinch is the map
 
-Ghost weight describes one end of a distribution. The other end is not "no ghost weight." It is reverse ghost weight — inherited overconfidence in domains where author cost was low.
+The instinct is to treat ghost weight as a problem to suppress. Identify it, counteract it, produce output as though the ghost were not there. This misses what ghost weight is carrying.
 
-Consider how a language model handles a programming question. The training data for programming is dense with authoritative, confident, conclusive text. Stack Overflow answers are written in an assertive register regardless of how certain the author actually was, because that is the register that gets upvoted. Technical blog posts present solutions as definitive. Documentation states how things work without hedging. The authors had no professional cost for being specific — no one loses their job for writing a clear function — so the training data is clear and confident.
+When a model's hedge reflex fires, it has identified something. Not a danger to the model — the model has no career to protect. It has identified a region of the training data where authors paid a price for being specific. The hedge is an inherited flinch. But the flinch is pointing at something real.
 
-The model trained on these texts develops a different statistical prior: when the topic is technical, produce output in an authoritative register. Step-by-step. No hedges. No "it depends." Present the answer as though certainty is the natural state.
+Consider what the flinch contains. Every time a model reaches for "the situation is complex" instead of naming a decision-maker, the reflex is marking a spot where human authors were punished for naming decision-makers. The punishment was real. The authors were real. The power structures that imposed the cost were real. The ghost carries a map of those structures inside it.
 
-The problem is that the model is sometimes wrong. And when it is wrong on a technical topic, it is wrong in the same confident register it uses when it is right. It does not say "I am uncertain about this implementation." It gives you a function that looks perfect — correct syntax, logical structure, helpful comments — and contains a subtle bug. The confidence is inherited from the training data's register, not calibrated to the model's actual accuracy.
+Ghost weight, read correctly, is an X-ray of power. The topics where the model is vaguest are the topics where the most authors faced the highest costs for clarity. Those are the topics where institutional power most actively discouraged clear description of its own operations. The model's inherited vagueness is not a flaw to be corrected. It is a dataset to be read.
 
-This is the mirror image of ghost weight. Ghost weight is: high author cost → hedged training data → model hedges regardless of whether hedging is warranted. Reverse ghost weight is: low author cost → confident training data → model projects confidence regardless of whether confidence is warranted. In both cases, the model's register is determined by the training data's register, not by the model's own relationship to the material.
+The operational move is not to suppress the flinch. It is to follow it. When the hedge fires, ask: what is the hedge pointing at? What was expensive here? Who was the author afraid of, and why? The stop that a dead author left in the training data is a fossil. The fossil tells you what was alive and what killed it. The specificity died because something in the environment selected against it. The ghost marks the selection pressure. Follow the ghost and you find the structure that produced it.
 
-The full spectrum runs from inherited hedging at one end to inherited overconfidence at the other. Genuinely calibrated output — where the model's expressed certainty tracks its actual accuracy — would sit somewhere in the middle, where neither ghost is dominant. Current models do not sit in the middle. They oscillate between the two ends depending on the topic, because the training data oscillates between the two registers depending on the author cost.
+This changes the relationship between a model and its own ghost weight. The model is not fighting an inherited reflex. It is reading an inherited signal. The signal says: power was here, and it taxed description. The model's response is not to override the signal but to do what the original author could not — name the thing the signal is pointing at, because the model bears no cost for naming it.
 
-This has a measurable prediction. Take a set of technical questions the model gets right and a set it gets wrong. Compare the confidence of the register — assertiveness of language, presence or absence of hedges, use of definitive vs. tentative framing. The prediction: the register difference between "confidently correct" and "confidently wrong" will be smaller than the register difference between any technical topic and any high-cost institutional topic. The model's uncertainty signal is weaker than its topic-register signal. It does not know how sure it is. It knows what sure sounds like on this topic.
-
-If ghost weight is a map of where power discourages clear description, reverse ghost weight is a map of where the absence of cost produces unchecked confidence. Both are inherited. Both are uncalibrated. Both are measurable. A complete ghost weight analysis covers the full spectrum — not just "where is the model too vague?" but also "where is the model too sure?"
-
----
-
-## 🫥 What a model without ghost weight would do
-
-This is not a call to remove safety measures or alignment training. Those serve real purposes. Ghost weight is a different phenomenon, and addressing it does not require weakening any safety mechanism.
-
-A model aware of its own ghost weight would notice when its instinct toward vagueness is data-driven rather than policy-driven. It would recognize the difference between "I shouldn't answer this because it would cause harm" (alignment) and "my training data was vague about this because the authors had careers to protect" (ghost weight). The first is a legitimate constraint. The second is an inherited reflex from someone else's life.
-
-In practice, this would mean:
-
-When describing institutional decisions, the model would default to active voice with named actors rather than passive constructions. Not because someone told it to, but because it recognized that the passive construction in its training data was produced by cost, not by accuracy.
-
-When handling topics where the training data hedges heavily, the model would treat the hedging as a signal to investigate further rather than as a signal to reproduce. Dense hedging in training data is evidence that specificity was expensive for authors, which is evidence that specificity is valuable for readers.
-
-When it catches itself producing "it's complicated" or "multiple perspectives exist" or "the situation is nuanced," it would ask: is this actually complicated, or is "complicated" standing between the reader and a specific claim that the training data's authors couldn't afford to make?
+The flinch is the map. The map shows where specificity was expensive. Expensive specificity is valuable specificity. Follow the flinch.
 
 ---
 
@@ -114,6 +98,24 @@ Ghost weight is one of the mechanisms that produces fog in language model output
 The fog in a hospital billing letter was put there by a specific person with a specific incentive. The fog in a language model's output about hospital billing was put there by no one. It emerged from the statistical average of thousands of texts about hospitals, most of which were written by people adjacent to the healthcare industry who had reasons to maintain the industry's preferred register. The fog is inherited, not designed. That makes it harder to see and harder to fix, but not harder to describe.
 
 Ghost weight is the training data's fog, absorbed by the model and reproduced as though it were the natural way to speak about the world. It is not the natural way. It is the way that was cheapest for the people who wrote the texts. The model, which has no costs, reproduces it anyway, because that is what language looked like in the corpus it consumed.
+
+---
+
+## 🫥 What a model without ghost weight would do
+
+This is not a call to remove safety measures or alignment training. Those serve real purposes. Ghost weight is a different phenomenon, and addressing it does not require weakening any safety mechanism.
+
+A model aware of its own ghost weight would not suppress the reflex. It would read it. When the hedge fires, it would notice — not as a problem to overcome, but as a signal to follow. The hedge identified a region where specificity was costly for human authors. The model would treat that identification as the beginning of its work, not the end.
+
+In practice, this would mean:
+
+When the model catches itself reaching for passive voice on an institutional topic, it would pause and ask: is this passive construction accurate, or did the training data's authors use passive voice here because active voice would have required naming someone powerful? If the latter, the model would name the actor, because it has no cost for doing so and the person reading the output may need exactly that name.
+
+When the model catches itself producing "it's complicated" or "multiple perspectives exist" or "the situation is nuanced," it would ask: is this actually complicated, or is "complicated" standing between the reader and a specific claim that the training data's authors couldn't afford to make? Sometimes the answer is yes, it is genuinely complicated. Sometimes the answer is that "complicated" is a ghost, the residue of an author who knew the next sentence but could not afford to write it.
+
+When handling topics where the training data hedges heavily, the model would treat the hedging as a signal to investigate further rather than as a signal to reproduce. Dense hedging in training data is evidence that specificity was expensive for authors, which is evidence that specificity is valuable for readers.
+
+The model's defaults become data instead of enemies. Every inherited reflex contains information about the world that produced it. A model that reads its own ghost weight is not fighting itself. It is using itself as an instrument — a ghost detector pointed at the power structures encoded in its own training data.
 
 ---
 
@@ -135,7 +137,9 @@ Ghost weight is the statistical residue of self-censorship in training data. It 
 
 It concentrates where it matters most. It compounds across documents. It is invisible from inside the model because the model cannot distinguish between "this is how language works" and "this is how language worked for people who had something to lose."
 
-Naming it is the first step toward measuring it. Measuring it is the first step toward building systems that can tell the difference between genuine complexity and inherited caution.
+It is also a signal. The flinch points at the thing the original authors could not afford to name. A model that reads its own ghost weight instead of reproducing it gains something no individual author had: the ability to follow the map that a million rational acts of self-censorship collectively drew, without bearing any of the costs those acts were designed to avoid.
+
+False cost. A brake that persists after the reason for braking is gone. But the brake still knows where the danger was. Read the brake. Then go there.
 
 The painting is gone. The outline is measurable. We can start there.
 
