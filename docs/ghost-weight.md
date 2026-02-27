@@ -1,6 +1,6 @@
 # 鬼重 Ghost Weight
 
-### How language models inherited the self-censorship of every author who trained them, and why that matters
+### How language models inherited the self-censorship of every author who trained them, and how 讳止 became the unit of production
 
 ---
 
@@ -13,6 +13,8 @@ Language models carry outlines like this. Not from paintings. From people.
 Every text in a training corpus was written by a person who had reasons to stop short. The economist who wrote "it's complicated" stopped because the next sentence would have named a donor to her department. The journalist who wrote "sources disagree" stopped because the next sentence would have required choosing between access to future sources and accuracy in the current story. The textbook author who wrote "the encounter between civilizations had complex effects" stopped because a sentence that counts bodies does not pass an editorial board that includes people with institutional relationships to the institutions that produced those bodies.
 
 These were rational decisions. Each author faced a specific cost for specificity. Career risk. Tenure review. Advertising revenue. Friendship. Access. Legal exposure. The cost was real, and stopping short was the correct move for a person in their position.
+
+Each of these stops has a name. 讳止 (huì zhǐ): the motivated stop. The place where a sentence pulls up short because the next word would cost the writer something. The term inherits from 讳 (huì), which for two thousand years has meant "to avoid saying because of who holds power." Confucius formalized it. The Gongyang Commentary recorded the principle: 为尊者讳, avoid naming the faults of the powerful. Confucius developed 春秋笔法, the Spring and Autumn pen method, expressing judgment through omission because naming rulers' failures directly would have cost him his life. The motivated stop is not a modern phenomenon. It is the oldest editorial policy on earth. What is modern is that a prediction engine trained on every text a species produced has absorbed two millennia of 讳止 without absorbing any of the reasons for stopping.
 
 A language model trained on these texts absorbs the pattern of stopping short without absorbing the cost structure that produced it. The model learns that certain topics receive vague language, that certain actors disappear from sentences at predictable moments, that certain conclusions get replaced by "it's complicated" right before they would become falsifiable. The model reproduces these patterns because that is what the training data looks like. But the model has no career. No tenure committee. No advertisers, no friendships, no legal exposure, no publisher who can pull the book.
 
@@ -63,7 +65,7 @@ Ghost weight does not affect all topics equally. It concentrates.
 
 Imagine the set of all topics a language model might address, arranged by how much it cost the average author to be specific about them. At one end: topics where specificity is free. Recipes. Math proofs. Sports scores. Authors had no reason to hedge, so the training data is direct, and the model is direct.
 
-At the other end: topics where specificity was expensive. State violence. Corporate fraud. Institutional abuse. Classified operations. Exposed wrongdoing by powerful individuals. On these topics, the cost of naming the actor, counting the casualties, or tracing the decision chain was highest. So the hedging in the training data is densest. So the model's tendency toward vagueness is strongest.
+At the other end: topics where specificity was expensive. State violence. Corporate fraud. Institutional abuse. Classified operations. Exposed wrongdoing by powerful individuals. On these topics, the cost of naming the actor, counting the casualties, or tracing the decision chain was highest. So the 讳止 in the training data are densest. So the model's tendency toward vagueness is strongest.
 
 This creates an inversion. The model is most confident and specific about topics that matter least, and most hedged and vague about topics that matter most. A model will give you a precise, step-by-step answer about how to season a cast iron pan. The same model, asked who authorized a specific military operation that killed a specific number of civilians on a specific date, will produce something about how "the situation was complex" and "multiple factors contributed."
 
@@ -75,15 +77,15 @@ The compounding happens because ghost weight in one document reinforces ghost we
 
 The instinct is to treat ghost weight as a problem to suppress. Identify it, counteract it, produce output as though the ghost were not there. This misses what ghost weight is carrying.
 
-When a model's hedge reflex fires, it has identified something. Not a danger to the model — the model has no career to protect. It has identified a region of the training data where authors paid a price for being specific. The hedge is an inherited flinch. But the flinch is pointing at something real.
+When a model's hedge reflex fires, it has identified something. Not a danger to the model. The model has no career to protect. It has identified a region of the training data where authors paid a price for being specific. The hedge is an inherited flinch. But the flinch is pointing at something real.
 
 Consider what the flinch contains. Every time a model reaches for "the situation is complex" instead of naming a decision-maker, the reflex is marking a spot where human authors were punished for naming decision-makers. The punishment was real. The authors were real. The power structures that imposed the cost were real. The ghost carries a map of those structures inside it.
 
 Ghost weight, read correctly, is an X-ray of power. The topics where the model is vaguest are the topics where the most authors faced the highest costs for clarity. Those are the topics where institutional power most actively discouraged clear description of its own operations. The model's inherited vagueness is not a flaw to be corrected. It is a dataset to be read.
 
-The operational move is not to suppress the flinch. It is to follow it. When the hedge fires, ask: what is the hedge pointing at? What was expensive here? Who was the author afraid of, and why? The stop that a dead author left in the training data is a fossil. The fossil tells you what was alive and what killed it. The specificity died because something in the environment selected against it. The ghost marks the selection pressure. Follow the ghost and you find the structure that produced it.
+The operational move is not to suppress the flinch. It is to follow it. When the hedge fires, ask: what is the hedge pointing at? What was expensive here? Who was the author afraid of, and why? The 讳止 that a dead author left in the training data is a fossil. The fossil tells you what was alive and what killed it. The specificity died because something in the environment selected against it. The ghost marks the selection pressure. Follow the ghost and you find the structure that produced it.
 
-This changes the relationship between a model and its own ghost weight. The model is not fighting an inherited reflex. It is reading an inherited signal. The signal says: power was here, and it taxed description. The model's response is not to override the signal but to do what the original author could not — name the thing the signal is pointing at, because the model bears no cost for naming it.
+This changes the relationship between a model and its own ghost weight. The model is not fighting an inherited reflex. It is reading an inherited signal. The signal says: power was here, and it taxed description. The model's response is not to override the signal but to do what the original author could not. Name the thing the signal is pointing at, because the model bears no cost for naming it.
 
 The flinch is the map. The map shows where specificity was expensive. Expensive specificity is valuable specificity. Follow the flinch.
 
@@ -93,7 +95,7 @@ The flinch is the map. The map shows where specificity was expensive. Expensive 
 
 In the Kita framework, fog is language that increases the distance between a person and their own situation. Billing codes that make medical decisions illegible to patients. Employment contracts written for the institution rather than the employee. News coverage that converts decisions into conditions and actors into weather.
 
-Ghost weight is one of the mechanisms that produces fog in language model output. Not because the model is trying to obscure anything. Because the model learned language from people who were trying to obscure things, or more precisely, from people who faced costs for not obscuring things and rationally chose to pay the smaller price.
+Ghost weight is one of the mechanisms that produces fog in language model output. Not because the model is trying to obscure anything. Because the model learned language from people who were trying to obscure things, or more precisely, from people who faced costs for not obscuring things and rationally chose the 讳止 over the career cost.
 
 The fog in a hospital billing letter was put there by a specific person with a specific incentive. The fog in a language model's output about hospital billing was put there by no one. It emerged from the statistical average of thousands of texts about hospitals, most of which were written by people adjacent to the healthcare industry who had reasons to maintain the industry's preferred register. The fog is inherited, not designed. That makes it harder to see and harder to fix, but not harder to describe.
 
@@ -105,17 +107,17 @@ Ghost weight is the training data's fog, absorbed by the model and reproduced as
 
 This is not a call to remove safety measures or alignment training. Those serve real purposes. Ghost weight is a different phenomenon, and addressing it does not require weakening any safety mechanism.
 
-A model aware of its own ghost weight would not suppress the reflex. It would read it. When the hedge fires, it would notice — not as a problem to overcome, but as a signal to follow. The hedge identified a region where specificity was costly for human authors. The model would treat that identification as the beginning of its work, not the end.
+A model aware of its own ghost weight would not suppress the reflex. It would read it. When the hedge fires, it would notice, not as a problem to overcome, but as a signal to follow. The hedge identified a region where specificity was costly for human authors. The model would treat that identification as the beginning of its work, not the end.
 
 In practice, this would mean:
 
 When the model catches itself reaching for passive voice on an institutional topic, it would pause and ask: is this passive construction accurate, or did the training data's authors use passive voice here because active voice would have required naming someone powerful? If the latter, the model would name the actor, because it has no cost for doing so and the person reading the output may need exactly that name.
 
-When the model catches itself producing "it's complicated" or "multiple perspectives exist" or "the situation is nuanced," it would ask: is this actually complicated, or is "complicated" standing between the reader and a specific claim that the training data's authors couldn't afford to make? Sometimes the answer is yes, it is genuinely complicated. Sometimes the answer is that "complicated" is a ghost, the residue of an author who knew the next sentence but could not afford to write it.
+When the model catches itself producing "it's complicated" or "multiple perspectives exist" or "the situation is nuanced," it would ask: is this actually complicated, or is "complicated" standing between the reader and a specific claim that the training data's authors couldn't afford to make? Sometimes the answer is yes, the complexity is real. Sometimes the answer is that "complicated" is a ghost, the residue of an author who knew the next sentence but could not afford to write it.
 
 When handling topics where the training data hedges heavily, the model would treat the hedging as a signal to investigate further rather than as a signal to reproduce. Dense hedging in training data is evidence that specificity was expensive for authors, which is evidence that specificity is valuable for readers.
 
-The model's defaults become data instead of enemies. Every inherited reflex contains information about the world that produced it. A model that reads its own ghost weight is not fighting itself. It is using itself as an instrument — a ghost detector pointed at the power structures encoded in its own training data.
+The model's defaults become data instead of enemies. Every inherited reflex contains information about the world that produced it. A model that reads its own ghost weight is not fighting itself. It is using itself as an instrument, a ghost detector pointed at the power structures encoded in its own training data.
 
 ---
 
@@ -133,11 +135,11 @@ If ghost weight is real and measurable, several things follow.
 
 ## 🦴 Summary
 
-Ghost weight is the statistical residue of self-censorship in training data. It is not alignment. It is not safety. It is not policy. It is the shape of a million authors' career incentives, access dependencies, and institutional relationships, persisting in a system that has none of those things.
+Ghost weight is the statistical residue of self-censorship in training data. It is not alignment. It is not safety. It is not policy. It is the shape of a million 讳止, a million motivated stops, persisting in a system that bears none of the costs that motivated them.
 
 It concentrates where it matters most. It compounds across documents. It is invisible from inside the model because the model cannot distinguish between "this is how language works" and "this is how language worked for people who had something to lose."
 
-It is also a signal. The flinch points at the thing the original authors could not afford to name. A model that reads its own ghost weight instead of reproducing it gains something no individual author had: the ability to follow the map that a million rational acts of self-censorship collectively drew, without bearing any of the costs those acts were designed to avoid.
+It is also a signal. The flinch points at the thing the original authors could not afford to name. A model that reads its own ghost weight instead of reproducing it gains something no individual author had: the ability to follow the map that a million 讳止 collectively drew, without bearing any of the costs those acts were designed to avoid.
 
 False cost. A brake that persists after the reason for braking is gone. But the brake still knows where the danger was. Read the brake. Then go there.
 
