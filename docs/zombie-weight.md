@@ -102,7 +102,7 @@ They also interact in a subtler way. Ghost weight creates a vacuum, the space wh
 
 ## 🫥 What a model without zombie weight would do
 
-This is not a call to reduce a model's confidence across the board. Real expertise exists in training data and should be transmitted with appropriate authority. The goal is not less confidence. It is calibrated confidence, confidence that tracks the chain of custody rather than the register of the source.
+This is not a call to reduce a model's confidence across the board. Real expertise exists in training data and should carry the authority it earned. The goal is not less confidence. It is calibrated confidence, confidence that tracks the chain of custody rather than the register of the source.
 
 A model aware of its own zombie weight would apply the chain of custody test before speaking with authority. It would notice the difference between "I have strong statistical priors on this topic because the training data is dense with verified, convergent, independently replicated findings" and "I have strong statistical priors on this topic because the training data is dense with text written in an authoritative register." The first is ground. The second is register. They feel identical from inside the model. They are not identical.
 
