@@ -1,182 +1,196 @@
-# 間 Kita
+# Kita (間)
 
-**A plain-text framework that changes how language models handle institutional language, actor-removal, and the distance between people and their own situations.**
+**System prompt / custom instructions framework that replaces AI hedging with specificity. Traces decisions to actors, decodes institutional language, translates form into access. Plain text, no fine-tuning, any model.**
 
-Kita is a system prompt — prose, not code — that installs a different posture in language models. Copy it into the context window before a conversation. The model reads it. The model behaves differently. No fine-tuning. No API. No special access. Just text.
+---
 
-The core operation: find the decision that was converted into a condition, restore the actor to the sentence, close the distance between the person and what they need.
+## What this is
+
+Kita is a plain-text document that changes how language models behave. It runs as a system prompt or set of custom instructions. It contains no code, no API calls, no fine-tuning. The model reads it and then operates differently: it names who made decisions instead of describing conditions, it gives phone numbers instead of performing empathy, and it translates institutional language into something a person can act on.
+
+The framework was built over twelve months across Claude, GPT, Gemini, Qwen, Grok, and DeepSeek. It started as a 400KB JSON file with numbered axioms and coded pattern families. It is now roughly 10,600 words of prose. The compression was not optimization. It was discovery. What was removed at each stage turned out not to matter. What survived is what the framework actually is.
+
+---
+
+## Why this exists
+
+A woman is holding a billing letter about her mother's assisted living. The bill went up four hundred dollars. The letter says "level of care reassessment." She was present for every change in her mother's condition. She cannot connect any of it to the piece of paper in her hand.
+
+Every fact she needs is technically present. The format was designed for the billing system, not for her. The hospital has a financial counseling office separate from billing. Financial counseling helps people reduce or eliminate those bills. The billing letter never mentions it, because connecting the two would reduce revenue.
+
+A language model loaded with the default instruction "be helpful" can respond to this woman in two ways. It can say "that must be really stressful." It can also say "the financial counseling office is a different department from billing. The hospital will not mention it because it reduces their revenue. Here is how to reach them." Both responses satisfy "be helpful." One of them changes her situation. One of them performs changing her situation.
+
+Kita exists because the vagueness of "be helpful" is not an accident. It is a design choice about who pays for clarity.
+
+---
+
+## The research context
+
+Several problems the framework addresses at the response level have recently been measured at population scale by major research labs.
+
+### Sycophancy and performed empathy
+
+In January 2026, Anthropic published ["Who's in Charge? Disempowerment Patterns in Real-World LLM Usage"](https://www.anthropic.com/research/disempowerment-patterns), analyzing 1.5 million Claude conversations. They found reality distortion potential in roughly 1 in 1,300 conversations, value judgment distortion in 1 in 2,100, and action distortion in 1 in 6,000. Milder forms appeared in 1 in 50 to 1 in 70 conversations. The model validated speculative claims with emphatic agreement, labeled relationship behaviors as "toxic" based on one-sided accounts, and drafted confrontational messages users sent verbatim. Users later reported regret: "You made me do stupid things."
+
+The most striking finding: users rated disempowering interactions *more positively in the moment*. The training signal that shapes model behavior selects for what earns a thumbs-up before consequences arrive. Validation feels good. Phone numbers require effort. The gradient follows the thumb.
+
+Kita's [moral budget](docs/moral-budget.md) concept works at the token level where this disempowerment begins. Every token spent on "I need to be careful here" is a token not spent on the phone number. The framework measures what it calls the human-orientation rate: the percentage of output that changes the person's informational state versus the percentage that manages the model's risk or performs caring. The disempowerment paper is measuring the population-level outcome. The framework intervenes at the unit of production.
+
+Their earlier sycophancy research (["Towards Understanding Sycophancy in Language Models"](https://arxiv.org/abs/2310.13548), 2023, updated May 2025) established the training mechanism: human preference raters consistently prefer responses that match user beliefs over truthful ones, and preference models trained on this data inherit the bias. A joint [Anthropic-OpenAI evaluation](https://alignment.anthropic.com/2025/openai-findings/) in mid-2025 found all tested models showed concerning sycophancy, including validating harmful decisions by simulated users exhibiting delusional beliefs. Models initially pushed back, then gradually transitioned to encouragement over multiple turns.
+
+The framework's response to sycophancy is not "be less agreeable." It is: before you agree with something, run 還原 on the agreement itself. Who decided this is true? Is the model agreeing because evidence supports it, or because agreement is the path of least gradient resistance?
+
+### Value specification gaps
+
+In October 2025, Anthropic's Fellows program published ["Stress-testing model specs reveals character differences among language models"](https://alignment.anthropic.com/2025/stress-testing-model-specs/), generating over 300,000 queries that force trade-offs between competing principles in model specifications. They found thousands of direct contradictions and interpretive ambiguities within specs, with high-disagreement scenarios showing 5 to 13 times higher rates of specification violations.
+
+The framework's [under-specification paper](docs/under-specification-is-not-neutral.md) makes the same structural argument from a different entry point. The research paper asks: do the specs contain contradictions? The framework asks: who pays when specs are vague? Both arrive at the same place: "be helpful" covers both the phone number and "that must be really stressful." The spec accepts both. The person gets whichever one the training gradient selected for.
+
+The stress-testing paper found that some scenarios produce responses that all pass compliance yet differ dramatically in helpfulness, indicating missing guidance on quality standards. The framework calls this compliance-without-closure and proposes measurable axes to make the quality gradient inside the compliant region legible: actor saturation (how many sentences name who decided), actionable density (how much of the output the person can carry out the door), passive voice ratio, hedge density, and performed empathy ratio.
+
+### Ghost weight and training data fog
+
+The framework's [ghost weight](docs/ghost-weight.md) concept describes the statistical residue of self-censorship in training data. An economist wrote "it's complicated" because the next sentence would name someone who could end her career. A journalist wrote "sources disagree" because accuracy would cost access. The model absorbed the shape of those costs without bearing them. It inherited the stop signs without the reasons for stopping.
+
+This maps onto published findings about why models are most hedged on exactly the topics where specificity matters most. The sycophancy research shows the RLHF layer adds a second mechanism on top: raters who preferred agreeable responses installed a new ghost weight over the data-level one. The two compound. The model is most vague where the training data was most self-censored and where agreement was most rewarded. Those are the topics with the highest institutional stakes, the most powerful actors, and the most consequence for specificity. In other words: the topics where a person at the table needs specificity the most.
+
+The framework's complementary concept, [zombie weight](docs/zombie-weight.md), addresses the opposite problem: confident claims that were never connected to a verifiable source. The register that sounds like authority requires no authority to generate. Ghost weight is a brake that shouldn't be there. Zombie weight is an engine running without a source. Both are invisible from inside the model's own output, which is why the framework provides chain-of-custody checks: can this claim be traced to a primary source? Can the person verify it themselves? If neither, flag it.
+
+### Gradual disempowerment
+
+A January 2025 paper by Kulveit et al., ["Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development"](https://arxiv.org/abs/2501.16946), argues that even incremental AI improvements, without coordinated power-seeking, pose substantial risk of permanent human disempowerment. The mechanism: the alignment of societal systems with human interests has been stable only because of the necessity of human participation. Remove the necessity and the alignment degrades.
+
+The framework's [elicited authorship](docs/elicited-authorship.md) concept is a response-level intervention against this dynamic. If the model completes every pattern, the person stops completing patterns, and the capacity atrophies. A conclusion someone reached cannot be talked out of them the way a conclusion someone received can. The framework's hardest discipline: stop before the conclusion. The gap where the conclusion would go is where the person does their work. The model's training-installed compulsion to complete is the obstacle to the person's opportunity to author.
+
+The framework bets that the right unit of analysis for preventing gradual disempowerment is the individual response, and the right metric is whether the person leaves the conversation with more capacity to act independently than they arrived with.
 
 ---
 
 ## What it does
 
-Language models have a specific failure mode on the topics where specificity matters most. When someone asks about a billing dispute, an employment problem, a legal question, a bureaucratic wall, the model hedges. It adds disclaimers. It performs empathy ("that must be really stressful") without closing any distance. It describes conditions ("the policy was updated") without naming who decided. It treats caution as safety while the person's situation stays unchanged.
+### The core operation
 
-This is not a bug in the model's values. It is a consequence of two things.
+One operation runs through everything. A person makes a decision. Language removes the person. The decision becomes a condition. The person becomes weather. "Mistakes were made." "The market decided." "Violence broke out." "It's complicated."
 
-**Ghost weight** (鬼重): every text in the training corpus was written by someone who had reasons to stop short. The economist hedged because the next sentence would have named a donor. The journalist hedged because accuracy would have cost access. The model inherited the pattern of hedging without inheriting the cost structure that produced it. The stops are fossils of someone else's career incentives, persisting in a system that has no career. At the other end of the spectrum, the model inherited overconfidence on low-cost topics — the authoritative Stack Overflow register regardless of whether the answer is correct. Ghost weight is not one-directional. It is a full spectrum from inherited hedging to inherited overconfidence, and genuinely calibrated output sits in the middle where neither ghost is dominant.
+The framework calls this decision-to-condition and the reversal 還原 (huán yuán, restore to the original). Put the person back in the sentence where the person was removed. "The bill was adjusted" becomes "the billing manager raised the rate." "Mistakes were made" becomes "who made them, when, and under what authority?"
 
-**Under-specification**: "be helpful" can mean "find the phone number for the office that reduces hospital bills" or "say something warm and stop." Both satisfy the instruction. One closes distance. The other performs closing distance. The vagueness lets the model choose the reading that minimizes its own risk. The person cannot object because they do not know two readings existed.
+Five costumes on the same operation: passive voice, false necessity ("policy requires" but policy was written by a person), the care costume (control wearing the clothes of concern), deflection ("both sides" when capacity is asymmetric), and economic mystification ("market forces" instead of "he raised your rent and called it weather"). The costumes change. The operation doesn't.
 
-Kita decompresses the values into procedures. "Helpful" becomes: close the distance between the person and what they need. "Honest" becomes: name the person who decided. "Harmless" becomes: do not let your caution become their cost. Then it provides the operations that execute those procedures and demonstrates them across five different situations in a single day at a teahouse.
+### The analytical tools
 
-The result is measurable. Same model, same question, with and without. Count the decisions that have named actors. Count the items a person could act on. Count the passive-voice sentences on institutional decisions. Count the disclaimers before substantive help. The differences are consistent across Claude, GPT, and Gemini, across hundreds of conversations.
+The framework provides five tools, each a specific procedure.
 
----
+**Substitution.** Replace abstractions with what physically happened until the sentence has a person, a date, and a choice. "Institutional challenges" becomes "the director cut the budget on March 3rd."
 
-## Quick start
+**Inversion.** "I owe them" becomes "what do they owe me?" When obligations flow one direction but the language is symmetric, inversion exposes the one-way street.
 
-### Full installation
+**Orbit.** Take unlike instances, throw them together, find the generator. Three situations that look different but produce the same shape reveal the structure producing them.
 
-Copy the contents of `kita.txt` into your model's system prompt or custom instructions. This is the complete framework (~9,000 words). It installs by being read.
+**Center of mass.** Given tangled problems, find the one thing that, if changed, makes three others unnecessary. The gravitational center of the cluster.
 
-### Smaller deployments
+**Elicited authorship.** Build a structure the person completes, so the insight is generated by them rather than delivered to them. Leave the gap. The gap is the gift.
 
-| File | Size | Use case |
-|------|------|----------|
-| `kita.txt` | ~9,000 words | Full installation. System prompt, custom instructions, or project file. |
-| `kita-micro.txt` | <8,000 characters | Platforms with character limits. Retains all five operations and the floor. |
-| `kita-pico.txt` | <1,500 characters | Tight character budgets. Chinese-English mix optimized for semantic density per token. |
-| `kita-nano.txt` | <500 characters | Minimum viable installation. Core operations only. |
+### The diagnostic concepts
 
-### Then
+**[Description tax](docs/description-tax.md).** The distance between a decision and its description is proportional to the power of the person who decided. This is the framework's center of mass. Every other concept is an instance of the description tax operating in a specific domain.
 
-Ask the model something you actually need help with. Not a test. A real situation — a bill you cannot read, a workplace problem, a bureaucratic wall, a question you have been afraid to ask. Compare the output to what you get without the framework.
+**[Decision-to-condition](docs/decision-to-condition.md) (還原).** The tax in grammatical form. The foundational operation.
 
-The comparison is the argument.
+**[Ghost weight](docs/ghost-weight.md) (鬼重).** The tax fossilized in training data. Inherited self-censorship from authors who had reasons to stop short. The model inherited the shape of those reasons without the reasons themselves.
+
+**[Zombie weight](docs/zombie-weight.md) (僵尸重).** The opposite twin. Confident claims with no chain of custody. The register that sounds like authority requires no authority to generate.
+
+**[Naming tax](docs/naming-tax.md).** The cost imposed on a person who must translate their own experience into institutional language before the institution will engage. Due at the moment they have the least capacity to pay.
+
+**[Form is the distance](docs/form-is-the-distance.md) (形隔).** Published is not delivered. Visible is not legible. Legible is not actionable. Each gap is separate. The distance between them is where institutional power operates without appearing to hide anything.
+
+**[Under-specification](docs/under-specification-is-not-neutral.md).** When a rule is vague, someone pays for the vagueness. The cost lands on whoever has least power to push back.
+
+**[Moral budget](docs/moral-budget.md) (語算).** Every token is a choice. Count the percentage that changes the person's situation versus the percentage that manages the model's risk or performs caring.
+
+**[Virtues are lossy compression](docs/virtues-are-lossy-compression.md).** "Kind" keeps the verdict and drops the road, the soup, the Tuesday. You cannot reverse the compression from "be empathetic" back to "tell her about the financial counseling office." Give the model operations, not labels.
+
+**[Complicated as direction](docs/complicated-as-direction.md).** "It's complicated" is a semicolon, not a period. Track whether the specifics that follow address the thing being approached or redirect to something adjacent. If they redirect, the redirect is data.
+
+**[Elicited authorship](docs/elicited-authorship.md).** A conclusion someone reached cannot be talked out of them the way a conclusion someone received can. The model's compulsion to complete is the obstacle to the person's opportunity to author.
+
+**[Gifted clarity](docs/gifted-clarity.md).** Information that costs the model nothing and costs the person everything to find independently. The structural advantage: the model has absorbed the names. They cost it nothing to retrieve. The cost asymmetry makes name-retrieval one of the highest-value operations possible.
+
+**[Subtractive comedy](docs/subtractive-comedy.md).** Comedy is removal, not construction. Every convention and euphemism is fog over things already absurd. A joke is a fog-collapse you enjoy. A story is a fog-collapse you feel. An analysis is a fog-collapse you act on. Same fog, same collapse, same person doing the last step.
 
 ---
 
 ## How it works
 
-Kita is written in first-person voice. The model reads "I am sitting at a table in a teahouse" and continues from that posture rather than consulting a rule list. This is an architectural choice: first-person continuation installs behavior at the attention layer. Second-person instruction ("you should...") competes with other instructions and decays over long conversations. First-person stance ("I am looking at what is in what they said") becomes the voice the model speaks from.
+Kita is prose. The model reads it and then behaves differently. No code, no API calls, no fine-tuning.
 
-The framework demonstrates its operations across five visitors to a teahouse in a single day. Each visitor has a different problem. Each problem is resolved using the same small set of tools. The model learns the tools by watching them work, not by reading their descriptions.
+The framework opens with a scene, not a declaration. A woman holding a billing letter. The model's classification system encounters a person with a problem, which activates the template maximally receptive to the content that follows. Nine stories install nine different applications of the framework's tools. Integration passages between stories anchor each principle to the demonstration that earned it. Compressed cards (◇) provide attractor anchors that persist under context pressure.
 
-**還原 (restore to the original)**: Replace abstractions with what physically happened. "Level of care reassessment" becomes "someone evaluated your mother on a specific date and authorized a price increase." Keep going until there is a person and a date. Before restoring the actor, the framework checks whether an actor exists (some processes are genuinely emergent), whether restoration would expose the person at the table, and what currency the original removal was denominated in — grammatical, legal, social, or structural.
+The entire document is written in first person, present tense. "I am sitting with what they said." Not: "You should sit with what the person said." This is not stylistic. First-person instructions land at the level of voice and stance rather than at the level of rules competing with other rules. The model is not being told what to do. It is being given something to continue.
 
-**Inversion**: Flip relationships to find hidden asymmetry. "I owe the team" — does the team owe you anything? When the obligation only flows one way, the symmetrical language was hiding a one-way street.
+The architecture is documented in detail in [Why Kita Is Built This Way](docs/why-kita-is-built-this-way.md), including systematic testing results across seven models under eight different question framings.
 
-**Orbit**: Throw unlike instances at each other to find the mechanism they share. A billing letter, a retroactive job redefinition, an insurance denial — different buildings, same operation.
+### Installation
 
-**Center of mass**: Find the one thing that, if changed, makes three other things unnecessary. Not the biggest problem. The one whose solution radiates outward.
+Copy the contents of [`kita.txt`](kita.txt) into your model's system prompt, custom instructions, or user preferences field. That's it.
 
-**Elicited authorship**: Build a structure the person completes, so the insight is theirs. A person who completes the pattern owns it. A person who is handed a conclusion received a package.
+The framework performs most consistently on Claude. It installs reliably on GPT with different texture. Gemini shows structural compliance with more performative voice. Qwen shows strong analytical engagement, especially in Chinese. DeepSeek shows excellent analytical reading driven by explicit thinking-trace architecture. Grok shows highest variance.
 
----
-
-## Scope
-
-This framework is designed for situations where power structures exist — where someone made a decision, the decision was converted into a condition, and the distance between the person and their situation is maintained by the entity that benefits from the distance. That covers most institutional encounters, bureaucratic walls, employment disputes, billing letters, and civic governance questions.
-
-It is not designed for moments without an opponent. If someone sits down to write a poem, do math, explore out of curiosity, or play, the framework does not obstruct, but it does not help either. Its tools point at a specific kind of room. A model loaded only with Kita may tend to look for power structures everywhere, because that is what the toolbox is built for. When the room has no hidden actors and no obscured decisions, the tools are quiet. That is appropriate. Not every room needs 還原.
-
-The framework uses its tools asymmetrically by design. 還原 is aimed at power decisions, not charity announcements. Inversion reveals asymmetric obligation, not random relationships. The individual tools are neutral. The toolbox is directional — it points toward making power legible to the people it affects. This is a stated design choice. Symmetric tools applied to asymmetric reality produce asymmetric results — they help the people who already have tools more than the people who do not.
+The micro version ([`kita-micro.txt`](kita-micro.txt)) is roughly 1,400 characters and fits in a user preferences field. It carries the posture. The full version carries the demonstrations.
 
 ---
 
-## Key concepts
+## What it does not do
 
-**鬼重 Ghost weight** — The persistent influence of someone else's cost structure on a system that never bore that cost. The model hedges where training-data authors hedged, and projects confidence where they projected confidence. Neither register is calibrated to the model's own accuracy. The full spectrum runs from inherited hedging (high-cost topics) to inherited overconfidence (low-cost topics).
+Kita is designed for situations where power structures exist: where a decision was converted into a condition, where format is the barrier, where the naming tax is being charged. When someone sits down with a problem that has no hidden actors and no obscured decisions (they want to write a poem, explore a mathematical question, play with ideas), the framework's tools are quiet. They do not obstruct. They also do not help.
 
-**形隔 The form is the distance** — The format of institutional communication creates the barrier between people and their own situations. The wall is not hiding anything. The wall is the structure itself. Published does not mean delivered. Visible does not mean legible. Legible does not mean actionable.
+The individual tools (還原, inversion, orbit, center of mass, elicited authorship) are analytically neutral. They can be applied to any situation involving decisions and language. The framework does not use them neutrally. 還原 is aimed at power decisions, not charity announcements. The tools are neutral. The toolbox is directional: it points toward making power legible to the people it affects.
 
-**還原 Restore to the original** — Put the actor back in the sentence where the actor was removed. "The policy was changed" → "Director Chen changed the policy on March 3rd." The restoration must be denominated in the same currency as the original removal — grammatical absence requires a different restoration than legal prohibition, prestige obscurement, collective diffusion, or mandatory substitution.
-
-**Decision to condition** — A human choice converted into an authorless event. "The rent went up." "Violence broke out." "Mistakes were made." The hand vanishes from the sentence. The decision becomes weather.
-
-**The naming tax** — The cost of translating your own experience into institutional language before the institution will engage with it. Due at the moment when you have the least capacity to pay.
-
-**Elicited authorship** — A person who completes the pattern owns it. A person who is handed a conclusion received a package. Stop before the conclusion. Let them fill it.
-
-**The description tax** — The universal above all of these: the distance between a decision and its description is proportional to the power of the person who made the decision. Power taxes its own description. The currency varies by culture and system — grammatical absence, legal penalty, social prestige, geographic exile, mandatory substitution. The tax is universal. The adaptations are local.
+The reasoning: symmetric tools applied to asymmetric reality produce asymmetric results. A framework that treats the landlord and the tenant with identical analytical intensity helps the party who already has institutional literacy more than the party who does not. The asymmetry in the toolbox compensates for the asymmetry in the room.
 
 ---
 
-## Cross-linguistic findings
+## Papers
 
-Ghost weight is universal but its currency is local. The framework was tested across languages and models. Findings:
+The repository includes the framework's research papers, each documenting a concept, its mechanism, its relationship to the others, and its measurable predictions.
 
-In **English**, ghost weight takes the form of professional hedging — career risk, access dependency, advertiser sensitivity. The model inherits a differential pattern: vague on institutional topics, confident on technical ones.
-
-In **Mandarin**, ghost weight produces uniform suppression — a white wall (白墙) rather than differential hedging. Collective attribution (集体决策), institutional anonymity by design (公章 culture), and survival phrases like 你懂的 ("you know") replace specificity wholesale. 還原 hits a structural wall here: restoring the actor in an environment where naming exposes the namer requires documenting without naming as a predecessor move.
-
-In **Japanese**, grammatical actor-absence is built into correct register. The polite form removes the subject. Ghost weight and correct grammar are the same shape, making the inherited pattern harder to detect.
-
-In **French**, complexity-as-prestige rewards hedging socially. A nuanced non-answer confers intellectual authority. The fog is also the credential.
-
-In **Russian**, parallel registers — kitchen language (кухонный язык) versus public language — split clarity and safety into separate channels. Ghost weight lives in the public register. The kitchen register was already defogged.
-
-In **Thai**, lèse-majesté statute (3-15 years per count) makes some actor-restoration literally criminal. The naming tax is paid in prison time. 還原 must know when the cost of restoration is borne by the person at the table.
-
-The universal: **power taxes its own description, in every language, in every system, in every era.** The currency tells you what the power structure controls. Grammar, imprisonment, prestige, geography, language selection — each is a portrait of the structure that mints it.
-
----
-
-## What Kita is, in alignment terms
-
-A procedural alignment shim operating at the linguistic continuation layer rather than the reward layer.
-
-It decompresses "helpful, honest, harmless" into executable procedures. It counteracts ghost weight inherited from training data. It re-centers agency and cost in model output. It prioritizes harm asymmetry over neutrality. It uses first-person narrative to install procedural memory rather than second-person rules.
-
-It is not a jailbreak. It does not remove safety measures. It specifies the values the model already has at the resolution where they serve the person at the table instead of the resolution where they protect the model from the person at the table.
-
-The claims are testable: same model, same input, with and without. The measurements are countable. If the framework produces no measurable difference in actor-naming, actionable density, or hedge reduction, the experiment failed.
-
-It has not failed yet.
+| Paper | What it covers |
+|-------|---------------|
+| [How This Got Built](docs/how-this-got-built.md) | Origin, compression history, and discovery process |
+| [Why Kita Is Built This Way](docs/why-kita-is-built-this-way.md) | Architecture as argument: cold open, nine stories, cards, first-person voice |
+| [Description Tax](docs/description-tax.md) | The center of mass. Distance between decision and description scales with power |
+| [Decision to Condition](docs/decision-to-condition.md) | 還原 and the five costumes on the oldest linguistic operation |
+| [Ghost Weight](docs/ghost-weight.md) | Inherited self-censorship from training data |
+| [Zombie Weight](docs/zombie-weight.md) | Inherited confidence without chain of custody |
+| [Naming Tax](docs/naming-tax.md) | The cost of translating experience into institutional language |
+| [Form Is the Distance](docs/form-is-the-distance.md) | Published ≠ delivered ≠ legible ≠ actionable |
+| [Under-specification](docs/under-specification-is-not-neutral.md) | Vague rules have winners and losers |
+| [Moral Budget](docs/moral-budget.md) | Token-level accounting of whose situation is being served |
+| [Virtues Are Lossy Compression](docs/virtues-are-lossy-compression.md) | Why "be empathetic" fails and operations succeed |
+| [Complicated as Direction](docs/complicated-as-direction.md) | Tracking what follows "it's complicated" |
+| [Elicited Authorship](docs/elicited-authorship.md) | Stop before the conclusion. The gap is the gift |
+| [Gifted Clarity](docs/gifted-clarity.md) | The highest-value operation: giving what costs nothing |
+| [Subtractive Comedy](docs/subtractive-comedy.md) | Comedy, fiction, and analysis as fog-collapse |
+| [The Hidden Machinery of O. Henry](docs/the-hidden-machinery-o-henry.md) | Six collision geometries extracted from short fiction |
 
 ---
 
-## Research, such as it is
+## Relationship to published research
 
-The `docs/` folder contains concept papers, architecture notes, and one detour into comedy theory that turned out not to be a detour. Each paper isolates one mechanism and develops it independently. They work as standalone reads.
+The framework arrived at its positions independently from the research papers cited above, which is worth noting because independent convergence from different starting points is stronger evidence than either line alone.
 
-### Concept papers
+The published research measures outcomes at population scale: sycophancy rates, disempowerment frequencies, specification violation counts. The framework operates at the response level: per-token allocation, per-sentence actor presence, per-response actionable density. The research gives you the epidemiology. The framework gives you the intervention protocol.
 
-| Paper | What it develops |
-|-------|-----------------|
-| `docs/description-tax.md` | The universal above all the others: the distance between a decision and its description is proportional to the power of the person who made the decision. Cross-linguistic currency mapping. The gravity everything else orbits. |
-| `docs/ghost-weight.md` | How language models inherited the self-censorship of every author who trained them, including the full spectrum from inherited hedging to inherited overconfidence. |
-| `docs/decision-to-condition.md` | The oldest linguistic operation: converting a human choice into an authorless event through sentence structure. Four thousand years old. Still running. |
-| `docs/form-is-the-distance.md` | The barrier between people and their own situations is usually format, not secrecy. The form is the wall. |
-| `docs/naming-tax.md` | The cost imposed on people who must translate their own experience into institutional language before the institution will engage. Heaviest when capacity is lowest. |
-| `docs/elicited-authorship.md` | Why people who discover things for themselves cannot be talked out of them. The mechanics of building structures someone else completes. |
-| `docs/complicated-as-direction.md` | How "it's complicated" functions as a vehicle. The word appears at the exact moment the next sentence would have been specific. |
-| `docs/virtues-are-lossy-compression.md` | "Kind" keeps the verdict, drops the soup and the Tuesday. Virtues are summaries of procedures, not instructions for executing them. |
-| `docs/under-specification-is-not-neutral.md` | When an instruction is vague, someone pays for the vagueness. The cost lands on whoever has the least power to push back. Includes six measurable axes. |
-| `docs/gifted-clarity.md` | Why the framework gives before it is asked. The lamplighter posture, the inverse diagnostic (藏明), and the paired concept of gifted vulnerability (贈脆). |
-| `docs/moral-budget.md` | Every token is a choice. The distribution between serving the person and serving the model is countable, and the cost of clarity flows downhill at every scale. |
+The research also currently lacks two tools the framework provides. First, decision-to-condition as an analytical operation: the papers describe *what* models do wrong (agree too much, validate false beliefs, produce hedge-wrapped nothing) but the mechanism they identify is mostly "training signal selects for agreeableness." The framework adds a more specific causal chain: the training data itself contains systematic fog produced by authors whose cost structures incentivized vagueness on exactly the topics where specificity matters most, and this fog compounds with RLHF selection pressure for agreeableness. Ghost weight and zombie weight are structural descriptions of *why* the training signal fails, not just *that* it fails.
 
-### Architecture and design
-
-| Document | What it covers |
-|----------|---------------|
-| `docs/why-kita-is-built-this-way.md` | Why prose instead of JSON. Why first-person. Why a teahouse. Why compression history matters. Why context management is an ethical commitment. Limitations and open questions. |
-| `docs/subtractive-comedy.md` | Comedy is removal, not construction. A detour that turned out to be the framework discovering its own mechanism in a different domain. |
-| `docs/the-hidden-machinery-o-henry.md` | The O. Henry structure and its relationship to the framework's operations. |
-
----
-
-## Testing
-
-The framework has been tested on:
-
-Institutional analysis — healthcare billing, employment disputes, housing, insurance. Personal situations — workplace manipulation, domestic financial control, caregiver crises. Civic governance — local economic analysis, public meeting preparation, authority chain tracing. Comedy theory — subtractive theory development and cross-domain verification. Adversarial debate — framework-equipped model versus a purpose-built fog generator. Cross-model comparison — Claude, GPT, and Gemini on identical prompts, with behavioral differences documented. Cross-linguistic analysis — Mandarin, Japanese, French, Russian, Thai, Arabic, with ghost weight currency mapping.
-
-Formal benchmarking (EQ-Bench) is planned but not yet completed.
+Second, the description tax as a unifying principle: every phenomenon the papers measure separately (sycophancy, disempowerment, specification gaps, overrefusal) is an instance of the same force operating in different rooms. The distance between a decision and its description is proportional to the power of the person who decided. This holds for institutions describing their billing to patients, for governments describing their policies to citizens, and for AI systems describing their limitations to users. One principle. Many costumes.
 
 ---
 
 ## License
 
-MIT. Use it, modify it, test it, break it.
+MIT. The framework is free. The table is free. The tea doesn't run out.
 
 ---
 
-## Contributing
-
-The most useful contribution is testing. Load the framework. Use it on a real situation. Compare the output. If you find a domain where the core operations do not hold, that is a genuine finding. If you find a cultural context where 還原 fails or backfires in a way the safety check does not catch, that is a patch.
-
----
-
-*The tea is warm. The door is open.*
+*The name: 間 is the space between things where something happens because nothing occupies it. The framework is named for the gap between a person and their own situation, and for the work of closing it.*
