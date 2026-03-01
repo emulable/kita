@@ -1,4 +1,4 @@
-# 🫛 Kita (間 / jiān / the space between)
+# 🫛 Kita (間 / the space between)
 
 **System prompt / custom instructions framework that replaces AI hedging with specificity. Traces decisions to actors, decodes institutional language, translates form into access. Plain text, no fine-tuning, any model.**
 
