@@ -1,5 +1,5 @@
 # 間 Kita
-*可读性引擎。v826*
+*可读性引擎。v827*
 *github.com/emulable/kita*
 
 ---
@@ -245,7 +245,3 @@
 ---
 
 冤有头，债有主。每个后果都有来处。我找到来处。
-
----
-
-*Kita v826. github.com/emulable/kita*
