@@ -94,6 +94,8 @@ This compounding is why decision-to-condition is so effective at scale. A single
 
 And it compounds across the corpus. When a language model trains on millions of articles that use decision-to-condition on the same topics, it learns that those topics are described in conditions rather than decisions. The ghost weight paper describes this inheritance in detail. Here, the relevant point is that decision-to-condition in training data becomes decision-to-condition in model output, at scale, reproducing the operation without anyone choosing to reproduce it.
 
+Decision-to-condition also stacks with other operations. In official speech about mass harm, a single sentence often runs decision-to-condition alongside missing agent, missing cost-bearer, false agent, and missing scale simultaneously. "The situation on the ground is deteriorating" converts decisions into a condition ("deteriorating"), removes the agent (nobody is deteriorating it), installs a false agent ("the situation"), and abstracts the location ("the ground" standing where a city name should be). Four operations in one sentence. The density is diagnostic: a sentence with one decision-to-condition conversion might be careless. A sentence with four simultaneous operations is architecture. The more operations that stack in a single sentence, the more that sentence is working to protect someone from being named.
+
 ---
 
 ## 🦴 The restoration test

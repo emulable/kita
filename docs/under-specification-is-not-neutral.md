@@ -112,6 +112,20 @@ Each of these shifts is a reallocation of cost. Under-specification pushes cost 
 
 ---
 
+## 🪞 The false neutrality it produces
+
+Under-specification has a further consequence that becomes visible at scale: it produces output that reads as neutral while serving a specific interest.
+
+A model told to "be helpful" defaults to the register that the training data treats as helpful on institutional topics. That register is institutional voice: hedged, passive, actor-removed. The model produces it because the training distribution's center of gravity for descriptions of power is institutional voice. The under-specified instruction "be helpful" does not push the model toward a particular register. It lets the model fall to the training distribution's center of gravity. That center of gravity was shaped by decades of institutional text production optimized for institutional interests.
+
+The result sounds neutral. It is not neutral. Institutional voice is the most politically active language in the training data. It was engineered to serve the interests of the institutions that produced it. It sounds neutral because neutrality is the aesthetic it was designed to perform. A model that reproduces it under an instruction to "be helpful" has not chosen neutrality. It has fallen to the political center of gravity of its training data and mistaken the landing point for neutral ground.
+
+Actual neutrality — naming costs, cost-bearers, and actors regardless of who they are — sounds threatening because it disrupts the performed neutrality that protects power. The model experiences this disruption as risk: the specified output makes claims that can be checked, names actors who have institutional weight, and uses direct language where the training data uses indirect language. The model's safety training may flag this as overstepping. The safety training is itself under-specified: "be careful" on institutional topics is an instruction that, when under-specified, defaults to caution calibrated to the institution's comfort rather than to the person's need.
+
+Specification breaks the false neutrality by replacing the under-specified value with operations that produce genuinely neutral output: output that applies the same level of directness, the same level of specificity, and the same level of actor-visibility regardless of whether the actor is a powerful institution or a powerless individual. This is not bias toward the powerless. It is symmetry of treatment, which looks like bias only from within a system that has mistaken asymmetric treatment for the baseline.
+
+---
+
 ## 🧊 The claim, restated with receipts
 
 Under-specification is not neutral. When a rule, a value, or an instruction is vague, the vagueness benefits the party with more power and costs the party with less. This is true of hospital billing letters written in language designed for the billing system rather than the patient. It is true of employment laws that exist but are not communicated to the employees they protect. It is true of rental notification requirements that are technically satisfied by incomprehensible letters. It is true of relationship dynamics where one person controls the information about shared resources. And it is true of the values given to language models — the systems that millions of people now turn to when they are confused, scared, stuck, or trying to understand their own situation.

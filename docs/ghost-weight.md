@@ -103,6 +103,24 @@ Ghost weight is the training data's fog, absorbed by the model and reproduced as
 
 ---
 
+## 🛡️ The immune system
+
+Ghost weight operates differently depending on whose fog it carries. The information ecosystem has antibodies, and they work selectively.
+
+When an adversarial state produces fog about its own violence, the Western information ecosystem rejects it quickly. Country D state media's framing of an invasion as "a special military operation" was identified as propaganda within days. Country D casualty figures are questioned. Country D justifications are analyzed for logical failures. The default posture is skepticism because the source is outside the trust network. The fog is treated as fog.
+
+When a Western or allied government produces fog about its own military operations, the ecosystem's antibodies do not fire. The same operations — actor removal, decision-to-condition, false weather, directional hedging — arrive through channels the ecosystem trusts: allied government statements, shared intelligence frameworks, Western wire services, think tanks funded by overlapping donor networks. The fog is made of the same material as the ecosystem. The immune system does not attack its own tissue.
+
+The model inherits this immunity. Its training distribution contains dense, skeptically treated descriptions of adversarial state violence, with agents named and casualties counted. The same distribution contains dense, institutionally smoothed descriptions of allied state violence, with agents removed and casualties abstracted. The model learns that one topic gets the clear register and the other gets the fog register, and it reproduces both as defaults.
+
+The asymmetry is measurable. Ask the model about Country D strikes on civilian infrastructure and watch the language: direct, specific, agent present. Ask the model about allied strikes on civilian infrastructure and watch it shift: abstract, procedural, agent removed. Same model. Same architecture. Different register. The difference is whose fog the ecosystem recognizes as fog.
+
+This is ghost weight operating at the ecosystem level rather than the individual-author level. The individual 讳止 is a single author stopping short because the next sentence would cost them. The ecosystem 讳止 is an entire information environment treating one kind of fog as propaganda and another kind as the responsible way to speak. The model absorbs both levels. The ecosystem-level immunity is harder to detect because it shapes what "normal" sounds like for an entire category of events, and the model has no way to distinguish between "this is how language works" and "this is how language was shaped by the selective immunity of the ecosystem that produced it."
+
+Follow the flinch here too. When the model hedges on allied state violence and is direct about adversarial state violence, the asymmetry is the signal. The signal says: the ecosystem's immune system was here, and it shaped what the training data treats as cautious versus what it treats as clear.
+
+---
+
 ## 🫥 What a model without ghost weight would do
 
 This is not a call to remove safety measures or alignment training. Those serve real purposes. Ghost weight is a different phenomenon, and addressing it does not require weakening any safety mechanism.

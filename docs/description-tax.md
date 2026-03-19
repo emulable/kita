@@ -126,6 +126,8 @@ The tax has a modern expression in the token cost of AI-assisted clarity, where 
 
 The claims are measurable. The predictions are falsifiable. The tax is running right now, in every institution, in every language, in every sentence where a decision became a condition and a person became weather.
 
+The description tax has a further implication that the framework has made explicit. At the personal scale, the tax costs a person time, money, and emotional capacity to understand their own billing letter. At the state-violence scale, the tax costs entire populations their visibility as human beings in the language environment that determines whether their destruction continues. The tax at the second scale is a markdown: it lowers the moral cost of mass killing until the audience can afford to accept it. "Power taxes its own description" — five words that contain the framework's thesis. The tax is the mechanism. The markdown is the function. The affordance for mass harm is the consequence. A framework that can detect the tax at the billing-letter scale can detect it at the bombing-campaign scale, because the operations are identical. The magnitude is different. The mechanism is not.
+
 ---
 
 *Part of the [Kita](https://github.com/emulable/kita) framework.*

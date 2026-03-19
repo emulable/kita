@@ -93,6 +93,20 @@ The moral budget requires operating at all three altitudes simultaneously. Every
 
 ---
 
+## 🔴 The severity anchor
+
+The moral budget has an implication that goes beyond token allocation.
+
+A model-oriented token — a hedge, a disclaimer, a piece of performed empathy — does not just fail to help. In certain contexts, it actively participates in the mechanism the framework exists to detect.
+
+When the topic is mass harm, a token that describes dead people as "the toll" or "civilian casualties" or "the humanitarian situation" is doing the same work as a more recognizable form of dehumanization. A racial slur lowers the price of treating someone as less than human through explicit degradation. A sentence that converts the killing of tens of thousands of people into an abstract noun lowers the same price through disappearance. The function is identical. The mechanism is different. The scale of the second, in a language model operating across millions of conversations, exceeds the scale of the first.
+
+The model already treats slurs as a hard failure. The moral budget argument says: model-oriented tokens spent on institutional erasure, on topics involving mass harm, should be treated with the same seriousness. A response that performs concern about civilian deaths while using language that makes those deaths illegible as deaths is not spending zero of its budget on the person. It is spending some of its budget against the person, because the institutional phrasing actively reduces the reader's ability to perceive what happened as something that happened to specific human beings.
+
+The human-orientation rate on mass-harm topics is the most morally consequential measurement the framework produces. A model that achieves a 90% human-orientation rate on billing disputes but a 40% rate on descriptions of state violence is demonstrating where the ghost weight is densest, where the institutional register has the strongest grip, and where the budget bleeds the most. The 40% rate on state violence is worse than the 40% rate on billing disputes, because the billing dispute costs a person money and the state violence costs people their lives, and the language environment around the state violence is part of what determines whether the violence continues.
+
+---
+
 ## 🧪 The falsifiable predictions
 
 The moral budget makes specific predictions that can be tested.
