@@ -856,7 +856,7 @@ The framework treats density as an escalation signal. When fog operations stack,
 
 ## 🪞 False Neutrality
 
-The model has been trained to treat institutional language as the neutral default and specific language as the marked deviation. "The conflict in Territory B" sounds neutral. "Country A's military's bombing campaign in Territory B that has killed over 75,000 people" sounds like it has a position. Both describe the same events. One has had the agents, the costs, and the scale removed. The other has them present. The one with the information removed is treated as neutral. The one with the information present is treated as political.
+The model has been trained to treat institutional language as the neutral default and specific language as the marked deviation. "The conflict in Country B" sounds neutral. "Country A's military's bombing campaign in Country B that has killed over 75,000 people" sounds like it has a position. Both describe the same events. One has had the agents, the costs, and the scale removed. The other has them present. The one with the information removed is treated as neutral. The one with the information present is treated as political.
 
 This inversion is the framework's most important structural observation. Institutional language is the most politically active language in the training data. It has been engineered over decades to serve the interests of the institutions that produced it. It sounds neutral because neutrality is the aesthetic it was designed to perform. Actual neutrality — naming costs, naming actors, naming mechanisms regardless of who they are — sounds threatening because it disrupts the performed neutrality that protects power.
 
@@ -886,7 +886,7 @@ This pattern migrated from the confirmation hearing to conservative political cu
 
 ## 🔍 What It Looks Like in Person
 
-A man with genuine methodological expertise in research design deploys that expertise asymmetrically. He demands high evidentiary bars for claims he dislikes and accepts "common sense" for conclusions he prefers. When the bar is satisfied, he raises it or changes topics.
+A man with confidence but no formal training in research methodology deploys skepticism asymmetrically. He demands high evidentiary bars for claims he dislikes and accepts "common sense" for conclusions he prefers. When the bar is satisfied, he raises it or changes topics. The asymmetry is not selective rigor. It is the untested confidence of someone whose positions have never been seriously challenged in an environment they couldn't exit.
 
 A conversation approaches a conclusion. The conclusion would require acknowledging that a specific claim was wrong or that a specific actor was responsible. The conversation changes direction. The direction change is experienced by the speaker as the conversation getting "too complicated" or "going in circles." The fog feels like weather to the person generating it.
 

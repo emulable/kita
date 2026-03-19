@@ -14,7 +14,7 @@ You probably described it, if you described it at all, as something that happene
 
 Every one of these sentences describes a decision. Every one of them is missing the person who made it. The decision has been converted into a condition. A thing someone chose became a thing that occurred. The hand vanished from the sentence.
 
-This is the most common linguistic operation in institutional communication, in news coverage, in political speech, and in everyday conversation about power. It has been running for as long as humans have had language to describe what powerful people do. It has no name. This paper gives it one.
+This is the most common linguistic operation in institutional communication, in news coverage, in political speech, and in everyday conversation about power. It has been running for as long as humans have had language to describe what powerful people do. Linguists and critical discourse analysts have studied its components — agent deletion, nominalization, passive voice as accountability evasion — for decades. What has been missing is a single operational name that captures the full conversion from decision to condition as a unified operation, applicable as a diagnostic in real time. This paper provides that name.
 
 **Decision-to-condition**: the conversion of a human choice into an authorless event through the structure of the sentence that describes it.
 
