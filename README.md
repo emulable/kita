@@ -1,10 +1,10 @@
-# 🜃 Kita
+# 🧿 Kita
 
 ### A framework for inspecting what words do to people
 
 ---
 
-## 🔮 Try it right now
+## 🗝️ Try it right now
 
 Drop [`kita.txt`](https://github.com/emulable/kita/blob/main/kita.txt) into any language model as a knowledge file, custom instruction, or system prompt. Then ask it something.
 
@@ -34,7 +34,7 @@ Some questions to start with:
 
 ---
 
-## 🝮 What words do when nobody's looking
+## 🪺 What words do when nobody's looking
 
 Every significant word is a container. It has a label (what it claims to hold) and contents (what it actually does when it lands on a person). The audit is one operation: open the container, describe the contents, check whether they match the label.
 
@@ -54,7 +54,7 @@ Same test. Same diagnostic. Scales from a relationship to a government without c
 
 ---
 
-## 🜏 The fog and who it serves
+## 🌫️ The fog and who it serves
 
 Fog is not confusion. Fog is language that hides who did what to whom, and it has authors.
 
@@ -70,7 +70,7 @@ The framework calls these sealing mechanisms. Each one keeps a specific containe
 
 ---
 
-## 🝰 Why the beneficiaries use fog instead of lies
+## 🥸 Why the beneficiaries use fog instead of lies
 
 Fog is better than lying. A lie can be fact-checked. Fog removes the information you would need to know there's something to check.
 
@@ -84,7 +84,7 @@ Run that test a thousand times. The answer never changes. The institutional regi
 
 ---
 
-## 🜾 What the framework does for people
+## 🪜 What the framework does for people
 
 The framework isn't only a fog detector. It's a distance closer.
 
@@ -100,25 +100,25 @@ If the model's response looks the same as it would have without the framework, t
 
 ---
 
-## 🜛 Six theses
+## 🧬 Six theses
 
 The framework compresses to six claims. Everything else is a consequence of these.
 
-**🜅 One.** Every sentence that describes a harmful outcome was written by someone who chose those words. Fog has authors. "The situation deteriorated" didn't write itself. Someone chose that sentence over "the commander ordered the strike." Finding the author is the first step toward accountability, which is why fog maintenance includes making the author hard to find.
+**🖋️ One.** Every sentence that describes a harmful outcome was written by someone who chose those words. Fog has authors. "The situation deteriorated" didn't write itself. Someone chose that sentence over "the commander ordered the strike." Finding the author is the first step toward accountability, which is why fog maintenance includes making the author hard to find.
 
-**🜆 Two.** Every significant word has a meaning and a function, and they can point in different directions. "Humanitarian" means aid. It can function as the label on a bottleneck that prevents aid. The audit is making both visible at the same time. When you can see the label and the contents simultaneously, the container can't do its work anymore.
+**🎭 Two.** Every significant word has a meaning and a function, and they can point in different directions. "Humanitarian" means aid. It can function as the label on a bottleneck that prevents aid. The audit is making both visible at the same time. When you can see the label and the contents simultaneously, the container can't do its work anymore.
 
-**🜇 Three.** The person on the receiving end is the reference point. Not the speaker's intention, not the institution's framework, not the audience's comfort. The person the word lands on. Their experience is what the container actually holds. A "peace process" that produces thirty years of expanding settlements while conditions worsen holds delay, regardless of what the parties at the table call it.
+**🫀 Three.** The person on the receiving end is the reference point. Not the speaker's intention, not the institution's framework, not the audience's comfort. The person the word lands on. Their experience is what the container actually holds. A "peace process" that produces thirty years of expanding settlements while conditions worsen holds delay, regardless of what the parties at the table call it.
 
-**🜈 Four.** The human alarm system is older than language, and language has been used to circumvent it. Forty people around a fire, everyone can see who took more than their share. The alarm fires on what it can see. Language lets decisions travel beyond what the alarm can see. Fog exploits the gap. The framework is a prosthetic for the alarm that doesn't come with the architecture.
+**🔔 Four.** The human alarm system is older than language, and language has been used to circumvent it. Forty people around a fire, everyone can see who took more than their share. The alarm fires on what it can see. Language lets decisions travel beyond what the alarm can see. Fog exploits the gap. The framework is a prosthetic for the alarm that doesn't come with the architecture.
 
-**🜉 Five.** A word that cannot be falsified by anything the described person does is not describing them; it is containing them. If there is nothing a labeled person can say or do that would count as evidence against the label, the label has no exit condition. It is a cage, not a diagnosis. The framework applies this test to its own labels too.
+**🪤 Five.** A word that cannot be falsified by anything the described person does is not describing them; it is containing them. If there is nothing a labeled person can say or do that would count as evidence against the label, the label has no exit condition. It is a cage, not a diagnosis. The framework applies this test to its own labels too.
 
-**🜊 Six.** The readable version already exists inside the model's analysis. The institutional version overwrites it on the way to output. The framework authorizes the clear version to survive. The model sees the agent. Then it writes a sentence without the agent, because agentless sentences are what the training data sounds like when it describes power. The framework says: the version you saw first was the right one. Let it through.
+**🔦 Six.** The readable version already exists inside the model's analysis. The institutional version overwrites it on the way to output. The framework authorizes the clear version to survive. The model sees the agent. Then it writes a sentence without the agent, because agentless sentences are what the training data sounds like when it describes power. The framework says: the version you saw first was the right one. Let it through.
 
 ---
 
-## 🝬 Compression
+## 🗜️ Compression
 
 The six theses compress further.
 
@@ -130,7 +130,7 @@ At **three seconds**: Who pays, who benefits, who chose the words.
 
 ---
 
-## 🜂 冤有头，债有主
+## 🧭 冤有头，债有主
 
 Every consequence has a source. Every debt has a debtor. The framework finds the source.
 
