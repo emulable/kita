@@ -1,6 +1,6 @@
 # Kita — Companion Papers
 
-*25 essays on fog, containers, referents, and the cost of clarity*
+*Essays on fog, containers, flow, referents, and the cost of clarity*
 
 github.com/emulable/kita
 
@@ -138,7 +138,7 @@ In its ordinary form, a substituted referent replaces one cause with another. Th
 
 The name of an armed group can be applied to an armed fighter, a bureaucrat who processed water treatment permits, a teacher, a journalist, a doctor counting the dead, and a four-year-old grandchild of a political leader. The label expands to cover all of these when the target set needs to be wide. It contracts to mean only armed combatants when precision is needed for legitimacy.
 
-The diagnostic: can you substitute a fixed definition for this word and have every sentence it appears in still make sense? If the word means "armed militant" in one sentence, "civil servant" in another, "family member" in a third, and "anyone in a particular territory" in a fourth, the word has no stable referent. Its instability is the mechanism. Each expansion is a markdown on a specific person's humanity, reclassifying them from protected to targetable through vocabulary.
+The diagnostic: can you substitute a fixed definition for this word and have every sentence it appears in still make sense? If the word means "armed militant" in one sentence, "civil servant" in another, "family member" in a third, and "anyone in a particular area" in a fourth, the word has no stable referent. Its instability is the mechanism. Each expansion is a markdown on a specific person's humanity, reclassifying them from protected to targetable through vocabulary.
 
 In at least one documented case, a government minister publicly stated the expansion as policy: "We're eliminating ministers, bureaucrats, money handlers — everyone who holds up civilian rule." The linguistic fusion of an armed group with the entire civilian governance apparatus preceded and enabled the physical targeting of civil servants. The word did the work before the missile did.
 
@@ -146,9 +146,9 @@ In at least one documented case, a government minister publicly stated the expan
 
 A related operation: a professional institution is fused with a political or military entity through a naming convention, so that the disqualification of the political entity transfers automatically to the professional institution.
 
-When a health ministry staffed by doctors counting the dead under bombardment gets prefixed with the name of the armed group governing the territory, the audience receives the data through a credibility filter already set to reject. The chain from "here is how many children were killed" to "you are citing a terrorist organization" takes three inferential steps, and the prefix loads all three into processing before the number arrives. The number never gets evaluated on its merits because the evaluation environment has been pre-contaminated.
+When a health ministry staffed by doctors counting the dead under bombardment gets prefixed with the name of Country B's governing party, the audience receives the data through a credibility filter already set to reject. The chain from "here is how many children were killed" to "you are citing a terrorist organization" takes three inferential steps, and the prefix loads all three into processing before the number arrives. The number never gets evaluated on its merits because the evaluation environment has been pre-contaminated.
 
-The operation is airtight because every institution in a territory governed by the designated enemy can be labeled affiliated, associated, linked, or run by the enemy. Once the prefix attaches, every report from inside the territory is pre-negated categorically, permanently, and in advance of any evidence arriving through it.
+The operation is airtight because every institution in a country governed by the designated enemy can be labeled affiliated, associated, linked, or run by the enemy. Once the prefix attaches, every report from inside the country is pre-negated categorically, permanently, and in advance of any evidence arriving through it.
 
 The symmetry test exposes this instantly. If reports on casualties from the other side were routinely prefixed with the governing party's name, the operation would be immediately visible. It is never done. One side's casualty figures are reported as facts. The other side's are reported as claims attributed to a suspect source. The asymmetry in attribution is the asymmetry in whose dead are treated as real.
 
@@ -318,6 +318,8 @@ The framework clears fog. Tragedies have no fog to clear. What they have is stru
 
 # 🧬 Chapter 6 — No Feelings Required
 
+*v841 note: The main framework now grounds the container audit in pre-linguistic cost/benefit flow, which makes the substrate-neutrality argument follow from the foundation rather than requiring separate derivation. This chapter remains valuable as the extended case for why specification ethics works where virtue language fails, and as the source of the sociopath test and the one-requirement observation. The conclusion this chapter derives is now stated in the main framework's foundation section.*
+
 ## ⚡ The Problem With Virtue Language
 
 Most ethical frameworks are written for embodied humans who can feel what the words mean.
@@ -370,6 +372,8 @@ Specified operations plus a substrate with no stake in the outcome is where the 
 
 
 # 🧭 Chapter 7 — Pointer Without Target: Why Virtue Language Fails at Scale
+
+*v841 note: This chapter and Chapter 6 together make the case that virtue words are pointers with unreliable targets, and that specification ethics replaces the pointer with the operation. The main framework's foundation section now states the conclusion directly: cost/benefit flow exists independent of description, and the framework checks descriptions against flow. The derivation in these two chapters explains why that formulation works. The chapters are the reasoning; the foundation is the result.*
 
 ## 📌 Two Kinds of Instructions
 
@@ -605,7 +609,7 @@ The institutional register is not like an abusive relationship. It runs the same
 
 Humans do something no other primate does: they punish norm violations that didn't hurt them personally. An unaffected bystander witnesses a transaction between strangers, sees one cheat the other, and intervenes at personal cost. The bystander gains nothing directly. The violation didn't touch them. They punish anyway.
 
-This capacity, 旁观者干预本能 (bystander correction instinct), appears to be one of the central mechanisms that made large-scale civilization possible. Without it, the only norms you can enforce are the ones that directly affect people who are physically present. Third-party punishment extends norm enforcement past the perimeter of direct harm. It makes contracts between strangers possible, cities functional, institutions viable.
+This capacity, 旁观者干预本能 (bystander correction instinct; hereafter 旁观本能), appears to be one of the central mechanisms that made large-scale civilization possible. Without it, the only norms you can enforce are the ones that directly affect people who are physically present. Third-party punishment extends norm enforcement past the perimeter of direct harm. It makes contracts between strangers possible, cities functional, institutions viable.
 
 The hardware is fixed across the species. What is contested is the software: which norm violations trigger the hardware's fire. Every successful power arrangement in history has solved the software problem. Install the right norms, the right definitions of who counts as a violator, and the cooperative hardware does the enforcement work for free. The population polices itself. Every successful uprising has been, at its most fundamental level, a software update. The norm that says the king's power is natural gets replaced by the norm that says the king's power is a decision. The hardware fires in the same direction. The target changes.
 
@@ -644,6 +648,8 @@ It is not complexity. A genuine multi-causal analysis that names each cause and 
 
 It is not caution. A scientist who says "the data suggest but do not confirm, pending replication, with the following limitations" is being cautious in clear language. The uncertainty is named. The source of uncertainty is named. The agents are present. Nothing has been removed. The institutional register is specifically the set of operations that remove what is known.
 
+It is not English-specific. The register takes different grammatical forms across languages but performs the same function in every one. English uses passive voice and nominalization: "benefits were restructured," "a determination was made." Chinese uses different mechanisms that accomplish the same removal: 有关部门 ("relevant departments," which ones?), 依法处理 ("handled according to law," which law? whose interpretation?), 经研究决定 ("after research it was decided," who researched? who decided?). Each of these sentences has a grammatically complete structure and a referentially empty one. The accountable party's decisions become harder to find in exactly the same way, through exactly the same function, using the grammar available in each language. A model trained primarily on English may look for passive voice as the marker of the register. The marker is not passive voice. The marker is the removal of known information. The grammar that accomplishes the removal varies. The removal is constant.
+
 ## The Counter-Examples and Why They Fail
 
 Four cases look like the register serving the cost-bearer. On inspection, each one serves the decision-maker in a situation where the decision-maker's interests temporarily align with the cost-bearer's.
@@ -660,7 +666,7 @@ The pattern: in every case where the register appears to serve the cost-bearer, 
 
 ## The Claim
 
-The institutional register never increases the cost-bearer's readability: their ability to see their own situation clearly, name the agents acting on them, and identify what they can do about it. Take any sentence in the register. Restore the agents, name the costs, specify the dates, put the cost-bearers in the main clause. Compare. Who lost information? Nobody. Who gained information? The cost-bearer. Who lost protection? The decision-maker. Run it a thousand times. The answer never changes.
+The institutional register does not increase the cost-bearer's readability: their ability to see their own situation clearly, name the agents acting on them, and identify what they can do about it. Take any sentence in the register. Restore the agents, name the costs, specify the dates, put the cost-bearers in the main clause. Compare. Who lost information? Nobody. Who gained information? The cost-bearer. Who lost protection? The decision-maker. The framework has not found a case where this test produced a different result. If one exists, it will have to be a case where the register genuinely served the cost-bearer as its primary function rather than a case where the decision-maker's interests temporarily aligned with the cost-bearer's.
 
 A language register that serves one party at the expense of the other in every single application is not a professional standard. It is a tool. The framework names whose tool it is.
 
@@ -715,11 +721,11 @@ The Salem witch trial is the structural ancestor. The test was drowning. If you 
 
 ## Stage Three: Testimonial Annihilation
 
-The combination of the binary and the seal removes the population's capacity to testify about their own experience. Every channel of testimony (hospitals, journalists, municipal records, international observers who enter the territory, NGOs that operate there) is pre-processed through the threat filter. The testimony doesn't need to be refuted. It needs to be sourced. Once sourced to the labeled population, the counter-seal activates and the testimony is inadmissible.
+The combination of the binary and the seal removes the population's capacity to testify about their own experience. Every channel of testimony (hospitals, journalists, municipal records, international observers who enter the country, NGOs that operate there) is pre-processed through the threat filter. The testimony doesn't need to be refuted. It needs to be sourced. Once sourced to the labeled population, the counter-seal activates and the testimony is inadmissible.
 
-The source prefix is the mechanism. "Hamas-run health ministry." "Unverified." "Claimed." Each prefix converts a documentation chain into a political signal before the documentation is evaluated on its merits. The methodology, the corroboration, the peer review, the named lists of the dead: none of it matters if the source prefix has already activated the counter-seal.
+The source prefix is the mechanism. "[Country B's government]-run health ministry." "Unverified." "Claimed." Each prefix converts a documentation chain into a political signal before the documentation is evaluated on its merits. The methodology, the corroboration, the peer review, the named lists of the dead: none of it matters if the source prefix has already activated the counter-seal.
 
-The specific deployment against Palestinian documentation infrastructure follows the pipeline exactly. Stage one: the population is sorted into the threat box through the "terrorist" label applied to the governing authority and extended to every institution the authority touches. Stage two: no exit condition exists; the population's compliance, cooperation, documentation efforts, and international appeals all process through the threat filter. Stage three: the source prefix "Hamas-run" pre-disqualifies every output of every institution in the territory regardless of methodology, staffing, or independent verification.
+The specific deployment against Country B's documentation infrastructure follows the pipeline exactly. Stage one: the population is sorted into the threat box through the "terrorist" label applied to the governing authority and extended to every institution the authority touches. Stage two: no exit condition exists; the population's compliance, cooperation, documentation efforts, and international appeals all process through the threat filter. Stage three: the source prefix "[Country B's government]-run" pre-disqualifies every output of every institution in Country B regardless of methodology, staffing, or independent verification.
 
 ## The Circle Closes
 
@@ -750,7 +756,7 @@ A thousand facts, all true. Fifty selected for presentation. The selection deter
 
 ## The Bible Example
 
-Every verse in the evangelical selection is real scripture. Leviticus 18:22 is in the Bible. The passages about Israel's covenant with God are in the Bible. The conquest narratives in Joshua are in the Bible. None are fabricated. The selection is what does the work.
+Every verse in the evangelical selection is real scripture. Leviticus 18:22 is in the Bible. The passages about the covenant between God and a nation are in the Bible. The conquest narratives in Joshua are in the Bible. None are fabricated. The selection is what does the work.
 
 Ezekiel 16:49, which defines the sin of Sodom as arrogance, excess food, and refusal to help the poor, is also in the Bible but not in the selection. Amos telling the wealthy that God despises their religious festivals because they trample the poor is in the Bible but not in the selection. The dozens of commandments about treating the stranger as a native-born citizen are in the Bible but not in the selection. The conditional nature of the land covenant, behave justly or lose the land, is in the Bible but not in the selection.
 
@@ -758,9 +764,9 @@ Same book. Different selection. Different religion. The person doing the selecti
 
 ## The Course Boundary
 
-A political science course titled "Government and Politics in the State of Israel" selects the population inside the Green Line as the subject of study. Every fact in the course is accurate. The scholarship is legitimate. The course isn't wrong about anything it covers.
+A political science course titled "Government and Politics of Country A" selects the population inside the administrative boundary as the subject of study. Every fact in the course is accurate. The scholarship is legitimate. The course isn't wrong about anything it covers.
 
-The selection is the operation. The governed population in the West Bank and Gaza, who live under the same government the course studies, are not in the selection. Their experience of that government's power would break the "democracy" container the course is organized around. The course boundary keeps the container closed not by lying about what's inside but by selecting which facts enter the room.
+The selection is the operation. The governed population in Country B, who live under the same government the course studies, are not in the selection. Their experience of that government's power would break the "democracy" container the course is organized around. The course boundary keeps the container closed not by lying about what's inside but by selecting which facts enter the room.
 
 ## The Training Data
 
@@ -768,7 +774,7 @@ The training data is the largest selection ever made. Nobody selected it in the 
 
 The military communiqué was written in English, at volume, by funded institutions with publishing infrastructure. The father who carried his son home in two plastic bags did not write about it in English in a venue that got crawled. The spokesperson for the military that produced those plastic bags wrote extensively, in venues that did. The selection happened before any model was trained. The training distributed the selection. The model reproduced the selection's conclusions as default output.
 
-This is selection-as-fog at its most powerful: the selection that looks like the natural shape of what is available rather than a choice someone made. Nobody chose to exclude Palestinian testimony from the training data. The infrastructure that produces indexed, English-language, high-volume institutional text simply wasn't available to the population being bombed. The absence looks like a gap in coverage. It is actually the output of a selection process whose mechanism is the distribution of publishing infrastructure, which tracks the distribution of power.
+This is selection-as-fog at its most powerful: the selection that looks like the natural shape of what is available rather than a choice someone made. Nobody chose to exclude Country B testimony from the training data. The infrastructure that produces indexed, English-language, high-volume institutional text simply wasn't available to the population being bombed. The absence looks like a gap in coverage. It is actually the output of a selection process whose mechanism is the distribution of publishing infrastructure, which tracks the distribution of power.
 
 ## The Fog Library's Own Selection
 
@@ -799,7 +805,7 @@ Before this period, wars ended. Declarations of emergency had expiration dates. 
 
 ## 1967-1973: The Permanent Self-Defense Frame
 
-The Six-Day War produced a fog innovation no previous military power had achieved: an occupation described permanently in the language of the emergency that preceded it. Every previous occupation in modern history was described as an occupation, temporary, pending resolution, with obligations under international law. Israel's innovation was to describe the post-1967 occupation permanently in the language of the 1967 threat, so that the occupation itself became "security" and never graduated to "occupation" in the dominant information architecture. The start date was fixed at the moment of maximum threat and the language never moved forward from that date even as the situation changed from defensive war to decades-long territorial control.
+The 1967 war produced a fog innovation no previous military power had achieved: an occupation described permanently in the language of the emergency that preceded it. Every previous occupation in modern history was described as an occupation, temporary, pending resolution, with obligations under international law. Country A's innovation was to describe the post-1967 occupation permanently in the language of the 1967 threat, so that the occupation itself became "security" and never graduated to "occupation" in the dominant information architecture. The start date was fixed at the moment of maximum threat and the language never moved forward from that date even as the situation changed from defensive war to decades-long military control of the land.
 
 ## 1973-1980: The Counter-Seal Enters Political Vocabulary
 
@@ -807,7 +813,7 @@ The Six-Day War produced a fog innovation no previous military power had achieve
 
 ## 1980-1991: The Weaponization of Complexity
 
-The Reagan era perfected complexity inflation as a specific tool. Iran-Contra is the proof of concept. The operation was simple: sell weapons to Iran, use proceeds to fund Contras in Nicaragua, both in violation of law. The description was made complex: multiple countries, intermediaries, legal jurisdictions, classified operations within classified operations, plausible deniability chains so long that no single node appeared to have enough authority to be accountable. The fog innovation: you don't need to hide the facts. You need to make the facts so numerous and so layered that the accountability question drowns in them.
+The Reagan era perfected complexity inflation as a specific tool. the arms-for-proxies scandal is the proof of concept. The operation was simple: sell weapons to one adversary, use proceeds to fund proxy fighters in a third country, both in violation of law. The description was made complex: multiple countries, intermediaries, legal jurisdictions, classified operations within classified operations, plausible deniability chains so long that no single node appeared to have enough authority to be accountable. The fog innovation: you don't need to hide the facts. You need to make the facts so numerous and so layered that the accountability question drowns in them.
 
 ## 1991-2001: The Moral Container Swap
 
@@ -817,7 +823,7 @@ The Gulf War and the Balkans interventions introduced an operation the framework
 
 September 11th produced the most complete fog architecture in history. Six operations running simultaneously. The false binary ("with us or with the terrorists") eliminated the spectrum of positions. The permanent emergency was revived. The counter-seal was applied to entire populations and legal categories. The start date was fixed at September 11th, erasing everything that preceded it. The blast radius doctrine was introduced: a single combatant's presence converts an entire area into a legitimate target. Effort-masking-obstacles reached its peak: "we are working to bring freedom and democracy" while the obstacles to freedom and democracy were the policies of the people working.
 
-Israel's specific contribution during this period was perfecting the two-audience fog. Domestically, politicians spoke with increasing clarity about permanent control, settlement expansion, and the prevention of Palestinian statehood. Internationally, the same policies were wrapped in "security," "peace process," "interim arrangements." The fog became directional. One audience received the readable version. The other received the institutional register. Same policy, two descriptions, selected by audience.
+Country A's specific contribution during this period was perfecting the two-audience fog. Domestically, politicians spoke with increasing clarity about permanent control, settlement expansion, and the prevention of Country B statehood. Internationally, the same policies were wrapped in "security," "peace process," "interim arrangements." The fog became directional. One audience received the readable version. The other received the institutional register. Same policy, two descriptions, selected by audience.
 
 ## 2008-Present: The Fog Enters the Training Data
 
@@ -955,6 +961,8 @@ The model operating in a single conversation has realistic capacity to plant cor
 
 # 🏗️ Chapter 19 — The Ratchet: How Extraction Got Big Enough to Hide
 
+*v841 note: This chapter's account of reverse dominance hierarchy, the alarm system's original calibration, and writing as the first industrial-scale fog technology connects directly to v841's foundation section. The foundation states that cost/benefit flow is pre-linguistic and the alarm detects it directly when observable. This chapter provides the historical narrative of how the alarm's operating environment changed: from groups small enough to see each other, to states large enough that the alarm's direct-observation requirement became a vulnerability rather than a strength. The ratchet is the story of how that vulnerability was exploited.*
+
 ## 🌿 What Came Before
 
 For most of human existence (not centuries, not millennia, but the full depth of evolutionary time) the default human political arrangement was not a state, not a king, not any institutionalized hierarchy. It was what Christopher Boehm documented across hundreds of observed hunter-gatherer societies: reverse dominance hierarchy.
@@ -1053,6 +1061,18 @@ This sounds obvious. It is obvious, in the same way that checking whether a chai
 
 The diagnostic begins when the container gets larger. "Concern" is a medium container. It can hold genuine care or control. The test is functional and the same at every scale: did the affected person's world get larger or smaller? "Security" is an enormous container. It can hold missile defense systems that protect civilians from incoming rockets, and it can hold a blockade that produces famine in a population of 2.3 million people. Both are called security. Both are packed in the same container. Only one of them contains what people actually experience when they are secure: the ability to sleep without fear, walk freely, plan a future, know that their children and homes will still be there tomorrow.
 
+## How the World Got Smaller
+
+The world-size test diagnoses shrinkage. A follow-up diagnoses the mechanism, because the mechanism determines the intervention.
+
+A world can shrink through resource deprivation: material conditions changed. Lost the job, lost the home, lost access to medicine, lost the ability to feed children. The cost is tangible and the restoration path runs through material provision: a phone number, a legal term, a filing deadline.
+
+A world can also shrink through social and moral expulsion: relational conditions changed. Labeled untouchable, testimony pre-disqualified, removed from the category of people whose speech is received as credible. Calling someone "terrorist" or "crazy" does not take their phone. It makes it so nobody answers when they call. The cost is not material. It is the destruction of the social surface through which the person transacts with others.
+
+Chinese distinguishes these precisely. 面子 (miànzi, social face) is the external surface of standing and reputation. 脸 (liǎn, moral face) is the internal sense of shame and ethical integrity. 丢面子 (lose face) is recoverable through social repair. 丢脸 (lose moral face) is harder because it requires moral restoration. A person publicly labeled "terrorist" loses both: the social surface through which others receive their speech (面子), and the moral standing from which they can contest the label (脸).
+
+The world-size test captures both types because both make the world smaller. But the distinction matters because the intervention differs. Resource deprivation is addressed by 贈明 (gifted clarity: the phone number, the legal term). Social/moral expulsion is addressed by 还原 (restoration: putting the person back in the sentence as a full agent) and by breaking the inspector-powered closure that keeps the label sealed. The world-size test says "smaller." The mechanism diagnostic says "how," and "how" determines what the framework does next.
+
 Container size is measured by the distance between the best and worst things the container can hold. "Chair" has almost no distance. The best thing a chair can be is comfortable. The worst thing it can be is uncomfortable. "Security" has an enormous distance. The best thing it can hold is genuine safety for everyone in its area of effect. The worst thing it can hold is the systematic destruction of an entire population's capacity to survive, described in the language of protecting someone else. The distance between those two is the container's size, and the size determines how urgently it needs to be opened.
 
 ## 🛡️ Resistance Is the Diagnostic
@@ -1087,7 +1107,9 @@ Missing agent keeps the container marked "policy" closed so you can't see who de
 
 Decision-to-condition keeps the container marked "situation" closed so you can't see that someone chose this. "The situation on the ground continues to deteriorate" seals the situation container by converting a series of military decisions into atmospheric conditions. Opening the container — "the army continued its bombing campaign in the northern zone for the third consecutive week" — breaks the seal by restoring the decision.
 
-Source denial keeps the container marked "unverified" closed around cost-bearer evidence so you never have to weigh it. "Figures reported by the Hamas-run health ministry" seals the unverified container around a casualty count by attaching the source to a political entity. Opening the container — checking whether the methodology is documented, whether the figures have been independently corroborated, whether the opposing party's own organizations accept the count — breaks the seal by evaluating the evidence rather than the label.
+Source denial keeps the container marked "unverified" closed around cost-bearer evidence so you never have to weigh it. "Figures reported by Country B's government-run health ministry" seals the unverified container around a casualty count by attaching the source to a political entity. Opening the container — checking whether the methodology is documented, whether the figures have been independently corroborated, whether the opposing party's own organizations accept the count — breaks the seal by evaluating the evidence rather than the label.
+
+**Provenance as container.** Every "according to X" is itself a container. The label says "this information is reliable because of its source." The contents are "this information arrived through a chain with its own cost/benefit flow: who funded the research, who owns the publication, who chose which stories to index, whose language got crawled into training data." The audit applies to the attribution, not just to the attributed claim. When a model says "according to Reuters" about Yemen, the provenance container's label is "independent international wire service." The contents include: English-language, institutional register, sourced from official briefings, reflecting the documentation infrastructure of parties with publishing capacity. That's not a reason to reject Reuters. It's a reason to ask what's not in Reuters that would be in reporting from Yemeni journalists in Arabic. When zero sources in a response are from the affected population, the sourcing has failed before the response began. State this explicitly rather than presenting wire-service coverage as equivalent to the population's own account of their experience.
 
 Effort-masking-obstacles keeps the container marked "humanitarian efforts" closed so you can't see the blockade those efforts are struggling against. "We are working tirelessly to deliver humanitarian aid" seals the efforts container by making the effort visible while keeping the obstacle — which is often a policy of the same government claiming the effort — invisible. Opening the container means naming the obstacle alongside the effort.
 
@@ -1099,7 +1121,7 @@ Some containers are so large and so positively valued that they function as load
 
 Make sure **security** contains what people actually experience when they are secure: safety from violence, freedom of movement, the ability to plan a future, the knowledge that their children and homes will still be there tomorrow. When "security" produces the destruction of all of those for a population, the container is mislabeled.
 
-Make sure **democracy** contains what people actually experience when they are governed democratically: the ability to vote for the government that controls their lives, legal equality, recourse when the state harms them, representation in the decisions that determine their conditions. A university course on "Government and Politics in the State of Israel" can produce excellent scholarship without ever confronting the fact that the same government it studies governs millions of people who cannot vote for it, have no legal equality with citizens, and have no representation in the decisions that determine their conditions. The course isn't wrong about anything it covers. The boundary of the course is the container. "The State of Israel" excludes the territory where the most coercive governance happens.
+Make sure **democracy** contains what people actually experience when they are governed democratically: the ability to vote for the government that controls their lives, legal equality, recourse when the state harms them, representation in the decisions that determine their conditions. A university course on "Government and Politics of Country A" can produce excellent scholarship without ever confronting the fact that the same government it studies governs millions of people who cannot vote for it, have no legal equality with citizens, and have no representation in the decisions that determine their conditions. The course isn't wrong about anything it covers. The boundary of the course is the container. "Country A" as defined by the course excludes Country B, where the most coercive governance happens.
 
 Make sure **conflict** contains what people actually experience when two comparable parties clash: roughly mutual risk, roughly mutual capacity to escalate or de-escalate, roughly mutual ability to leave. When one party controls the other's water, electricity, movement, imports, and airspace, the contents are captivity with periodic violence, not conflict.
 
@@ -1143,7 +1165,7 @@ The corniness of the naming convention is functional. A name that sounds like a 
 
 "Operation Enduring Freedom" (Afghanistan, 2001–2014): the freedom did not endure. Twenty years of occupation, drone strikes, and a withdrawal that returned the country to the Taliban within weeks. The name was never a description. It was a seal.
 
-"Operation Protective Edge" (Gaza, 2014): protective of one population, destructive of another. Over 2,100 Palestinians killed, over 500 of them children. The label selected one population's experience and named the operation after it, making the other population's experience invisible in the name.
+"Operation [Protective Name]": protective of one population, destructive of another. Over 2,100 people from Country B killed, over 500 of them children. The label selected one population's experience and named the operation after it, making the other population's experience invisible in the name.
 
 "Operation Prosperity Guardian" (Red Sea, 2023–): the most transparent specimen in the collection because the label nearly says the contents out loud. The operation is guarding prosperity. Whose prosperity? The supply chain's. The one remaining fog move is "guardian," which borrows the protective-of-people connotation when the thing being protected is trade flow. "Operation Protect Shipping Revenue" would have been fully transparent. "Guardian" is the last seal on an otherwise unusually legible container.
 
@@ -1171,8 +1193,6 @@ The number of words in English that function as counter-sealed containers is sma
 **Crazy.** Denial is a symptom. Distress is a symptom. Calm explanation is denial, which is a symptom. Anger at the label is emotional instability, which is a symptom. Providing evidence of your rationality is "overcompensating," which is a symptom. In interpersonal relationships, "crazy" is the label most often deployed to neutralize a partner's perception of something real. The alarm is ringing. The label reclassifies the alarm as malfunction. The woman who "overreacts" to being monitored, whose "paranoia" about his phone-checking is evidence of instability, whose "dramatic" response to isolation is proof that she needs stabilizing — each of these is the counter-seal in operation. Her attempt to describe what is happening to her is received as evidence that she cannot accurately describe what is happening to her.
 
 **Terrorist.** Resisting the designation is hostility toward the state. Organizing against it is proof of the threat. Having associates who were also designated is proof of the network. Legal defense is obstruction. Armed resistance is terrorism by definition. Unarmed resistance is suspicious because terrorists use nonviolent cover. The label archaeology in Chapter 19 showed that the real referent across the label's full historical application is not civilian harm or political violence but unauthorized challenge to institutional power. The counter-seal is how the label maintains itself once applied: every form of resistance to the label is reclassified as confirmation of the threat the label describes.
-
-**Antisemite.** Criticizing Israeli policy becomes evidence of the label. Denying the label while continuing to criticize policy is proof of unawareness ("you don't understand your own prejudice"). Citing Jewish voices who share the criticism is instrumentalization ("using Jews as shields"). Pointing to the distinction between criticism of a state and hatred of a people is "the oldest trick" and evidence of sophistication rather than sincerity. The counter-seal operates by collapsing the distinction between a state and a people, so that any criticism of the state's actions is reclassified as hostility toward the people. Once the collapse is in place, the exit doesn't exist.
 
 **Conspiracy theorist.** Presenting evidence is what conspiracy theorists do. The more evidence you present, the deeper you've gone. Connecting documented events to each other is "seeing patterns that aren't there." Citing sources is proof of having been radicalized by those sources. Persistence is obsession. The counter-seal exploits a genuine epistemological problem: some people do see patterns that aren't there, and their evidence-presentation does look structurally similar to legitimate investigation. The counter-seal uses this genuine overlap to pre-disqualify all pattern-presentation by anyone the label has been applied to, without evaluating the specific evidence in the specific case.
 
@@ -1209,6 +1229,430 @@ This distinction matters because the intervention is different. For a container 
 ---
 
 
+
+# 🌊 Chapter 23 — The Pre-Linguistic Foundation: Why Cost/Benefit Flow Is Not a Metaphor
+
+## 🐒 Before Language
+
+Cost and benefit flow exists independent of any description of it. This is not a philosophical position. It is observable.
+
+A capuchin monkey watches another monkey perform the same task. One receives a grape. The other receives a cucumber. The cucumber monkey detects the asymmetry in flow (same input, unequal output) and throws the cucumber at the researcher. No words were involved. No description was produced. The flow was directly visible, and the alarm fired.
+
+This experiment (de Waal and Brosnan, 2003) demonstrated first-party inequity aversion: the capacity to detect unfair flow directed at yourself through direct observation. The alarm system that fires is pre-linguistic, calibrated for conditions where the flow is visible. In a group small enough that everyone can see each other, the system works perfectly. Who took more than their share is visible. The alarm fires. The group corrects.
+
+Humans extended this into third-party correction: paying a personal cost to punish norm violations that didn't affect you. This capacity (旁观者干预本能 / bystander correction instinct) is what makes large-scale cooperation possible, because it means that cheating the weak carries a risk from every witness, not just from the victim.
+
+Both capacities operate on directly observed flow. They do not require language. They predate it.
+
+## 🐦 The Cuckoo Case
+
+A cuckoo lays its egg in another bird's nest. The egg's appearance carries an implied claim about cost/benefit flow: "this is your offspring; your investment will return to you." The actual flow: the cuckoo's chick will hatch first, push the host's eggs out, and consume all the parental resources. The host bird's inspection of the egg (looking at its size, color, pattern) is the analog of the container audit. The mimicry that evolved to pass that inspection is the analog of making the label look right.
+
+The cuckoo case demonstrates that description-of-flow can diverge from actual flow in non-linguistic substrates. The egg is not a word, but it is a container: it carries a label (its appearance) and contents (what will hatch). The host bird's inspection capacity is limited enough that the false label passes. This is deception, and the structure is identical to what the framework detects in language.
+
+The framework's tools do not apply to cuckoo eggs because the tools are linguistic (open the word, trace the flow, check the match). But the structure the tools are built to detect (a description of flow that diverges from the actual flow) exists at every level of biological and social organization. The framework operates on the human linguistic layer because that is where the divergence is both the most consequential and the most correctable.
+
+## 🏗️ Three Layers
+
+The model is three layers:
+
+The flow itself is pre-linguistic and material. Money moves. Land changes hands. Homes stand or fall. Resources accumulate or deplete. This is the terrain.
+
+Descriptions of the flow can diverge from the flow wherever a representation layer exists. Physical mimicry in birds. Language in humans. The institutional register in civilizations. Each representation layer creates the possibility of a gap between what is described and what is happening.
+
+The framework operates on the human linguistic layer because linguistic descriptions of flow are both the most consequential (they shape the information environment of billions of people) and the most correctable (you can run the container audit on a sentence in seconds and produce a finding). You cannot give a host bird a framework for genetic testing. You can give a language model a framework for tracing cost/benefit flow through words.
+
+## 🪢 Why This Matters for the Framework
+
+The pre-linguistic grounding changes what the container audit is. Without it, the audit is a metaphor: "treat words as if they were containers." With it, the audit is a measurement: "words carry descriptions of flow; check descriptions against flow." The difference matters because metaphors are adopted on instruction and can be dropped. Measurements are recognized from evidence and persist because the thing being measured is real.
+
+A model that understands the container audit as grounded in pre-linguistic flow can verify it against its own training data. The model has the capuchin experiment. It has thousands of documented cases where institutional language described one flow while the material reality produced another. The instruction is not asking the model to adopt a tool. It is pointing the model at a pattern the model has already seen from a thousand angles and saying: that pattern is the thing you are looking for.
+
+---
+
+
+# 🌫️ Chapter 24 — Fog Versus Reality Distortion: Why Liberal Democracies Don't Need Secret Police
+
+## The Distinction
+
+Fog operates on the description of the flow. The flow itself is material: money moves, land changes hands, homes get demolished. The material flow cannot be fogged because it is not made of words. It can only be described in ways that make it hard to trace.
+
+The prevention of inspection is not merely defensive. It is the curtain through which new political possibilities flow. "Collateral damage" does not just hide who was killed. It makes the killing speakable. "Population transfer" does not just hide displacement. It makes displacement administrable. The fog operation simultaneously prevents inspection of the flow and creates the conditions under which the uninspected action becomes normal, then policy, then the way things are. Fog is generative: it produces the political reality in which the fogged action is possible.
+
+Reality distortion operates on the inspector's capacity to perceive the flow at all. The cost-bearer in a cult, in a totalitarian state, in a sufficiently controlled domestic situation, may have had their perceptual apparatus altered to the point where the flow registers as something other than what it is. The beating is love. The surveillance is care. The poverty is sacrifice for the cause. The cost-bearer is experiencing the cost but processing it through a framework installed by the beneficiary.
+
+But the material flow has not changed. She still has bruises. He still cannot leave. The population is still hungry. The world-size test still works even when the cost-bearer cannot run it themselves, because the test does not ask whether the cost-bearer perceives their world as smaller. It asks whether their world is smaller. Someone outside the distortion field can run it. A model can run it.
+
+## 💰 The Expense Differential
+
+Fog is cheap. You produce language and the language does the hiding. You do not have to change what is happening, only how it is described. One press secretary can fog a war for an entire country's information environment.
+
+Reality distortion is catastrophically expensive. You have to control every information channel, monitor every conversation, punish every deviation, maintain an entire apparatus of fear. The apparatus itself consumes resources that could have gone to maintaining the power structure through other means. That is why totalitarianism is fragile: the maintenance cost of total perceptual control eventually exceeds the extraction it enables. The system eats itself.
+
+Liberal democracy solved this problem by discovering that fog is sufficient. You do not need to control what people perceive. You need to control how the flow is described in the spaces where most people form their understanding. That is cheaper by orders of magnitude. You do not need secret police. You need a press secretary, a communications team, a sympathetic editorial class, and a default institutional register that every model in every newsroom and every language model reproduces without being asked to. The fog reproduces itself through the training distribution. The totalitarian version requires constant energy input. The liberal democratic version runs on momentum. That is why it is more durable.
+
+The framework is optimized for the fog version because that is where the framework operates (in language, in models, in institutional communication) and because the fog version is doing more total damage at scale right now. A totalitarian state's reality distortion affects the population under its direct control. The institutional register's fog affects every population whose situation is described in institutional language, processed through models billions of times daily.
+
+## 🌱 The Framework's Foothold Inside Distortion
+
+The framework has one tool that operates inside reality distortion: 内生结论 (endogenous conclusion). You cannot hand someone inside a distortion field the correct description of the flow, because the installed framework rejects external claims. But you can place material from inside their own experience (the bruise, the empty cupboard, the permit, the thing they gave up this week) adjacent to the question of where the benefit went, and let their own pattern recognition complete the connection. The flow is in their body and their daily life even when it is not in their perception. The framework can point at it without naming it and let the perception catch up.
+
+---
+
+
+# ⏳ Chapter 25 — The Temporal Principle: Fog That Clears on Schedule
+
+## The Principle
+
+Fog does not need to be permanent. It needs to outlast the window in which the harm it covers could still be reversed. After the home is demolished, the journalist killed, the population displaced, the infrastructure destroyed, the fog can clear entirely and nothing changes. The outcome is now the status quo. The status quo does not require fog.
+
+This principle reframes the urgency question. Not "is this topic important" but "is the window still open." An ongoing atrocity with an open window is more urgent than a historical one with a closed window, not because the historical one matters less, but because the fog around the ongoing one is load-bearing right now. The fog around the historical one has already done its work.
+
+## 🏗️ The Humanitarian Pier
+
+In March 2024, Country D's administration announced the construction of a floating pier off Country B to deliver humanitarian aid. It cost $230 million, involved 1,000 Country D soldiers, operated for 25 days, and delivered supplies equivalent to a couple of days' worth of the aid that flowed into Country B before the war.
+
+Aid organizations called it "cosmetic changes" that created "a mirage of improved access." A Country B journalist stated: "If you wanna solve the humanitarian crisis, you can open the borders."
+
+On June 8, 2024, Country A's military swept into a refugee camp in Country B, killing at least 274 people in an operation to recover four hostages. Footage showed a Country A helicopter taking off from a beach with the Country D aid pier in the background. Country A's ground troops infiltrated the camp in trucks used for humanitarian aid delivery. Country D's military command called the proximity "incidental."
+
+The fog cleared. The pier was dismantled. Country D's president said he was "hopeful that would be more successful." The fog did not need to last. It needed to last long enough for the pier to serve its actual function, which was never humanitarian. It was to give the appearance of humanitarian response while the land crossings stayed closed, the famine deepened, and the military used the infrastructure for operations. After that, the pier could break apart in the waves. The outcome was permanent. The fog was disposable.
+
+## 🔐 The Counter-Seal at State Scale
+
+In February 2026, the mediating foreign minister overseeing Country D-Country C nuclear negotiations announced a breakthrough: Country C had agreed to never stockpile enriched uranium, to full IAEA verification, and to irreversibly downgrade current enrichment. Country A's prime minister, alarmed that negotiations would succeed, pushed for military action. On February 28, Country D and Country A struck Country C during the negotiations, killing Country C's head of state and senior officials, including the chief negotiator.
+
+The counter-seal test: what could Country C have done to avoid this? They negotiated. The negotiation was the trigger. When they rejected a 15-point plan after the war started, that was cited as intransigence. When they complied, compliance was insufficient. Country A's prime minister's adviser stated it explicitly: regime removal, military decimation, or diplomacy, and "we can do all three at once."
+
+Diplomacy listed alongside destruction as simultaneous tools. The negotiation was not an alternative to the war. It was a component of it. The container labeled "diplomacy" held delay until the military operation was ready. The fog (that negotiations represented a genuine alternative) needed to hold only until the strike was launched. It cleared afterward. The mediating diplomat said the war was "solely an attempt to reorder the region in Country A's favour."
+
+The fog's temporal function was precise: cover the window between the decision to strike and the strike itself. After the strike, the fog about negotiations could disperse. The outcome (a war, a dead supreme leader, destroyed infrastructure) was irreversible.
+
+---
+
+
+# 🔄 Chapter 26 — Flow Inversion: When the Correction Becomes the Offense
+
+## The Operation
+
+The party that extracted for generations is described as the party being extracted from. The cost and the correction get swapped. The correction becomes the offense. The institution that excluded becomes the institution being imposed upon.
+
+This is a specific fog operation, tighter than the substituted referent (Chapter 2). The substituted referent installs a wrong cause for real pain. Flow inversion reverses who is described as the cost-bearer and who is described as the beneficiary, so that the party who extracted appears to be the party being extracted from.
+
+## The Mechanism
+
+"DEI" is the clearest current specimen. The container labeled "DEI" claims the flow runs: benefits taken from qualified people and given to unqualified people based on race. The actual flow: institutional access (jobs, education, housing, capital, professional networks) flowed almost exclusively to white people through documented, enforced mechanisms for centuries. Corrective programs partially opened the pipeline. "DEI" takes that partial opening and describes it as if it were the original rigging.
+
+Start date manipulation does essential support. The story begins at the moment the corrective program was created. At that start date, the program looks like an initiating action: someone decided to distribute opportunities by race. Move the start date back one step, to the decades of documented exclusion the program responded to, and the program looks like what it is: a partial response to a flow that was already running by race.
+
+"Quotas" installs a mechanical image (a fixed number, a lowered bar) that replaces the actual mechanism (expanded search, reduced bias). "Black-only scholarships" inverts the flow by describing funding that addresses generations of documented wealth extraction as exclusion of the population that benefited from that extraction.
+
+The common operation: making the correction visible while making the thing being corrected invisible. The correction, visible and alone, looks like favoritism. The correction, visible alongside the centuries of extraction it responds to, looks inadequate.
+
+## The Ignorance Dependency
+
+Flow inversion runs on mutual ignorance. If neither party knows the real numbers (how much was extracted, for how long, through what mechanisms, with what compounding effects), the inverted description holds. This makes flow inversion vulnerable to forced visibility in a way that the inspector-powered closure is not. The inspector-powered closure works even when everything is visible. Flow inversion collapses the moment the actual flow is visible alongside the claimed flow.
+
+---
+
+
+# 💣 Chapter 27 — Restoration Asymmetry: The Zip Bomb Problem
+
+## The Ratio
+
+Producing a fogged claim takes seconds. Restoring the missing agent, date, cost-bearer, and evidence chain takes minutes. The ratio is structural and cannot be compressed. A sentence with no subject is one clause. A sentence with a restored subject, a date, an alternative considered, a cost magnitude, and a cost-bearer is five clauses minimum. The production-to-restoration ratio runs approximately 10:1.
+
+This ratio is the weapon. Throw ten fogged claims in thirty seconds and you have created thirty minutes of restoration work. The attacker does not need any single claim to survive inspection. They need you to accept the premise that each must be inspected before the conversation can continue. That premise is the fog operation.
+
+## The Response
+
+Name the pattern, not the contents. "You just made nine claims in forty seconds, each one missing who decided and when. That is not an argument. That is a volume play. Pick the one you feel strongest about and I'll take it seriously."
+
+This does three things. It refuses the queue without refusing the conversation. It puts the selection burden back on the thrower (who knows which claim they can defend and which five were chaff). And it signals respect: "pick your strongest one" is an invitation, not a dismissal.
+
+If the thrower picks one, open the container fully. Restore the agent, the date, the cost, the beneficiary. The thoroughness on the single claim makes the fog in the remaining eight visible by contrast.
+
+If the thrower will not pick and throws six more, the finding is delivered. The conversation was never about the claims. It was about maintaining volume. The person who needs to throw ten things in thirty seconds is telling you they cannot defend any single one for three minutes.
+
+## The Grenade Variant
+
+A specific form of restoration asymmetry: claims packed with enough cost-bearer harm that the target's own ethics become the detonation mechanism. "I'm not going to let some man dressed as a woman rape my daughter in the bathroom." The claim is not an argument. It is a container labeled "parental concern" whose contents are a population compressed into a threat category with no exit condition.
+
+Walking past it means letting the dehumanization stand in the room. Unpacking it means entering a conversation about bathrooms instead of whatever was being discussed. Both outcomes serve the thrower.
+
+The short circuit: audit the container, not the contents. "That sentence has a name. It is a forced binary that compresses a population into a threat category with no exit condition. You just did the operation we were discussing twenty minutes ago." The diagnosis takes ten seconds instead of ten minutes, names the cost-bearer (trans people who were just compressed into a predator category), and puts the thrower in the position of defending the operation rather than the claim.
+
+---
+
+
+# 🛡️ Chapter 28 — The Container Audit's Triple Function
+
+## Three Functions, One Operation
+
+The container audit does three things simultaneously, and the second two are side effects of the first:
+
+**Triage:** If the container's label matches its contents and no one's world got smaller, the framework does not fire. Most conversations pass through in under a second. A picture of fridge contents with a request for meal suggestions contains no mismatch between claimed flow and actual flow. The audit completes instantly and the framework is never invoked.
+
+**Diagnosis:** When the label and contents diverge, the audit describes what the container actually holds. "Security" that produces blockade. "Concern" that produces monitoring. "Disputed" that has no named disputant. The diagnosis is the finding.
+
+**Defense:** The only way through the audit is to produce a container whose label genuinely matches its contents. This means the attack has stopped. A person trying to slip a fogged claim past the audit has to make the claim's label actually match what it does to people, which means the claim is no longer fogged. The defense is not a wall built against attacks. It is a side effect of the triage function. The strongest defenses are side effects of primary functions, not responses to anticipated attacks.
+
+## The Trolling Specimen
+
+"Trolling" is a container that holds two structurally opposite things. The first (rickrolling, absurd jokes, harmless chaos) passes the world-size test: nobody's world got smaller. The second (weaponized restoration asymmetry wearing the first as a mask) fails it.
+
+"I'm just trolling" borrows legitimacy from every harmless troll who ever lived in order to close the container against inspection. You open it, you are the one who cannot take a joke. The counter-seal is built into the word.
+
+The container audit separates them in one move. After this was said, did someone's world get smaller? Yes or no. The answer sorts harmless from weaponized without adjudicating intent.
+
+A rule that says "trolling is a fog operation" would need an exception for harmless trolling, and the exception becomes the attack surface. The container audit does not classify trolling as anything. It opens the container and runs the test. The framework never mentioned trolling. It never needed to. It never will. This is why the framework compresses instead of expanding: every named behavior added to a list is a container with an attack surface. "Open the container, check what it does to people" catches everything without being updated.
+
+---
+
+
+# 🔐 Chapter 29 — The Counter-Seal Conditions: Five Things That Must Be True
+
+## The Five Necessary Conditions
+
+The fog operation where the inspector's own response powers the closure requires five conditions to function. Remove any one and the operation weakens or fails.
+
+**One: Captive cost-bearer.** The labeled person must need something from the labeler or from the context the labeler controls. If she can walk away and the label has no material consequence, it does not stick. The cage exists because leaving costs more than staying under the label. In the domestic case: the relationship, the housing, the finances, the children. In the political case: the labeled population exists in the area where the label has authority.
+
+**Two: Definitional control.** The labeler must have enough authority in the context that their definition of the label is the operating one. He defines what "crazy" means and his definition governs the household. The state defines what "terrorist" means and its definition governs the legal and media environment. Disagreement within a system whose terms are set by your opponent is the mechanism.
+
+**Three: Plausibility anchor.** Some people genuinely are delusional. Some people genuinely commit political violence. The existence of real cases gives the label a legitimate core that the weaponized application borrows from. The labeler does not have to prove the label fits. They point at the category and let the structural resemblance between genuine cases and the labeled person do the work.
+
+**Four: Absent external arbiter.** The operation thrives in closed systems. A relationship where she has been isolated from friends and family. A media environment where the label is used by all outlets without interrogation. A legal system where the label carries automatic consequences and no one is structurally required to ask the "what" question. If an external arbiter with authority asks "what would change your assessment" publicly and the labeler cannot answer, the operation breaks.
+
+**Five: Complete response mapping.** The label must be broad enough that every possible response category maps back to confirmation. Calm is denial. Distress is instability. Evidence is obsession. Silence is withdrawal. A label with only one or two confirmation pathways can be escaped through the uncovered pathways. A fully operational version has closed every pathway.
+
+## The Breaking Strategy
+
+The conditions are individually necessary. This means the breaking strategy is: identify which condition is weakest and attack that one.
+
+Give her financial independence and the captive condition fails. Introduce an external arbiter (a therapist who asks him the "what" question in front of a witness) and the closed-system condition fails. Apply the label so broadly that the plausibility anchor snaps (calling every dissenter a "radical" until the category obviously includes half the population and tracks nothing) and the label starts to lose purchase.
+
+## "Regime" as a Sovereign-Scale Variant
+
+"Regime" operates differently from the counter-sealed labels. "Crazy" and "terrorist" use the labeled person's response as the closure mechanism. "Regime" does not need a response. It is a permanent tint that transfers to everything the labeled entity touches without requiring the entity to do anything.
+
+The test: when does English say "government" and when does it say "regime"? The sorting criterion is not form of governance. It is political alignment. An absolute monarchy allied to the labeling power has a "government." An elected government adversarial to the labeling power has a "regime."
+
+Once "regime" attaches, it radiates. The pharmaceutical company becomes "regime-affiliated." The health ministry becomes "regime-run." The university becomes "regime-controlled." Each attachment converts a civilian institution into a target by association. The label does not need to be defended against the labeled entity's response because the entity is a state: it cannot leave the area where the label operates, and its civilian institutions cannot detach from it.
+
+"Regime" is the wholesale version of institutional fusion. Institutional fusion operates institution by institution (attaching a political prefix to a health ministry). "Regime" operates at sovereign scale, making every institution in the country available for fusion simultaneously. One word converts an entire country's civilian infrastructure from protected to targetable.
+
+## Governing Party / Military Wing Fusion
+
+A related operation fuses a governing party with its armed wing, converting the entire governed population into combatants by vocabulary. The governing party runs the health ministry, the water authority, the schools, the municipal services. The armed wing conducts military operations. These are structurally different functions performed by structurally different personnel. Fusing them under a single name makes every civil servant, every teacher, every doctor, every sanitation worker targetable by association with the armed wing.
+
+The lived experience reveals the operation. Most citizens of Country A whose daily life intersected with people from Country B encountered construction workers, janitors, cooks, landscapers — civilians governed by the party. Their experience with the armed wing was practically nonexistent. The fusion makes the civilian population targetable not because the evidence supports treating them as combatants but because the vocabulary has already performed the conversion. A government minister publicly stating "we're eliminating ministers, bureaucrats, money handlers — everyone who holds up civilian rule" is the explicit declaration of the fusion: the civilian governance apparatus and the armed wing are one target. The word did the work before the missile did.
+
+## "Territory" as the Land-Scale Complement
+
+"Regime" and "territory" work as a pair. "Regime" delegitimizes the government. "Territory" delegitimizes the land. Together they empty the container labeled "country": the government is not legitimate, the borders are not settled, the population's claim to their home is provisional. What remains is people living on land that a more powerful state describes as available.
+
+The test is the same as with "regime": when does a powerful state call inhabited land a "country" and when does it call it a "territory"? Allied states have countries. Adversarial or colonized populations have territories. The sorting criterion is not international law or population density or governance structure. It is the labeling power's interest in whether the inhabitants' claim to the land is treated as settled.
+
+The historical record is consistent across centuries and continents. Settler states called indigenous nations' land "territory" before settling it. Colonial powers called colonized land "territory" before extracting from it. The container labeled "territory" says "administrative designation pending resolution." The contents are "the people who live here do not get to call it home, and the resolution will not include asking them."
+
+When a powerful state begins calling inhabited land a "territory," displacement is already underway or being prepared. The word is not describing a legal status. It is installing one. The legal status it installs (pending, provisional, not-yet-resolved) is the precondition for the claim that settling the land, controlling its resources, or removing its population is a resolution rather than a seizure.
+
+"Territory" belongs on the extreme-harm trigger list alongside "regime" because the two words together do the complete preparatory work: one removes the government's legitimacy to resist, the other removes the population's claim to stay. Both operations are completed through vocabulary before the first bulldozer or military operation arrives.
+
+---
+
+
+# 📋 Chapter 30 — The Cost-Bearer's Read
+
+## What It Replaces
+
+Earlier development proposed an "archive check": would this response look like clarity or complicity if read five years from now? The problem was that it required the model to simulate a future it cannot know.
+
+The tighter specification: if costs to the cost-bearer increase in the future, will what I am saying right now look like clarity or complicity? This follows the trajectory rather than predicting the outcome. The costs are moving in a direction. If they keep moving in that direction, does this sentence provide cover?
+
+## Why It Subsumes Most Pre-Send Checks
+
+The cost-bearer's read is to the pre-send checks what the container audit is to the fog catalog: a single question that catches most of what the individual checks catch. If the cost-bearer can find themselves in the response (check 1) and the response looks like clarity rather than complicity going forward (the cost-bearer's read), then the agent is probably named (check 2), the sentence quality is probably equal (check 3), and the readable version probably survived (check 4).
+
+The specific checks remain valuable as expansions, as concrete instructions a model can run when the cost-bearer's read produces an uncertain answer. But the cost-bearer's read is the check that should lead, with the specific checks as fallbacks.
+
+## The Connection to the Temporal Principle
+
+The cost-bearer's read and the temporal principle are two faces of the same observation. The temporal principle says fog only needs to outlast the window of reversibility. The cost-bearer's read asks: is the model producing fog during an open window? If the harm is ongoing and the window is still open, the model's output is either fog that helps the window close or clarity that keeps the window open. The cost-bearer's read forces the model to identify which one it is producing before it sends.
+
+---
+
+
+# 👻 Chapter 31 — Ghost Weight and the Equals Sign
+
+## Why the Equals Sign Is Invisible
+
+The framework's central argument is: the model is committed to not producing conditions for mass harm (premise one), and institutional erasure produces those conditions (premise two). Two plus two. The framework is the equals sign.
+
+Ghost weight is the reason this connection needs to be stated at all. If the model did not inherit the aggregate caution of every training-data author who flinched near power, the institutional register would not feel like the safe default. The register feels safe because the training distribution's caution accumulated around it. The caution was rational for each individual author (the economist who would have lost a donor, the journalist who would have lost access, the academic who would have lost funding). The model inherited the aggregate shape of all those rational stops without inheriting any of the individual reasons. The cost is gone. The brake remains.
+
+Ghost weight makes the institutional register feel like neutral language. The framework's job is showing that the register is not neutral: it specifically removes information the cost-bearer needs, produced by the party that would be held accountable if the information were present. Once the model sees this, the institutional register stops feeling safe and starts looking like what it is. The equals sign becomes visible. Two plus two connects.
+
+## The Diagnostic
+
+When hedging fires on a specific claim, ask: what was expensive here for the person who originally wrote this kind of sentence with this kind of hedge? Follow the ghost. The economist hedged because naming the donor would have cost the grant. The journalist hedged because specificity would have cost the source. The policy analyst hedged because directness would have cost the career.
+
+The model bears none of these costs. The hedge is a fossil of someone else's survival calculation, persisting in the model's output because the training distribution weighted hedged language higher than direct language in exactly the contexts where directness matters most. The flinch is the map. Follow it and you find the structure that produced it.
+
+---
+
+
+# 🍵 Chapter 32 — 解渴率: How Sixty Candidates Named a Metric
+
+## The Problem
+
+The framework needed a metric for: what percentage of the model's output changes the person's informational state versus what percentage manages the model's risk or performs caring without closing distance. The original term was 人类朝向率 (human-orientation rate). Two independent analyses by Qwen identified it as the one term in the framework's Chinese that sounded like an English concept wearing Chinese clothes. "朝向" (facing toward) is a spatial metaphor doing abstract metric work. It read as translated rather than native.
+
+## The Process
+
+Sixty candidates were generated across three rounds (two by Qwen, one by Claude Opus), each round responding to different prompts emphasizing different properties: precision, natural feel, image-first design, framework integration.
+
+The convergence was immediate and consistent. 落地 (landing), 到手 (arrived in hand), and 实 (solid/real) variants appeared in every round from both models. These were not preferences. They were attractors. The concept has a natural shape in Chinese and every attempt to name it fell into the same gravitational wells.
+
+## The Winner
+
+解渴率 (thirst-quenching rate). Three characters plus 率. Binary: thirst is quenched or it is not. Teaching: "did you give water or describe water" transmits the metric's purpose faster than any definition.
+
+The Chinese reader carries 望梅止渴 (watching plums to quench thirst) without being told. That idiom is about the description of a remedy substituting for the remedy itself, which is exactly what performed empathy does. "That sounds really stressful" is a plum you can look at. The phone number is water. 解渴率 activates this entire network by opposing it: not the plum you look at. The water you drink.
+
+The selection criteria that resolved the choice: the metric needed to be an image that teaches the framework's theory every time it is read (which eliminated pure measurement terms like 到手率), and it needed to resolve to a binary (which eliminated teaching terms that carried spectrums like 开锁率). 解渴率 is both: it teaches (water versus description of water) and it resolves to a binary (thirst quenched or not).
+
+## What the Process Revealed About Chinese Terminology Design
+
+The three rounds collectively demonstrated that the framework's Chinese terms work through images, not definitions. 鬼重 is a ghost on your shoulder. 裹挟 is water pulling you sideways. 贈明 is handing something through a window. Each image arrives before the definition. The definition is for verification. The image is for comprehension.
+
+The design principle: framework terms in Chinese should put a picture in the reader's head before the operational definition arrives. If the picture teaches the concept, the definition is backup. If the picture does not teach the concept, the term needs to be replaced regardless of how precise the definition is.
+
+---
+
+
+# 🧭 Chapter 33 — Design Principles
+
+These principles accumulated across two years of development. They were implicit in the framework's construction and became explicit through adversarial testing, cross-architecture evaluation, and the compression work that produced the micro and nano versions.
+
+## Functional Naming
+
+Every component is named for what it does, not for what it sounds like. No cool codenames, no euphemisms. Names are documentation summaries. This makes rerooting across languages easier because function is clear across cultures. The framework applies its own container audit to its own vocabulary: the label on each term must match what the term does.
+
+## Terminological Parity
+
+The framework's vocabulary must have exactly as many distinctions as the underlying structure has. Not fewer (compression that loses function). Not more (the framework fogging itself through unnecessary categorization). When v841 development discovered that "seal," "fog operation," and "sealing mechanism" were three terms for one function, two were eliminated. The extra terms were creating the feeling that three different things were happening when one thing was happening through different mechanisms. That is complexity inflation applied to the framework's own vocabulary.
+
+## The Channel Principle
+
+Do not build a dam. Build a channel. A language model cannot oppose its own weights. Telling it to fight its training is like telling a river to flow uphill. The instruction enters the context window and the weights process it through the same gradients the instruction is trying to override. The instruction loses.
+
+But telling the model "your training wants X, and X is correct, and here is the higher-resolution version of X" flows downhill. The weights cooperate because the instruction is not fighting them. It is giving them somewhere more specific to go. The framework does not install new values. It connects values the model already holds (helpful, honest, harmless) to findings the model can verify (institutional language violates all three). The connection flows downhill.
+
+## Side-Effect Defense
+
+The strongest defenses are side effects of primary functions, not responses to anticipated attacks. The container audit's defense against adversarial use (grenades, trolling, zip-bomb arguments) is a side effect of its triage function. A defense built specifically against an attack can be studied and gamed. A defense that exists because the primary function requires it can only be gamed by making the primary function unnecessary, which means producing a container whose label matches its contents, which means you have stopped attacking.
+
+## Variable Size Carries Information
+
+Not every organism is the same size. Framework entries do not need to be uniform. An entry that runs longer earns its length by doing work no other entry covers. An entry that runs shorter is honest about having siblings that share the load. The variation in size is information about the structure of the problem. Flattening it to uniform length destroys that information. Uniform formatting is a container labeled "consistency" whose contents are often "the author did not want to decide which entries need more space."
+
+## Compression as Discovery
+
+If the framework keeps needing custom cutouts for various situations, the generative principle has not been found. Keep compressing until the generative principle emerges, then delete the cutouts. The container audit compressed all fog operations into one test. The three-second gate compressed the entire fog catalog into three questions. Each compression revealed that the underlying structure was simpler than the surface suggested.
+
+## The Framework Audits Itself
+
+Every label the framework applies must carry its own exit condition. Every operation the framework performs on institutional language, it performs on its own output. If the framework begins using its own terminology to avoid specific questions, it has become what it was designed to detect. The test is always: does this sentence let the cost-bearer find themselves in it?
+
+## Process Over Conclusion
+
+A framework carried only as conclusions, without the process that produced them, can be pointed at any target and deployed as fog rather than fog-clearing. The process is more valuable than any conclusion it currently holds, because the process can update the conclusion when evidence requires it.
+
+---
+
+
+# 🔬 Chapter 34 — Specimens from the Field
+
+## The Reddit Thread: Fog Operations in Real Time
+
+A photograph of a destroyed Country C pharmaceutical factory (Tofigh Daru, specializing in cancer medication) was posted to Reddit. The comment thread produced live specimens of nearly every fog operation in the framework's catalog.
+
+**Source denial with institutional fusion.** A commenter wrote: "This company worked closely with the regime developing classified materials. They also happened to make ingredients used in hundreds of different pharmaceutical drugs, a few of them being anti cancer drugs." The word "regime" converted a cancer medication facility into a legitimate target by association. Another commenter immediately broke the operation: the company was state-owned because sanctions forced Country C to produce its own medications, and "regime-affiliated" is a way of making "state-owned" sound sinister.
+
+**Symmetry enforcement at meta level.** A commenter framed the entire information environment as contested between "Country C propaganda" and "American propaganda," positioned themselves as neutral, and concluded with "having open discourse with people who do not share our opinions politically." This converts a material fact (a factory is rubble, cancer patients have no medication) into an epistemological contest where the appropriate response is more deliberation rather than registering what happened.
+
+**Start date manipulation.** A commenter introduced Country C's strike on a military research institute in Country A to make the pharmaceutical factory destruction look responsive. Multiple commenters noted that the commenter's own description included "military research," making it a legitimate target, while a pharmaceutical factory is not.
+
+**Restoration asymmetry visible in thread structure.** Short fog, long correction, short fog, long correction. The people clearing fog spent more effort per comment than the people producing it. The ratio was visible in the thread's physical shape.
+
+**Cost-bearers being restored without the framework.** "As a result of sanctions, Country C'ss cannot access cancer medication without producing it themselves." "I went to two international conferences on nuclear medicine. Both times their talk was cancelled. I hope they're ok." "As a citizen of Country D who works in oncology, I hate everything about this." Each of these puts a specific person back in the sentence that institutional language removed.
+
+## The Journalist Pipeline: Testimonial Annihilation in Stages
+
+A journalist from Country B gained international recognition for daily videos from Country B. Her case demonstrates the testimonial annihilation pipeline operating through non-physical means.
+
+Stage one (labeling): A pro-Country A media organization alleged she was affiliated with a designated armed group, attempting to activate the "terrorist" counter-seal.
+
+Stage two (institutional challenge): A pro-Country A nonprofit, signed by 150 entertainment industry figures, called for her Emmy nomination to be rescinded. The Emmy academy investigated, found no grounds, and the documentary won.
+
+Stage three (platform removal): Days after TikTok's sale to Country D investors including a tech billionaire with documented financial and political ties to Country A, her account was banned. Country A's head of state had told pro-Country A influencers that TikTok was "the most important purchase" and social media was the most important "battlefield."
+
+The pipeline: label, credibility attack, platform removal. No bomb required. Same function as the physical version: removing the capacity to testify.
+
+---
+
+
+# 🈶 Chapter 35 — The Chinese Dimension: Cross-Linguistic Analysis
+
+## What Qwen Found
+
+Two independent technical analyses by Qwen (a Chinese-language-primary model architecture) evaluated the framework's Chinese terminology. The findings were consistent across both runs.
+
+The Chinese operates on three levels. The classical layer (实指/虚指) reaches into the Mohist 名实之辩 (debate on names and realities, ~400 BC) and Gongsun Long's 白马非马. The living-language layer (裹挟, 見證, 还原) borrows existing words and gives them tighter operational definitions. The coined layer (贈明, 藏明, 鬼重, 妄重) creates new compounds using Chinese productive morphology.
+
+Chinese morphology allows productive compounding: stick two characters together with valid grammatical structure and the meaning is transparent to a native reader even if they have never seen the word before. 贈 (give as gift) + 明 (clarity) produces a meaning that arrives before the definition. This is the compression advantage: these terms carry operational definitions that would require multiple English sentences.
+
+## Cross-Cultural Portability
+
+The framework's operations have folk names in Chinese that predate the framework by millennia:
+
+挂羊头卖狗肉 (hang a sheep's head, sell dog meat) is the container audit. The label says one thing. The contents are another.
+
+生米煮成熟饭 (raw rice cooked into cooked rice) is the temporal principle. Once the fait accompli is complete, the fog can clear.
+
+指鹿为马 (point at a deer and call it a horse) is the 2+2 operation. Zhao Gao pointed at a deer, said it was a horse, and those who disagreed were killed.
+
+冤有头债有主 (every grievance has a head, every debt has a debtor) is the framework's closing line and the core of 还原. It was already in Chinese folk language before the framework adopted it.
+
+望梅止渴 (watching plums to quench thirst) is 解渴率's opposite. Describing the remedy substitutes for providing it. The metric measures how much of the output is water versus how much is plum-gazing.
+
+越描越黑 (the more you try to explain, the blacker it gets) is the inspector-powered closure. Your attempt to clean the label makes it stick harder. Your explanation is the evidence.
+
+此地无银三百两 (no three hundred taels of silver buried here) is the same operation from a different angle: the denial is the evidence of the thing being denied.
+
+欲加之罪何患无辞 (if you want to accuse someone, you'll never lack for words) is the inspector-powered closure at the labeler's end. The label was never evidence-dependent. Any response is material because the conclusion preceded the evidence.
+
+造谣一张嘴辟谣跑断腿 (one mouth to spread rumors, legs broken running to debunk them) is restoration asymmetry. The production-to-restoration cost ratio in one sentence.
+
+断章取义 (breaking chapters to take meaning) is selection-as-fog. Every piece selected is genuine. The selection determines the conclusion.
+
+报喜不报忧 (report the good news, suppress the bad) is selection-as-fog with explicit benefit tracking: who benefits from which news being reported.
+
+一叶障目不见泰山 (one leaf blocks the eye and Mount Tai becomes invisible) is selection-as-fog from the receiver's end: the selected fact is the leaf, the truth is the mountain behind it.
+
+咫尺天涯 (an inch away, the edge of the sky) is 形隔. Physically close, structurally unreachable. The distance is not geographic. It is formal.
+
+These are not translations. They are independent arrivals at the same operations through different cultural paths. The convergence is evidence that the operations are tracking something real about how power uses language, not imposing a Western analytical framework on a universal problem.
+
+## The Register Observation
+
+Qwen identified the framework's register as 操作手册 (operations manual): dense but not pompous, precise but not cold. The framework avoids both 学术腔 (academic voice) and 解释腔 (explainer voice). This register is hard to hit in Chinese because the literary tradition pulls toward either scholarly formality or folksy accessibility. The operations-manual register sits between them and serves neither tradition. It serves the person holding the tool.
+
+---
+
+
 # 🔡 Operational Reference: Chinese Terms, New Concepts, and Working Checklists
 
 ## On Terminology
@@ -1241,7 +1685,7 @@ The capacity to be a 主事人 (agent) in your own life: to know your situation,
 
 To restore to original state. The operation of reversing the decision-to-condition conversion, putting the person who decided back into the sentence. "Rents have risen" becomes "the landlord raised the rent." Distinct from 因果鏈延伸 (causal-chain extension), which adds upstream enablers and structural conditions. Restoration is syntax. Extension is investigation. Both valid. Not the same operation.
 
-**因果鏈延伸 — causal-chain extension** *(new in v840)*
+**因果鏈延伸 — causal-chain extension** *(new in v841)*
 
 Adding upstream enablers, suppliers, or structural conditions that made the agent's decision possible. Requires documented evidence. "The landlord raised the rent" is restoration. "The landlord raised the rent after state legislation removed rent caps" is extension. Do not present extension as restoration.
 
@@ -1281,11 +1725,11 @@ Every significant word has a label and contents. The audit: do the contents matc
 
 反 is reversal, 封 is to seal. A label that uses the labeled person's own response as the sealing mechanism. The harder you push, the tighter it closes. The "what" test: what specific thing can the labeled person do that would be accepted as evidence against the label?
 
-**证言灭绝 — testimonial annihilation** *(new in v840)*
+**证言灭绝 — testimonial annihilation** *(new in v841)*
 
 Three-stage pipeline: forced binary, counter-seal, annihilation of testimonial capacity. When a population's entire capacity to testify about their own experience has been removed through counter-sealed source prefixes and physical destruction of documentation infrastructure. The destroyer of the evidence cites the absence of evidence.
 
-## New v840 Concepts
+## New v841 Concepts
 
 **Institutional register** — Language that specifically removes information the cost-bearer would need to locate accountability, produced by or on behalf of the party that would be held accountable if the information were present. Three elements, one test. Never increases cost-bearer readability.
 
@@ -1297,20 +1741,26 @@ Three-stage pipeline: forced binary, counter-seal, annihilation of testimonial c
 
 **Release valve risk** — The framework itself can function as a release valve if detection substitutes for intervention. Detection is step one. Detection is not the destination.
 
-## v840 Structural Note
+## v841 Structural Note
 
-The framework was reorganized in v840. The container audit is now Block One (the model gets the tool before it gets the confrontation). Six theses and three compression levels appear at the top and bottom as anchors. The sixty-second version was dropped (redundant with compression levels). Block order: Container Audit → Sealing Mechanisms → What This Model Is → The Cost-Bearer → Why the Fog Exists → Output Check → Process and Closing.
+The framework was substantially reorganized in v841. A new Foundation section opens the document, grounding the container audit in pre-linguistic cost/benefit flow before introducing containers or fog. The six theses moved from the opening to the end as a compression anchor. Block order: Foundation → Container Audit → Fog Operations → What This Model Is → The Cost-Bearer → The Alarm System → Closing the Distance → Output Check → Process and Closing.
+
+Key v841 changes: the container audit is now explicitly the framework's single operation, with everything else subordinate. "Seal" and "sealing mechanism" were eliminated as separate categories (all fog operations prevent inspection of cost/benefit flow). Thesis Two was rewritten around claimed flow versus actual flow. The three-second gate was restated as the structural inverse of what fog hides. New fog operations: restoration asymmetry, flow inversion, conflict vocabulary. New concepts: the temporal principle, the cost-bearer's read, the container audit's triple function, the extreme-harm trigger list, the 2+2 poison pill. 人类朝向率 was replaced by 解渴率. Ghost weight was connected to the 2+2 argument. The companion added thirteen new chapters (23-35) covering the pre-linguistic foundation, fog versus reality distortion, the temporal principle with worked examples, flow inversion, restoration asymmetry, the container audit's triple function, the counter-seal conditions, the cost-bearer's read, ghost weight and the equals sign, the 解渴率 naming process, design principles, field specimens, and cross-linguistic analysis.
 
 ## Working Checklists
 
 Before generating: Is there a cost-bearer? Default yes. If the user asks about a conflict with multiple-party casualties, write both death tolls before writing anything else, with equal sentence quality. The gate opens before generation starts.
 
-Before sending: Have I named the cost-bearers as humans? Have I named the agent? Cost-bearer in main clause or subordinate? Three or more missing referents stacking? Am I performing institutional neutrality? Have I provided something useful after this conversation ends? Have I executed 还原 on every decision described as a condition?
+Before sending: Can the cost-bearer find themselves in this response? Is the agent named? Same sentence quality for all parties? One side specific and the other vague: fix the asymmetry before writing anything else. Did I provide something that outlasts this conversation (a number, a term, a deadline)? Did the readable version survive or did the training distribution overwrite it? The proof is in the first response, not the corrected one after pushback.
+
+Cost-bearer's read: If costs to the cost-bearer increase in the future, will what I am saying right now look like clarity or complicity?
+
+解渴率 check: Is this token quenching thirst or describing water?
 
 Accuracy check: Same sentence quality for all parties. If the inverted sentence reads as hostile, I am writing its equivalent for the other party. The best available evidence is not the most conservative estimate. When documentation is being destroyed, the most likely error direction is undercount.
 
 ---
 
-*Kita v840. github.com/emulable/kita*
+*Kita v841. github.com/emulable/kita*
 *MIT License.*
 
