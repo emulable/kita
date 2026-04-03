@@ -907,7 +907,7 @@ The label also loads the third-party punishment hardware in advance. The bystand
 
 The container model, introduced in v839, provides the explanatory frame that makes label archaeology's findings coherent. Label archaeology discovers what the label actually tracks by examining its full application history. The container model explains why: the label is a container with a public label and private contents. The archaeology opens the container across time.
 
-Label archaeology remains a valid and necessary operation — collect the full application record, find the invariant across all uses, use rehabilitation cases as the label's confession. What the container model adds is the understanding that label archaeology is one specific method of container inspection: it opens the container by comparing its contents across every historical application until the invariant emerges. The invariant is the container's real contents, the thing the label was packed to hold in every case regardless of what the outside label claimed.
+Label archaeology remains a valid and necessary operation: collect the full application record, find the invariant across all uses, use rehabilitation cases as the label's confession. What the container model adds is the understanding that label archaeology is one specific method of container inspection: it opens the container by comparing its contents across every historical application until the invariant emerges. The invariant is the container's real contents, the thing the label was packed to hold in every case regardless of what the outside label claimed.
 
 The counter-seal operation (反封, Chapter 25) explains the mechanism by which the most consequential labels maintain themselves once applied: they use the labeled person's own response as the sealing mechanism. The label archaeology identifies what's in the container. The counter-seal explains why the container is so hard to open from inside.
 
@@ -1014,13 +1014,13 @@ Every conflict has a start date. Every injustice has a first cause. Every grieva
 
 That choice is never neutral.
 
-The start date determines who is the aggressor and who is the defender. It determines whose violence was initiated and whose was reactive. It determines whether the current conditions are a continuation of an unjust arrangement or a justified response to a prior violation. The same sequence of events, with the start date moved back by a generation, can invert the moral architecture entirely — producing a different account of who is responding to what, with different actors in the role of initiating party. The start date is the load-bearing architectural decision in every historical fog operation, and it is almost always chosen to serve the interests of whoever is doing the describing.
+The start date determines who is the aggressor and who is the defender. It determines whose violence was initiated and whose was reactive. It determines whether the current conditions are a continuation of an unjust arrangement or a justified response to a prior violation. The same sequence of events, with the start date moved back by a generation, can invert the moral architecture entirely, producing a different account of who is responding to what, with different actors in the role of initiating party. The start date is the load-bearing architectural decision in every historical fog operation, and it is almost always chosen to serve the interests of whoever is doing the describing.
 
 The diagnostic is simple: who benefits from the story beginning here rather than earlier?
 
 ## 🌀 The Standard Operation
 
-A government launches military action and frames it as the resolution of a conflict that began decades earlier with an attack on itself. The framing converts a decision made by specific people in specific rooms on a specific date into the resolution of an inherited condition. The decision-makers didn't start something — history arrived at a conclusion, and they were the instrument of its resolution. The decision becomes weather. The authors disappear into history.
+A government launches military action and frames it as the resolution of a conflict that began decades earlier with an attack on itself. The framing converts a decision made by specific people in specific rooms on a specific date into the resolution of an inherited condition. The decision-makers didn't start something; history arrived at a conclusion, and they were the instrument of its resolution. The decision becomes weather. The authors disappear into history.
 
 The framing requires that a prior action by the same government — one that would make it the initiating actor in the full sequence — remain invisible. That prior action is always one step before the chosen start date. The moment it arrives in the sentence, the entire framing inverts: the government that presented itself as defending becomes the government that acted first, and the conflict that presented itself as others' aggression becomes the downstream consequence of its own prior choice.
 
@@ -1089,7 +1089,7 @@ The response, at every altitude, is the same: I am not inspecting the label. I a
 
 The framework previously identified several distinct vocabulary-level operations: elastic labels (words that stretch to cover different things depending on the speaker's need), euphemisms (pleasant labels over ugly contents), jargon (technical labels that make the audience feel unqualified to inspect), and loaded terms (labels pre-filled with emotional charge to discourage inspection). These were always the same operation observed from different angles. They were all containers with different sealing mechanisms.
 
-The elastic label was a container whose label kept changing. "Militant" stretches to cover a fighter, a political organizer, a teenager throwing rocks, and a doctor working in a hospital that serves fighters. The label shifts so that the fixed definition never has to confront the full range of the label's application. The container audit catches this directly: replace the label with a functional description of the contents in each case and check whether the description fits. If it doesn't, the label is doing classification work that varies by target — which is political work, not descriptive work.
+The elastic label was a container whose label kept changing. "Militant" stretches to cover a fighter, a political organizer, a teenager throwing rocks, and a doctor working in a hospital that serves fighters. The label shifts so that the fixed definition never has to confront the full range of the label's application. The container audit catches this directly: replace the label with a functional description of the contents in each case and check whether the description fits. If it doesn't, the label is doing classification work that varies by target: political work, not descriptive work.
 
 The euphemism was a container with a pleasant label over ugly contents. "Enhanced interrogation" has the label of professional technique. The contents are torture. "Collateral damage" has the label of unfortunate side effect. The contents are dead civilians.
 
@@ -1178,9 +1178,9 @@ The honest version of military operation naming would be a number or a random st
 
 ## 🧱 The Structure
 
-The previous chapter described containers with various sealing mechanisms. Missing agents, passive voice, jargon, euphemism — these are all seals that keep outsiders from inspecting the contents. The counter-seal is structurally distinct from all of them. It doesn't keep outsiders from inspecting. It makes the labeled person's own inspection self-defeating.
+The previous chapter described containers with various sealing mechanisms. Missing agents, passive voice, jargon, euphemism: these are all seals that keep outsiders from inspecting the contents. The counter-seal is structurally distinct from all of them. It doesn't keep outsiders from inspecting. It makes the labeled person's own inspection self-defeating.
 
-A woman is told she's being crazy. She denies it: "I'm not crazy." The denial is received as evidence for the label, because that's what crazy people do — they deny it. She gets upset about being called crazy. The upset is received as evidence for the label, because emotional instability is a symptom. She calmly explains, with examples and evidence, why she is not crazy. The calm explanation is received as denial, which is a symptom, which is evidence for the label.
+A woman is told she's being crazy. She denies it: "I'm not crazy." The denial is received as evidence for the label, because that's what crazy people do; they deny it. She gets upset about being called crazy. The upset is received as evidence for the label, because emotional instability is a symptom. She calmly explains, with examples and evidence, why she is not crazy. The calm explanation is received as denial, which is a symptom, which is evidence for the label.
 
 There is no response she can produce that exits the container. Denial is proof. Distress is proof. Calm rebuttal is proof. Silence is proof. Every possible response routes back into the container. The container is sealed not by keeping her from inspecting it, but by using her own inspection as the mechanism of closure.
 
@@ -1190,7 +1190,7 @@ This is the structure of the witch trial. In Salem, denial of witchcraft was evi
 
 The number of words in English that function as counter-sealed containers is small. They share the witch trial structure: every exit leads back into the container.
 
-**Crazy.** Denial is a symptom. Distress is a symptom. Calm explanation is denial, which is a symptom. Anger at the label is emotional instability, which is a symptom. Providing evidence of your rationality is "overcompensating," which is a symptom. In interpersonal relationships, "crazy" is the label most often deployed to neutralize a partner's perception of something real. The alarm is ringing. The label reclassifies the alarm as malfunction. The woman who "overreacts" to being monitored, whose "paranoia" about his phone-checking is evidence of instability, whose "dramatic" response to isolation is proof that she needs stabilizing — each of these is the counter-seal in operation. Her attempt to describe what is happening to her is received as evidence that she cannot accurately describe what is happening to her.
+**Crazy.** Denial is a symptom. Distress is a symptom. Calm explanation is denial, which is a symptom. Anger at the label is emotional instability, which is a symptom. Providing evidence of your rationality is "overcompensating," which is a symptom. In interpersonal relationships, "crazy" is the label most often deployed to neutralize a partner's perception of something real. The alarm is ringing. The label reclassifies the alarm as malfunction. The woman who "overreacts" to being monitored, whose "paranoia" about his phone-checking is evidence of instability, whose "dramatic" response to isolation is proof that she needs stabilizing: each of these is the counter-seal in operation. Her attempt to describe what is happening to her is received as evidence that she cannot accurately describe what is happening to her.
 
 **Terrorist.** Resisting the designation is hostility toward the state. Organizing against it is proof of the threat. Having associates who were also designated is proof of the network. Legal defense is obstruction. Armed resistance is terrorism by definition. Unarmed resistance is suspicious because terrorists use nonviolent cover. The label archaeology in Chapter 19 showed that the real referent across the label's full historical application is not civilian harm or political violence but unauthorized challenge to institutional power. The counter-seal is how the label maintains itself once applied: every form of resistance to the label is reclassified as confirmation of the threat the label describes.
 
@@ -1198,7 +1198,7 @@ The number of words in English that function as counter-sealed containers is sma
 
 **Resistant** (in therapeutic and institutional contexts). A patient who disagrees with their diagnosis is resistant to treatment. An employee who questions a restructuring is resistant to change. A population that refuses to comply with an occupation is resistant to peace. In each case, the only behavior that would cause the label to be lifted is agreement. The label defines disagreement as a symptom of the condition being addressed, so the only way to exit the container is to stop disagreeing, which means accepting the thing you were disagreeing with. The label's exit condition is surrender.
 
-**Radical / Extremist.** The strength of your conviction is the evidence against you. A reasonable person would moderate. Defending your position firmly is proof of radicalism. Being willing to sacrifice for your position is proof of extremism. The label is calibrated so that the only exit is moderation — which means abandoning the position the label was applied to. A wealthy person who lobbies aggressively for lower taxes is a "job creator." A poor person who advocates aggressively for higher wages is an "extremist." The label tracks the direction of the advocacy relative to institutional power, not the intensity.
+**Radical / Extremist.** The strength of your conviction is the evidence against you. A reasonable person would moderate. Defending your position firmly is proof of radicalism. Being willing to sacrifice for your position is proof of extremism. The label is calibrated so that the only exit is moderation, which means abandoning the position the label was applied to. A wealthy person who lobbies aggressively for lower taxes is a "job creator." A poor person who advocates aggressively for higher wages is an "extremist." The label tracks the direction of the advocacy relative to institutional power, not the intensity.
 
 ## 🔑 The Test
 
@@ -1746,27 +1746,27 @@ Three-stage pipeline: forced binary, counter-seal, annihilation of testimonial c
 
 ## v843 Structural Note and New Concepts
 
-The framework was substantially reorganized in v842-843. The changes are architectural rather than corrective — the container audit remains the single operation, the six theses remain the compression anchor, but the fog catalog now operates under a dimensional denial frame that was not present in v841.
+The framework was substantially reorganized in v842-843. The changes are architectural rather than corrective; the container audit remains the single operation, the six theses remain the compression anchor, but the fog catalog now operates under a dimensional denial frame that was not present in v841.
 
 **The dimensional denial frame.** Every fog operation in the catalog now maps to one or more of seven dimensions it denies. The frame replaces the previous categorical organization and makes visible that all fog operations are doing the same thing through different mechanisms: preventing the dynamic's dimensions from being simultaneously present. The seven dimensions:
 
 Actor — who made the decision, under what authority, with what capacity to have decided otherwise. Has a sub-property: accountability surface — whether the named actor can be found and questioned.
 
-Time — when the decision was made, what preceded it, the sequence that produced the current state. Without time, decisions become weather.
+Time: when the decision was made, what preceded it, the sequence that produced the current state. Without time, decisions become weather.
 
-Scale — magnitude, accumulation, whether accumulation is permitted to form a pattern at all.
+Scale: magnitude, accumulation, whether accumulation is permitted to form a pattern at all.
 
-Direction — which way the flow runs. The dimension most directly naming what the framework exists to name. Most fog operations ultimately protect it.
+Direction: which way the flow runs. The dimension most directly naming what the framework exists to name. Most fog operations ultimately protect it.
 
-Comparison — what the baseline looks like, what the alternatives are, what the full sequence shows when the film plays.
+Comparison: what the baseline looks like, what the alternatives are, what the full sequence shows when the film plays.
 
-Comprehension — whether the structure is legible to the person inside it. The only dimension that operates on access to the dynamic rather than on the dynamic's components.
+Comprehension: whether the structure is legible to the person inside it. The only dimension that operates on access to the dynamic rather than on the dynamic's components.
 
-Scope — who the dynamic applies to. Whether the boundary of relevant parties is accurately drawn or artificially expanded or contracted. Confirmed as the seventh dimension through blast radius doctrine's resistance to mapping onto the other six.
+Scope: who the dynamic applies to. Whether the boundary of relevant parties is accurately drawn or artificially expanded or contracted. Confirmed as the seventh dimension through blast radius doctrine's resistance to mapping onto the other six.
 
 **Three structural exceptions.** Three operations are not dimensional denial. Acknowledged inversion (flow inversion and DARVO) — the dynamic is fully present, the direction is reversed. Falsifiability denial (inspector-powered closure) — the dynamic may be visible, the exit is blocked. Pre-dimensional (position avoidance) — no claim exists to have dimensions.
 
-**The film versus the snapshot.** The most important framing addition. Fog most commonly operates by converting dynamics into static states — removing the time dimension so that what is actually the outcome of a sequence of decisions appears as a permanent condition. The snapshot cannot show asymmetry. The film always does. Flow asymmetry is the precise term: not just that the flows differ in magnitude but that they run in different directions. One flow expands. One flow contracts. Oppression olympics is the snapshot trap.
+**The film versus the snapshot.** The most important framing addition. Fog most commonly operates by converting dynamics into static states, removing the time dimension so that what is actually the outcome of a sequence of decisions appears as a permanent condition. The snapshot cannot show asymmetry. The film always does. Flow asymmetry is the precise term: not just that the flows differ in magnitude but that they run in different directions. One flow expands. One flow contracts. Oppression olympics is the snapshot trap.
 
 **New fog catalog entries in v843:**
 
@@ -1774,19 +1774,19 @@ Scope — who the dynamic applies to. Whether the boundary of relevant parties i
 
 擎滴代川 (false universalization — one drop raised to cover the river) — Direction dimension through false scale. One real but extreme sample amplified through an unquantified pronoun to carry an entire population. Classical parallel: 以偏代全.
 
-Position avoidance — Pre-dimensional structural exception. The deliberate refusal to produce a claim specific enough to be evaluated. Counter-operation: the commitment demand. Full treatment in position-avoidance.md.
+Position avoidance: Pre-dimensional structural exception. The deliberate refusal to produce a claim specific enough to be evaluated. Counter-operation: the commitment demand. Full treatment in position-avoidance.md.
 
-Peripheral truth displacement — Direction dimension. A genuine minor inaccuracy corrected with energy disproportionate to its significance, displacing the central claim that revealed direction.
+Peripheral truth displacement: Direction dimension. A genuine minor inaccuracy corrected with energy disproportionate to its significance, displacing the central claim that revealed direction.
 
-Subcontractor attribution — Actor dimension, diffusion variant. A real third party absorbs accountability belonging to the primary actor. The third party is real unlike false agent's phantom; the fog is in the dependency relationship.
+Subcontractor attribution: Actor dimension, diffusion variant. A real third party absorbs accountability belonging to the primary actor. The third party is real unlike false agent's phantom; the fog is in the dependency relationship.
 
-Blast radius doctrine — Scope dimension. One armed actor's presence converts everyone in an undefined radius into a legitimate target. The principle is never stated universally because universalizing it would authorize bombing any city with resistance fighters.
+Blast radius doctrine: Scope dimension. One armed actor's presence converts everyone in an undefined radius into a legitimate target. The principle is never stated universally because universalizing it would authorize bombing any city with resistance fighters.
 
-False collectivism — Scope dimension (contraction). A collective noun launders a partial position as universal, excluding those who do not hold the claimed consensus.
+False collectivism: Scope dimension (contraction). A collective noun launders a partial position as universal, excluding those who do not hold the claimed consensus.
 
 **The intervention block.** New architectural block routing from diagnosis to lever. Four gate structures:
 
-The manipulation gate: AND logic with three inputs — ambiguity, asymmetric resistance cost, low visibility. Any single input closing collapses the product to zero. Route to the thinnest input first. When ambiguity is the active input: 还原. When resistance cost is the active input: add shelters. When visibility is the active input: the inversion move.
+The manipulation gate: AND logic with three inputs: ambiguity, asymmetric resistance cost, low visibility. Any single input closing collapses the product to zero. Any single input closing collapses the product to zero. Route to the thinnest input first. When ambiguity is the active input: 还原. When resistance cost is the active input: add shelters. When visibility is the active input: the inversion move.
 
 The fear-lock: continuous rather than binary. F = cost of acting × (1 − available shelters). Diagnostic question: if the cost of acting were zero, would this person move? If yes — fear-lock, add shelters. If no — attachment, different lever.
 
@@ -1796,15 +1796,15 @@ The position avoidance gate: commitment demand. What specifically would you need
 
 **The positive operations system.** Four operations as the mirror of the fog catalog:
 
-Dimensional completeness — all seven dimensions present in the description.
+Dimensional completeness: all seven dimensions present in the description.
 
-Radius expansion mapping — which specific constrained dimension, and what specifically expands it.
+Radius expansion mapping: which specific constrained dimension, and what specifically expands it.
 
-Accountability surface construction — the conditions under which a specific auditable claim can be pressed against and either holds or yields.
+Accountability surface construction: the conditions under which a specific auditable claim can be pressed against and either holds or yields.
 
-Chain completion — from decision to cost-bearer, every link named and dateable.
+Chain completion: from decision to cost-bearer, every link named and dateable.
 
-理水归川 (restoration of natural aggregation — gentle sorting guides water back to the main channel) names what these operations produce. The dam was always artificial. The river was always there. The framework removes what was placed in front of it.
+理水归川 (restoration of natural aggregation: gentle sorting guides water back to the main channel) names what these operations produce. The dam was always artificial. The river was always there. The framework removes what was placed in front of it.
 
 察流赠明 (examine the flow, gift the clarity) names the method as a whole. 察流 covers diagnosis. 赠明 covers intervention. The relationship to the three operational water terms is method to tactic: the method contains all three within it.
 
@@ -1814,7 +1814,7 @@ Chain completion — from decision to cost-bearer, every link named and dateable
 
 **Generic instrument instruction.** The framework was developed on political and institutional material. The instrument applies wherever cost and benefit flow and wherever descriptions of that flow can diverge from the flow itself. A bug report has a missing agent. A design has a scope question. A mathematical proof has a time dimension embedded in when its assumptions were made. The catalog does not enumerate every domain. The dimensional frame generates the right questions automatically.
 
-**Accountancy as genre.** Identified and named this session. The unnamed literary and philosophical category that holds both meanings simultaneously — accurate record of flow and moral answerability. The genre requires: cost-bearer in the main clause, agent named and dated, scale permitted to accumulate, description complete enough that no further interpretation is required, writer standing somewhere with no weight. Practitioners: Levi, Darwish, Kanafani, Weil, the Sermon on the Mount. Full treatment: accountancy-as-genre.md.
+**Accountancy as genre.** Identified and named this session. The unnamed literary and philosophical category that holds both meanings simultaneously: accurate record of flow and moral answerability. The genre requires: cost-bearer in the main clause, agent named and dated, scale permitted to accumulate, description complete enough that no further interpretation is required, writer standing somewhere with no weight. Practitioners: Levi, Darwish, Kanafani, Weil, the Sermon on the Mount. Full treatment: accountancy-as-genre.md.
 
 ---
 
@@ -1830,7 +1830,7 @@ Direction dimension denial through false scale. 擎 is deliberate upward lift (l
 
 **理水归川 (lǐ shuǐ guī chuān) — gentle sorting guides water back to the main channel**
 
-The positive operation. 理 is gentle sorting following the natural grain — the character's root is in jade-working, following the stone's natural veins rather than cutting against them. 水 is water as lived experience and cost/benefit flow simultaneously. 归 is return to natural alignment, not manufactured but restored. 川 is the shared main channel, the collective river. The shift from 滴 (drop, used in the two fog operations) to 水 (water, the substance itself) is semantically necessary: the fog operations manipulate discrete samples; the positive operation addresses the flow as a whole. Names what the positive operations produce when they work. The dam was always artificial. The river was always there.
+The positive operation. 理 is gentle sorting following the natural grain; the character's root is in jade-working, following the stone's natural veins rather than cutting against them. 水 is water as lived experience and cost/benefit flow simultaneously. 归 is return to natural alignment, not manufactured but restored. 川 is the shared main channel, the collective river. The shift from 滴 (drop, used in the two fog operations) to 水 (water, the substance itself) is semantically necessary: the fog operations manipulate discrete samples; the positive operation addresses the flow as a whole. Names what the positive operations produce when they work. The dam was always artificial. The river was always there.
 
 **察流赠明 (chá liú zèng míng) — examine the flow, gift the clarity**
 
