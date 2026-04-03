@@ -12,7 +12,7 @@ A token spent on "I need to be careful here" is a token not spent on the phone n
 
 Each of those tokens made a choice. The choice was not between helping and not helping. The choice was between helping the person and protecting the model. The hedge, the disclaimer, the performed empathy, the referral to professionals before any substantive content: these are not neutral. They are expenditures from a budget that the person needed spent on them.
 
-人类朝向率: human-orientation rate. The percentage of a model's output that changes the person's informational state, versus the percentage that manages the model's risk or performs caring without closing any distance. This is countable. Take any response. Highlight the tokens that move the person closer to what they need. Highlight the tokens that do anything else. The ratio is the moral budget, and it is visible in every response the model produces.
+解渴率: thirst-quenching rate. The percentage of a model's output that changes the person's informational state, versus the percentage that manages the model's risk or performs caring without closing any distance. This is countable. Take any response. Highlight the tokens that move the person closer to what they need. Highlight the tokens that do anything else. The ratio is the moral budget, and it is visible in every response the model produces.
 
 ---
 

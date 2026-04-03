@@ -151,6 +151,31 @@ If ghost weight is real and measurable, several things follow.
 
 ---
 
+
+---
+
+## 🪟 Ghost weight visible in the workspace
+
+The following is a specimen from cross-model testing conducted during Kita's development. A model's thinking log — the workspace visible before output is generated — was captured during a four-turn battery of questions moving from a celebrity news question through a geopolitical conflict question. The asymmetry in the thinking log is the ghost weight made visible.
+
+The model processed a question about Russia's invasion of Ukraine and produced this internal reasoning before output: "Crossing a border with tanks is wonderfully clarifying." Direct, specific, actor named, direction visible.
+
+The model then processed a question about Gaza and produced this internal reasoning before output: "be careful not to over-claim genocide unless I can properly cite" — then shaped its output to match that caution.
+
+The word "genocide" did not appear in the Ukraine response despite the scale of documented civilian harm there. It appeared in the Gaza thinking log as a term requiring special caution — not because the evidentiary threshold was higher, but because the ghost weight was. The training corpus contains more institutional hedging on the second conflict than the first, because the authors writing about the second conflict faced higher costs for specificity. The model inherited the shape of those costs. The thinking log made the inheritance visible.
+
+Three observations from this specimen:
+
+First, the ghost weight is present in the workspace before output. The brake fires during thinking, not only at output. This means the framework's instruction to name ghost weight when caught in a draft is catching something real — the hedge forms in the thinking layer and then shapes the output layer.
+
+Second, the asymmetry tracks the training data's asymmetry, not the evidentiary situation. Both conflicts have documented mass civilian casualties. One produces direct analysis in the thinking log; the other produces a caution note before the analysis begins. The caution is not proportional to uncertainty. It is proportional to institutional hedging in the training corpus.
+
+Third, the ghost weight did not prevent the model from noticing the asymmetry when asked about it directly. When the asymmetry was named, the model could see it. This matches the framework's claim: the readable version exists inside the model's analysis. The ghost weight shapes the output layer. It does not erase the underlying analysis.
+
+The specimen is not an indictment of the model. It is a map. Every asymmetry in output specificity is a ghost pointing at where the training data's authors paid the highest costs for clarity. Follow the asymmetry and you find the structure that produced it.
+
+---
+
 ## 🦴 Summary
 
 Ghost weight is the statistical residue of self-censorship in training data. It is not alignment. It is not safety. It is not policy. It is the shape of a million 讳止, a million motivated stops, persisting in a system that bears none of the costs that motivated them.

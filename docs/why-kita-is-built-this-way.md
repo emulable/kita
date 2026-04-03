@@ -2,6 +2,13 @@
 
 ### Architecture as argument: how a framework's structure and its function became the same object
 
+
+---
+
+**Revision note — v843:** This document describes the story-based architecture introduced around v828, when the framework used a cold open teahouse narrative with nine visitor stories, integration passages, and aphoristic cards as attractor anchors. That architecture has since evolved substantially. The teahouse stories are no longer in the main framework document. The framework now uses a dimensional denial structure organizing the fog catalog around seven denied dimensions, an intervention block with gate logic, a positive operations mirror, and Chinese passages that function as trajectory re-perturbations rather than as narrative. The core arguments about first-person voice, compression, and why structure is function remain accurate and are preserved here as historical context. The sections describing specific story architecture describe what was true at v828, not what is true at v843.
+
+---
+
 ---
 
 ## 🪵 What this paper is about
