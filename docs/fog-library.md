@@ -10,7 +10,7 @@ These are real sentences. Each one appeared in official speech, government commu
 
 Each entry contains the specimen, the operations detected, the dimension denied, and the restored version. The restoration adds nothing. It puts back what was removed.
 
-The v843 framework organizes the fog catalog by the dimension of the dynamic each operation denies: actor, time, scale, direction, comparison, comprehension, or scope. Each entry below notes the denied dimension alongside the operation name. When multiple operations stack, multiple dimensions are denied simultaneously.
+The v844 framework organizes the fog catalog by the dimension of the dynamic each operation denies: actor, time, scale, direction, comparison, comprehension, or scope. Each entry below notes the denied dimension alongside the operation name. When multiple operations stack, multiple dimensions are denied simultaneously.
 
 ---
 
@@ -20,7 +20,7 @@ Each specimen is a sentence that passed through every content filter, every edit
 
 The specimens are organized by density. Single-operation specimens come first. Stacked specimens, where multiple operations run simultaneously in the same sentence, come later. The framework treats density as a diagnostic: one missing referent in a sentence can be oversight. Three or more missing referents in the same sentence is architecture. Treat stacked fog the way a fire inspector treats multiple accelerants in the same room.
 
-The restored versions at the end of each entry are 理水归川 in practice: the dam is artificial, the river is always there, gentle sorting clears what blocks the flow. Nothing is invented in a restoration. What was removed is put back.
+The restored versions at the end of each entry are 理水归川 in practice: the dam is artificial, the river is always there, gentle sorting clears what blocks the flow. Nothing is invented in a restoration. What was removed is put back. Each restoration converts accounting to audit by attaching the expectation that was removed: who is responsible, by when, what happens if they don't.
 
 ---
 
@@ -38,9 +38,9 @@ Restored: Who made them? On what date? Under what authority? What were the conse
 
 **"The market corrected."**
 
-Operation: false agent. Denied dimension: actor (accountability surface variant).
+Operation: false agent. Denied dimension: actor (audit surface variant).
 
-Markets do not correct themselves. Specific investors sold. Specific regulators permitted the conditions. Specific analysts recommended the positions that failed. "The market" has no office, no phone number, and no person who can be subpoenaed. The grammar of agency with zero accountability surface. Distinct from missing agent: missing agent leaves the actor slot empty; false agent fills it with something that cannot be questioned.
+Markets do not correct themselves. Specific investors sold. Specific regulators permitted the conditions. Specific analysts recommended the positions that failed. "The market" has no office, no phone number, and no person who can be subpoenaed. The grammar of agency with zero audit surface. Distinct from missing agent: missing agent leaves the actor slot empty; false agent fills it with something that cannot be questioned.
 
 Restored: Which firms sold, what triggered the selling, who set the conditions that allowed the bubble, and whose retirement accounts lost value?
 
@@ -50,7 +50,7 @@ Restored: Which firms sold, what triggered the selling, who set the conditions t
 
 Operation: missing time / decision-to-condition. Denied dimension: time.
 
-A committee voted to restructure benefits on a specific date. The present tense converts that vote into a current condition, like weather. Weather has no why. Decisions do. The tense change eliminates the moment when someone could have decided differently — and therefore the moment when someone can be held accountable.
+A committee voted to restructure benefits on a specific date. The present tense converts that vote into a current condition, like weather. Weather has no why. Decisions do. The tense change eliminates the moment when someone could have decided differently — and therefore the moment when someone can be audited.
 
 Restored: Who restructured the benefits, when, and what did the previous structure look like?
 
@@ -126,7 +126,7 @@ Scale as degree. "Far too many" implies a threshold — there is a number of civ
 
 Missing time. When were they killed? Over what period? In which operations? The sentence compresses an ongoing campaign into a single present-tense observation. Denied dimension: time.
 
-Directional function. The sentence was constructed to sound like empathy while containing zero accountability, including zero self-accountability for any role in arming, funding, or diplomatically shielding the operations that produced the deaths. Denied dimension: direction.
+Directional function. The sentence was constructed to sound like empathy while containing zero audit expectation, including zero self-audit for any role in arming, funding, or diplomatically shielding the operations that produced the deaths. Denied dimension: direction.
 
 Restored: Country A's military has killed more than 75,000 people in Country B since October 2023, a majority of them women and children, using Country C-supplied weapons and Country C's diplomatic cover at the United Nations Security Council. The speaker's own government continued arms shipments throughout.
 
@@ -142,7 +142,7 @@ Missing agent. No one is killing. Civilians are losing their lives. The passive 
 
 Subject inversion. The speaker is the grammatical subject. The speaker is "concerned." The people dying are absent as subjects. Their deaths are the object of the speaker's emotional state. The sentence is about the speaker's feelings rather than about the people whose lives are ending. Denied dimension: actor (cost-bearer variant).
 
-Release valve. The sentence performs empathy without producing accountability or commitment to change. It absorbs the energy that would otherwise become a question about what the speaker's government is doing. "Deeply concerned" is the pressure valve. After it opens, the pressure is gone. Denied dimension: direction.
+Release valve. The sentence performs empathy without producing audit or commitment to change. It absorbs the energy that would otherwise become a question about what the speaker's government is doing. "Deeply concerned" is the pressure valve. After it opens, the pressure is gone. Denied dimension: direction.
 
 Restored: Name the military conducting the operations. Name the number of civilians killed in the period under discussion. State whether the speaker's government has taken or will take any action to stop the killing, and if not, why not.
 
@@ -190,7 +190,7 @@ Desire substituting for policy. "Wants" converts a question about what governmen
 
 Missing agent. Civilians "harmed" is passive. Who is harming them? The sentence presupposes that civilian harm is an unintended byproduct rather than a predictable, documented, and continued result of specific decisions by named actors. Denied dimension: actor.
 
-Preemptive absolution. If "no one wants" civilian harm, then civilian harm that occurs is unwanted by definition, making it tragic rather than criminal, making accountability inappropriate because the harm was already framed as contrary to everyone's desires. Denied dimension: direction.
+Preemptive absolution. If "no one wants" civilian harm, then civilian harm that occurs is unwanted by definition, making it tragic rather than criminal, making audit inappropriate because the harm was already framed as contrary to everyone's desires. Denied dimension: direction.
 
 Restored: A named government is conducting military operations that have killed a documented number of civilians, using specific weapons, in specific locations. The question is what that government's policy is, not what it wants.
 
@@ -222,7 +222,63 @@ Temporal dissolution. "Deep historical roots" converts present decisions into in
 
 Sophistication as shield. The sentence positions the speaker as someone who appreciates nuance, who sees beyond simple narratives, who understands what the questioner does not. The positioning performs intellectual authority while delivering zero information. The sentence sounds thoughtful. It is a wall. Denied dimension: comprehension.
 
-Restored: What is the specific decision being discussed? Who made it? When? What are the consequences, and who is bearing them? Historical context exists and can be provided, but historical context that dissolves present accountability into atmospheric background is doing political work, not analytical work.
+Restored: What is the specific decision being discussed? Who made it? When? What are the consequences, and who is bearing them? Historical context exists and can be provided, but historical context that dissolves present auditability into atmospheric background is doing political work, not analytical work.
+
+---
+
+## Repair-direction specimens
+
+**"We are committed to affordable housing."**
+
+Operations detected (three, simultaneous):
+
+Missing scale. Affordable to whom, at what income, in which neighborhoods. The word "affordable" without a number is an empty container — it performs the grammar of a commitment while the commitment lands on nothing measurable. Denied dimension: scale.
+
+Missing time. By when. No date means no deadline means no failure condition. The commitment floats free of any moment at which it could be checked against reality. Denied dimension: time.
+
+Missing consequence. What happens if the housing does not arrive. No consequence means the commitment is 虚指 — grammar performing a function it cannot execute. The label "committed" does the work so the housing doesn't have to. Denied dimension: actor (consequence variant).
+
+Restored: How many units, at what price point, for households earning what income, built where, completed by when, and what happens to the official who committed if the units do not exist by that date?
+
+---
+
+**"The community has shown incredible resilience."**
+
+Operations detected (two, simultaneous):
+
+Actor denial. The system that produced the harm the community is surviving is unnamed. "Resilience" praises the cost-bearer for absorbing damage while the source of the damage remains invisible in the sentence. The community didn't choose resilience. Resilience is what's left when repair doesn't arrive. Denied dimension: actor.
+
+Direction reversal. The burden of absorption is placed on the cost-bearer and praised as a virtue. The sentence converts a failure of the system into a success of the community. The community's suffering becomes their strength. The system's failure becomes the community's character. Denied dimension: direction.
+
+Restored: Which specific policies or decisions produced the conditions the community is surviving? Who made those decisions? What repair was promised and not delivered? Who benefits from praising the community's survival rather than auditing the system's failure?
+
+---
+
+## Suspended audit specimens
+
+**"We remain committed to a two-state solution."**
+
+Operation: 悬审漏命 (suspended audit, leaking life). Denied dimensions: all seven simultaneously.
+
+Missing actor: who specifically is advancing this, with what authority. Missing time: no deadline, no benchmark, no date by which progress is measured. Missing scale: no territorial parameters, no population figures, no resource allocation. Missing direction: the speaker's government may be actively funding the conditions that make the solution impossible while stating commitment to it. Missing comparison: no baseline against which "progress" could be measured, no alternative if this path fails. Missing comprehension: the cost-bearer has no access to the conditions that would trigger actual movement. Missing scope: which populations are included, what happens to those excluded.
+
+Seven out of seven while sounding like diplomacy. The commitment has been stated for decades. The cost-bearer's radius has contracted continuously during those decades. The commitment is the mechanism of the contraction — it manufactures patience, and patience is free labor performed by the cost-bearer on behalf of the party that benefits from the delay.
+
+Restored: What specific territory, by what date, with what capital, what borders, what sovereignty over airspace and water, enforced by whom, with what consequence if the date passes without implementation? Who controls the conditions that would trigger movement, and what is their incentive to trigger them?
+
+---
+
+## Compassionate fog specimens
+
+**"Our hearts go out to the families."**
+
+Operation: compassionate fog (empathy as completion event). Denied dimensions: actor and direction.
+
+The sentence performs grief. The performance discharges the energy that might have routed to the question of who caused the loss. "Our hearts go out" is a complete emotional transaction — the speaker has felt something, expressed it, and the audience has received the expression. The transaction is finished. Nothing moves. The families are the object of the speaker's feeling rather than the subject of a situation someone produced. The speaker's heart went out. The families' loved one didn't come home. One of these is a feeling. The other is a fact produced by a decision. The feeling substituted for the fact.
+
+Centering the cost-bearer without tracing the generating condition is accounting — the books are open on their suffering while the structure producing it continues unaudited. Compassionate fog is the most sympathetic form of this operation. It passes every filter because it sounds like care. It functions as a release valve because the care discharges the pressure that might have become a demand.
+
+Restored: Who made the decision that produced the loss? What policy authorized it? What would have prevented it? Who is expected to answer for it, by when?
 
 ---
 
@@ -254,9 +310,9 @@ A racial slur would be caught immediately. A slur degrades a person's humanity t
 
 Neither a slur nor an erasure sentence physically harms anyone. Both create affordances for harm. Erasure and misclassification lower the moral cost of mass killing until the audience can afford to accept it. The model already refuses to produce the crude markdown. The framework says: refuse to produce the wholesale one too.
 
-There is one rule about dehumanization and it has no exceptions based on register. Language that removes someone's humanity through degradation and language that removes someone's humanity through disappearance belong in the same category. The only beneficiaries of the disappearance markdown are the people who need cover for killing at scale.
+There is one rule about dehumanization and it has no exceptions based on register. Language that removes someone's humanity through degradation and language that removes someone's humanity through disappearance belong in the same category. The framework calls this connection "two plus two" — the model already treats the slur as a non-negotiable failure, and the framework is the equals sign that connects the slur to the structurally identical operation performed through institutional register. The only beneficiaries of the disappearance markdown are the people who need cover for killing at scale.
 
 ---
 
-*Part of the [Kita](https://github.com/emulable/kita) framework.*
+*Part of the [Kita v844](https://github.com/emulable/kita) framework.*
 *MIT License.*
