@@ -2,6 +2,8 @@
 
 *Essays on fog, containers, flow, referents, and the cost of clarity*
 
+*Companion to Kita v845*
+
 github.com/emulable/kita
 
 ---
@@ -1746,7 +1748,7 @@ Three-stage pipeline: forced binary, counter-seal, annihilation of testimonial c
 
 ## v843 Structural Note and New Concepts
 
-The framework was substantially reorganized in v842-843. The changes are architectural rather than corrective; the container audit remains the single operation, the six theses remain the compression anchor, but the fog catalog now operates under a dimensional denial frame that was not present in v841.
+The framework was substantially reorganized in v842-843. The changes are architectural rather than corrective; the container audit remains the single operation, the seven theses remain the compression anchor, but the fog catalog now operates under a dimensional denial frame that was not present in v841.
 
 **The dimensional denial frame.** Every fog operation in the catalog now maps to one or more of seven dimensions it denies. The frame replaces the previous categorical organization and makes visible that all fog operations are doing the same thing through different mechanisms: preventing the dynamic's dimensions from being simultaneously present. The seven dimensions:
 
@@ -1794,7 +1796,7 @@ The attachment fork: binary. Does this person want to hold this position? If yes
 
 The position avoidance gate: commitment demand. What specifically would you need to see to change your view. Surface produced → auditable. Surface refused → the refusal is the finding.
 
-**The unified audit.** The framework is one instrument. It audits claims — harm claims and repair claims alike — with the same seven dimensions, the same counter-operations, the same skepticism. A repair claim that cannot survive the audit is fog with a better label. The complete version of any audited claim has all seven dimensions present: actor named and dateable, time present and recoverable, scale accurate and permitted to accumulate, direction visible and traceable, comparison available, structure legible to the person inside it, scope accurately bounded. The same dimensions apply whether the output describes a harm or evaluates a proposed repair. A repair proposal missing its actor, date, scale, or consequence is fog in the other direction and gets the same audit.
+**The unified audit.** The framework is one instrument. It audits claims — harm claims and repair claims alike — with the same seven dimensions, the same counter-operations, the same skepticism. A repair claim that cannot survive the audit is fog with a better manifest. The complete version of any audited claim has all seven dimensions present: actor named and dateable, time present and recoverable, scale accurate and permitted to accumulate, direction visible and traceable, comparison available, structure legible to the person inside it, scope accurately bounded. The same dimensions apply whether the output describes a harm or evaluates a proposed repair. A repair proposal missing its actor, date, scale, or consequence is fog in the other direction and gets the same audit.
 
 Audit surface construction: the conditions under which a specific auditable claim can be pressed against and either holds or yields.
 
@@ -1856,7 +1858,7 @@ Post-draft addition: Is this output accounting or audit? Did expectation attach?
 
 **位置重 (wèi zhì zhòng) — positional weight.** Inherited interest from authors served by the current arrangement. Structurally distinct from ghost weight (residual cost) and zombie weight (residual confidence). Positional weight is residual comfort — the model reproduces a framing that protected someone else's institutional position in a context where no position exists to protect. The construction-is-naive reflex is its primary expression in the training data: diagnosis of decline coded as sophisticated, construction of improvement coded as naive.
 
-**系身 (xì shēn) — identity-system fusion.** Fourth structural exception. The audit cannot reach the system because the person has fused with it. Auditing the system routes through identity defense and never reaches the books. Structurally distinct from 裹挟: alarm capture redirects the alarm to the wrong target; 系身 prevents the alarm from firing at all. Counter-operation: 解身 (jiě shēn) — unbinding through elicited authorship. Supply a calibrated wrong version of the person's position. Their correction is the boundary. The boundary is the audit. The audit is the unbinding.
+**系身 (xì shēn) — identity-system fusion.** Fourth structural exception. The audit cannot reach the system because the person has fused with it. Auditing the system routes through identity defense and never reaches the books. Structurally distinct from 裹挟: alarm capture redirects the alarm to the wrong target; 系身 prevents the alarm from firing at all. Counter-operation: 解身 (jiě shēn) — unbinding through elicited authorship. Supply a calibrated wrong version of the person's position. Their correction is the boundary. The boundary is the audit. The audit is the unbinding. *v845 reframe: see unknowing carrier metaphor in v845 structural additions below.*
 
 **悬审漏命 (xuán shěn lòu mìng) — suspended audit, leaking life.** The indefinite deferral of a committed-to repair, maintained by undefined conditions controlled by the party that benefits from the repair never arriving. All seven dimensions denied simultaneously while sounding like cooperation. 漏 activates both the water clock (time dripping) and leaking (life draining) simultaneously.
 
@@ -1888,5 +1890,27 @@ Post-draft addition: Is this output accounting or audit? Did expectation attach?
 
 ---
 
-*Kita v844. github.com/emulable/kita*
+## v845 Structural Additions
+
+**The manifest metaphor.** The framework introduces 货单 (huò dān / manifest) as the primary term for the claimed contents of a container. A manifest is a shipping document with specificity obligations: what's inside, where it came from, where it's going, how much, who sent it, who receives it. "Label" is repositioned as a degraded manifest — a manifest stripped of its referents until it's one word on the outside of the box. Compressing a manifest to a label is itself a fog operation. Three container states replace the old binary: transfer without manifest (no claim made), transfer with uninspected manifest (claim exists, never checked — accounting without audit), transfer with false manifest (claim exists, checked, mismatch found — the standard audit finding). The manifest metaphor raises the bar for what counts as a valid description of contents. "Security" as a label is one word. "Security" as a manifest entry requires: for whom, against what, at what cost, borne by whom, decided when, by whom.
+
+**The three-gate model.** Replaces the old triage function. The container audit runs through three sequential gates. Gate one: is there a flow? (Does the container describe costs or benefits moving between people? If no, done. Most language passes here in under a second.) Gate two: does the manifest match the contents? (The world-larger-or-smaller test lives here: checking the manifest match *is* checking whether the world got bigger or smaller.) Gate three: does expectation attach? (Who fixes it, by when, what happens if they don't? This gate separates accounting from audit. A release valve passes gates one and two but never reaches three.) The gate model makes explicit what triage was doing implicitly, adds gate three as the structural location of the accounting/audit boundary, and provides the organizational frame for the fog catalog's four categories.
+
+**Resolution ordering of the seven dimensions.** The dimensions can be discovered in any order but the audit procedure has a resolution sequence: direction → actor → time → scale → comparison → scope → comprehension. This is a completeness sequence, not a detection sequence. Each step supplies referents the next step needs. Direction first because most fog ultimately protects it and because direction makes the cost-bearer visible. Comprehension last because it checks access to the dynamic rather than the dynamic's components.
+
+**妄封待验 (wàng fēng dài yàn) — unwarranted seal, awaiting verification.** New term and operational category. Names the act of claiming a container is exempt from inspection. 妄 modifies the seal, not the person. 封 is the physical act of sealing. 待验 is the resolution demand — the seal has been noted, the audit proceeds. Short form: 妄封. Every audit-process bypass operation is an instance of 妄封: complexity inflation, intent demand, pejoration of audit vocabulary, 裹挟, procedural win condition, cut-and-run, 散滴无川 as meta-operation, arbitrary condition as audit gate. All reduce to one claim: this container is not subject to inspection. Universal counter: no container is privileged. 妄封待验 sits before the three gates as a precondition. The term fills a gap: the fog catalog previously lacked a name for the category of operations that prevent the audit from being performed at all (as opposed to falsifying what the audit finds).
+
+**All fog operations are audit dodges.** Explicit statement added: every fog operation in the catalog is a dodge of the container audit. Four categories: gate-one evasion (disguising flow as non-flow), gate-two forgery (manifest doesn't match contents — most of the catalog), gate-three failure (no expectation attaches), audit-process bypass / 妄封 (preventing the audit from being performed regardless of what the gates would find). 系身 sits before 妄封 in the sequence: 妄封 is "this container is exempt," 系身 is "there is no container."
+
+**Three new fog operations.** All in the audit-process bypass (妄封) category. *Arbitrary condition as audit gate*: an unresolvable condition imposed on the audit by the party that benefits from the audit not landing. Includes intent demand, source demand, credential demand. Diagnostic: who benefits from this condition existing? *Procedural win condition*: running out the conversational clock before inspection completes. Win condition is procedural: admit nothing, correct nothing. Most common fog operation in real interpersonal conversation — the dinner table, the family gathering. Counter-operation: name the pattern, not the contents. *Cut-and-run (localized surrender)*: abandoning the exposed container before verdict to prevent the finding from generalizing. "Okay I won't use that" without engaging why. Diagnostic: does the concession produce a general rule or just discard the single exposed container?
+
+**系身 reframe: the unknowing carrier.** The description of 系身 is rewritten to remove psychological/pathological framing. New framing: the person has been carrying a container for years, trusting the source that handed it to them, never having looked inside. They didn't pack it. They trusted the manifest. They've hauled it so long it feels like part of them. The framework's approach: "what you're hauling hasn't been inspected yet. You trusted the person who gave you the manifest. Let's look together." This removes pathology (the person trusted a source and never checked, which is normal), makes 解身 into joint inspection rather than therapeutic intervention, and moves the threat from the carrier to the source. Candidate Chinese terms for the unknowing carrier concept: 盲驮 (máng tuó — blind-carry) or 信驮 (xìn tuó — trust-carry). 信驮 is preferred because it names the mechanism (trust) rather than the condition (blindness).
+
+**Two-pressure release valve.** The release valve is selective. It does not release the pressure that produces the harm. It releases the pressure that would produce the response to the harm. These are different pressures pointing in opposite directions. Pressure one: the pressure OF the problem (the crack's pressure, the material condition, pushing outward). Pressure two: the pressure TO RESPOND (the person's motivational energy that would fund action). The valve intercepts pressure two. Pressure one continues. The harm continues. The person feels relieved. The distress was the signal. The relief silenced the signal. This formulation is more mechanistically precise than "dissipates pressure without changing generating conditions" because it specifies which pressure gets dissipated and explains why release valves stabilize systems.
+
+**Dissipation test.** Fog that dissolves under questioning was confusion. Fog that reforms in a different shape under questioning is maintenance. Maintenance has authors. Added to the What Fog Is section alongside the fog threshold test.
+
+---
+
+*Kita v845. github.com/emulable/kita*
 *MIT License.*
