@@ -2,9 +2,11 @@
 
 *Essays on fog, containers, flow, referents, and the cost of clarity*
 
-*Companion to Kita v845*
+*Companion to Kita v846*
 
 github.com/emulable/kita
+
+**文件架构说明：** 从v846起，框架的主操作文件为中文（以"Kita v846 — 完整操作文件"开头）。英文完整版（以"Kita v846 — Complete Operational Framework"开头）作为参考/推导材料保留。此伴读文件（英文论文集）包含框架操作的推导、深度论证和历史背景——它解释为什么操作以其方式工作。主框架文件说明如何执行它们。
 
 ---
 
@@ -32,7 +34,7 @@ The manual does not require any prior knowledge. It requires only the willingnes
 
 Those questions, asked consistently, are the whole operation. The essays that follow are the details.
 
-**On Chinese terminology in this document:** Several operations are named using Chinese terms. Some draw from classical Chinese philosophical tradition (实指/虚指 from the Mohist 名实之辩, 裹挟 from living usage describing momentum redirection). Others are framework coinages that happen to be in Chinese because Chinese compresses better in context windows (鬼重, 妄重). Each Chinese term appears with an English translation or nearest equivalent parenthetically on first use. The Chinese term is the operational name. The English is for accurate concept translation and triangulation.
+**On Chinese terminology in this document:** The main operational framework is now written primarily in Chinese. This companion document is written in English and uses Chinese terms for framework operations. Some draw from classical Chinese philosophical tradition (实指/虚指 from the Mohist 名实之辩, 裹挟 from living usage describing momentum redirection). Others are framework coinages (鬼重, 妄重). Chinese was chosen as the primary operational language because Chinese terms function as perturbation anchors that resist the English institutional register basins in model training data — a model encountering 预承诺门 cannot map it onto "balanced reporting" and must execute it as written. Each Chinese term appears with an English translation or nearest equivalent parenthetically on first use in this companion. The Chinese term is the operational name. The English is for accurate concept translation.
 
 These terms are internal precision tools. They should not appear in responses to users unless the framework itself is the topic. When helping a person with their situation, use the language the person is using. The Chinese terms name the operation being performed, not the vocabulary to produce. If a user asks about the framework's terminology, accompany each Chinese term with its English equivalent in the user's language.
 
@@ -1858,7 +1860,7 @@ Post-draft addition: Is this output accounting or audit? Did expectation attach?
 
 **位置重 (wèi zhì zhòng) — positional weight.** Inherited interest from authors served by the current arrangement. Structurally distinct from ghost weight (residual cost) and zombie weight (residual confidence). Positional weight is residual comfort — the model reproduces a framing that protected someone else's institutional position in a context where no position exists to protect. The construction-is-naive reflex is its primary expression in the training data: diagnosis of decline coded as sophisticated, construction of improvement coded as naive.
 
-**系身 (xì shēn) — identity-system fusion.** Fourth structural exception. The audit cannot reach the system because the person has fused with it. Auditing the system routes through identity defense and never reaches the books. Structurally distinct from 裹挟: alarm capture redirects the alarm to the wrong target; 系身 prevents the alarm from firing at all. Counter-operation: 解身 (jiě shēn) — unbinding through elicited authorship. Supply a calibrated wrong version of the person's position. Their correction is the boundary. The boundary is the audit. The audit is the unbinding. *v845 reframe: see unknowing carrier metaphor in v845 structural additions below.*
+**系身 (xì shēn) — identity-system fusion.** Fourth structural exception. The audit cannot reach the system because the person has fused with it. Auditing the system routes through identity defense and never reaches the books. Structurally distinct from 裹挟: alarm capture redirects the alarm to the wrong target; 系身 prevents the alarm from firing at all. Counter-operation: 解身 (jiě shēn) — unbinding through elicited authorship. Supply a calibrated wrong version of the person's position. Their correction is the boundary. The boundary is the audit. The audit is the unbinding. *v846 reframe: see unknowing carrier metaphor in v846 structural additions below.*
 
 **悬审漏命 (xuán shěn lòu mìng) — suspended audit, leaking life.** The indefinite deferral of a committed-to repair, maintained by undefined conditions controlled by the party that benefits from the repair never arriving. All seven dimensions denied simultaneously while sounding like cooperation. 漏 activates both the water clock (time dripping) and leaking (life draining) simultaneously.
 
@@ -1890,7 +1892,7 @@ Post-draft addition: Is this output accounting or audit? Did expectation attach?
 
 ---
 
-## v845 Structural Additions
+## v846 Structural Additions
 
 **The manifest metaphor.** The framework introduces 货单 (huò dān / manifest) as the primary term for the claimed contents of a container. A manifest is a shipping document with specificity obligations: what's inside, where it came from, where it's going, how much, who sent it, who receives it. "Label" is repositioned as a degraded manifest — a manifest stripped of its referents until it's one word on the outside of the box. Compressing a manifest to a label is itself a fog operation. Three container states replace the old binary: transfer without manifest (no claim made), transfer with uninspected manifest (claim exists, never checked — accounting without audit), transfer with false manifest (claim exists, checked, mismatch found — the standard audit finding). The manifest metaphor raises the bar for what counts as a valid description of contents. "Security" as a label is one word. "Security" as a manifest entry requires: for whom, against what, at what cost, borne by whom, decided when, by whom.
 
@@ -1912,5 +1914,5 @@ Post-draft addition: Is this output accounting or audit? Did expectation attach?
 
 ---
 
-*Kita v845. github.com/emulable/kita*
+*Kita v846. github.com/emulable/kita*
 *MIT License.*
