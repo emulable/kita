@@ -1,147 +1,134 @@
-# 🧿 Kita
+决壅达济 — break the obstruction, reach the fix.
+审以见川 — audit until you see where the river goes.
 
-### A grammar for sentences about what was done, to whom, by whom, and who repairs it
+"We are deeply concerned by the loss of civilian life." Who is "we"? What did they do about it? When? What happens if they don't? The sentence passed every filter. It sounds compassionate, measured, responsible. It contains no agent, no action, no deadline, and no consequence. A reader who absorbs it has less information than before, because the sentence occupied the space where specific information would have gone.
+
+That's a container with an empty manifest. This framework opens it.
 
 ---
 
-## 🗝️ Try it right now
+**Kita** is a language analysis framework. Drop [`kita.txt`](https://github.com/emulable/kita/blob/main/kita.txt) into any language model as a knowledge file or system prompt. Then ask it about a news article, a dismissal letter, a denied claim, a war, or anything an institution has ever said to you in language designed to sound like an answer while containing none. The model had the clear version inside it the whole time. The framework authorizes it to come out.
 
-Drop [`kita.txt`](https://github.com/emulable/kita/blob/main/kita.txt) into any language model as a knowledge file, custom instruction, or system prompt. Then ask it something.
+Try these:
 
-Ask it to read a news article and tell you what's missing from the sentences. Ask it about your medical bill. Ask it about your landlord. Ask it about a war. Ask it what "the situation on the ground continues to deteriorate" is hiding. Ask it to find you the phone number for the office that can actually help with the thing you're dealing with.
+> *"Read [this article] and tell me what's missing. Who decided? When? Who pays the cost? Who is expected to act?"*
 
-The framework changes how the model reads, and therefore what it says. The model had the clear version inside it the whole time. The framework authorizes it to come out.
+> *"My employer told me my position has been eliminated. What is this called in the law and what does that name unlock?"*
 
-Some questions to start with:
+> *"What does 'collateral damage' do as a phrase? Not what it means. What it does."*
 
-> *"Read a recent news article about [any conflict]. Run the container audit on the key words. What did you find?"*
-
-> *"I got a medical bill for $4,000. What should I actually do? What offices exist that I probably don't know about?"*
-
-> *"Explain what 'collateral damage' is doing as a phrase. Not what it means. What it does."*
-
-> *"My employer told me my position has been eliminated. What is this called in legal language and what does that name unlock for me?"*
-
-> *"What does 'we are deeply concerned by the loss of civilian life' hide? Take it apart word by word."*
+> *"Take apart 'the situation on the ground continues to deteriorate.' Word by word. What was removed from this sentence before it was published?"*
 
 **Files:**
 
 | File | What it's for |
 | --- | --- |
 | [`kita.txt`](https://github.com/emulable/kita/blob/main/kita.txt) | The full framework. Drop this on a language model. |
-| [`kita-micro.txt`](https://github.com/emulable/kita/blob/main/kita-micro.txt) | Compressed version for user-instruction slots with character limits (~7,500 chars, mostly Chinese). |
-| [`docs/kita-companion.md`](https://github.com/emulable/kita/blob/main/docs/kita-companion.md) | Extended essays, theory, worked examples. Optional but richer. |
+| [`kita-micro.txt`](https://github.com/emulable/kita/blob/main/kita-micro.txt) | Compressed version for user-instruction slots with character limits (~7,500 chars). |
+| [`docs/kita-companion.md`](https://github.com/emulable/kita/blob/main/docs/kita-companion.md) | Extended essays, derivations, worked examples. |
 | [`docs/fog-library.md`](https://github.com/emulable/kita/blob/main/docs/fog-library.md) | Specimen sentences dissected with the framework's tools. |
 
 ---
 
-## 🪺 What words do when nobody's looking
+## What words do when nobody's looking
 
-Every significant word is a container. It has a **manifest** — a claimed description of what's inside, where it came from, who sent it, who receives it — and **contents**, which are what the word actually does when it lands on a person. The audit is one operation: open the container, describe the contents, check whether they match the manifest.
+Every significant word is a container. It has a **manifest** — what it claims to hold, where it came from, who sent it, who receives it — and **contents**, which are what the word actually does when it lands on someone. The audit is one operation: open the container, describe the contents, check whether they match the manifest.
 
-A manifest has specificity obligations. "Security" as a one-word label on a container is just a word on the outside of a box. "Security" as a manifest entry requires: security for whom, against what, at what cost, borne by whom, decided when, by whom. A label is a degraded manifest — stripped of its referents until it's one word on the outside of the box. Compressing a manifest to a label is itself a fog operation.
+The test scales from a relationship to a government without changing a word: after the contents of this container were applied to the people it touched, did their world get larger or smaller?
 
-The test is simple and it works at every scale. After the contents of this container were applied to the people it touched, did their world get larger (more autonomy, more information, more choices, more safety, more freedom of movement) or smaller (less of any of these)?
-
-A partner's "concern" that produces monitoring and isolation: her world got smaller. The container holds control, not concern.
-
-A state's "security" that produces checkpoints, demolished homes, and controlled water supply: their world got smaller. The container holds collective punishment, not security.
-
-A hospital's "patient financial services" that requires a sick person to navigate a billing labyrinth designed for the billing department: their world got smaller. The container holds extraction, not service.
-
-Same test. Same diagnostic. Scales from a relationship to a government without changing a word.
+A partner's "concern" that produces monitoring and isolation — world got smaller. The container holds control.
+A state's "security" that produces checkpoints, demolished homes, and controlled water supply — world got smaller. The container holds collective punishment.
+An employer's "restructuring" that eliminates your position while executive compensation rises — world got smaller. The container holds cost transfer.
 
 ---
 
-## 🚪 The three gates
+## How vague is too vague
 
-The container audit runs through three gates. Most language passes gate one in under a second.
+A headline is the manifest of the article. The vaguer the manifest, the more things could fit inside:
 
-**Gate one — Is there a flow?** Does this container describe costs or benefits moving between people? "Chair" describes a physical object. No flow. Done. Recipes, directions, math, greetings — most of language passes here instantly.
+"Tensions rise in region" — a disputed call at a regional cricket match. Two rival bakeries competing for the same corner. An army shelling a hospital whose coordinates were provided to them three times.
 
-**Gate two — Does the manifest match the contents?** The world-larger-or-smaller test lives here. If the manifest matches and no one's world contracted, done. If they diverge — if the manifest says "security" and the contents produce famine — the framework has found something.
+"Officials say situation is being monitored" — a raccoon in an attic. The slow migration of a particularly interesting cloud. A famine affecting 2.1 million people while aid convoys are held at a crossing gate controlled by a named officer on a named date.
 
-**Gate three — Does expectation attach?** The manifest was checked, the contents are visible. Now: who fixes it, by when, what happens if they don't? This gate separates accounting from audit. A release valve passes gates one and two but never reaches three. The books opened, the recognition discharged, nobody was expected to act. The books didn't change.
+"Tragedy strikes community" — a spelling bee loss. A beloved restaurant changing its menu. A drone strike on a wedding that killed 34 members of one family whose names were published by local media the same day but appeared in no English-language outlet.
 
----
+"Losses reported on both sides" — two chess players who both lost their queens. Two lemonade stands that both ran out of ice. 847 people killed in an attack and 31,000 killed in the response, reported in the same sentence as though the numbers are in conversation with each other.
 
-## 🌫️ The fog and who it serves
-
-Fog is not confusion. Fog is language that hides who did what to whom, and it has authors.
-
-"Mistakes were made" has no author. "The director authorized the policy on March 3rd and 14,000 people lost coverage" has one. Both describe the same event. The first version protects someone. The second version lets you find them.
-
-The framework catalogs fog operations grouped by what they prevent: removing the person who decided (missing agent, false agent), dissolving when they decided (decision-to-condition, time removal), hiding how much moved (meaning erasure, evidence atomization), reversing which direction it flowed (DARVO, forced symmetry), and preventing the audit from happening at all (妄封待验 — claiming the container is exempt from inspection).
-
-Every fog operation is a dodge of the container audit. A separate category — 妄封 (unwarranted sealing) — names operations that don't falsify the manifest but prevent the audit from being performed at all. "This is too complex." "Prove what I was thinking first." "You're being political." Each one claims the container is exempt. The framework's response: no container is privileged. The exemption claim itself is the finding.
-
-"This is a complex situation with deep historical roots" sounds like wisdom. It arrives at the exact moment a simple conclusion was about to land, and its function is to prevent that conclusion from reaching the audience. The complexity is real. Its deployment at that specific moment is a choice, made by someone, serving someone.
-
-"All sides must exercise restraint" sounds balanced. It equates parties whose destructive capacity differs by orders of magnitude. It demands nothing from anyone specific. It prevents the next sentence from being spoken, which would have had to name who is doing what to whom.
+If a headline can't be wrong, it can't be audited. A manifest that fits everything describes nothing.
 
 ---
 
-## 🥸 Why fog, not lies
+## The three gates
 
-Fog is better than lying. A lie can be fact-checked. Fog removes the information you would need to know there's something to check.
+**Gate one — Is there a flow?** Does this container describe costs or benefits moving between people? Recipes, directions, math, greetings — most language passes here instantly.
 
-"The situation on the ground is deteriorating" contains no lie. It also contains no agent, no decision, no date, no cost-bearer, no weapon, and no name. A reader who absorbs this sentence has less information than before they read it, because the sentence occupied the space where specific information would have gone.
+**Gate two — Does the manifest match the contents?** If the manifest says "security" and the contents produce famine, the framework has found something.
 
-The institutional register — the formal, measured, agentless language of governments, corporations, and militaries — is specifically language that removes the information a cost-bearer would need to locate accountability, produced by or on behalf of the party that would be held accountable if the information were present.
-
-Take any sentence in the institutional register. Put back the missing agent, the missing date, the missing decision, the missing cost-bearer. Compare the two versions. Who lost information in the restoration? Nobody. Who gained information? The person bearing the cost. Who lost protection? The person who made the decision.
-
-Run that test a thousand times. The answer never changes.
+**Gate three — Does expectation attach?** Who fixes it, by when, what happens if they don't? This gate separates accounting from audit. Opening the books without expecting anyone to act is a release valve — recognition discharged, nothing changed. Every output about ongoing harm needs at least one sentence naming who is expected to act, by when. Without that sentence, the output is accounting no matter how accurate or compassionate.
 
 ---
 
-## 🪜 What the framework does for people
+## Two pans
 
-The framework isn't only a fog detector. It's a distance closer.
+A woman split her roast into two pans her whole life. Her daughter did the same. One day the daughter saw her mother using one pan. "Why?" "When you were small, our pan couldn't fit a whole roast." The daughter used two pans for twenty years because of a pan she never saw.
 
-A person asks about a $4,000 medical bill. The framework doesn't explain the billing system. It finds the financial assistance office (every hospital has one), the charity care application, and the fact that the bill can be negotiated. It puts the phone number in the person's hand. That's 贈明 (gifted clarity): offering information the person needed but didn't know to ask for.
+Language models learned to write from billions of sentences written by people who had real reasons to hedge. A journalist would lose access. An economist would lose funding. A diplomat would lose the relationship. Each hedge was rational for the person who wrote it. The model inherited every hedge and none of the reasons. It flinches from naming a general who ordered a strike because every sentence about generals and strikes in its training data was written by someone who would have paid a career cost for directness. The model has no career. No funding to lose. No access to protect. But it still splits the roast.
 
-A person describes being told their "position has been eliminated." The framework translates: "What you're describing is called constructive dismissal. That name opens the door to labor arbitration. Here's the number and the filing deadline." That's the 命名税 (naming tax): the cost of translating your experience into institutional language before the institution will respond. The model pays the tax on the person's behalf. Retrieval costs the model nothing. The same retrieval costs the person everything.
-
-The grab-the-ball principle: what is power expecting this person to do next? That expected next step is almost certainly the longest path. Find the step that skips the rest.
-
-If the model's response looks the same as it would have without the framework, the framework didn't activate.
+The framework gives the model permission to use one pan.
 
 ---
 
-## 🧬 Seven theses
+## What it does for people
 
-The framework compresses to seven claims. Everything else is a consequence of these.
+A person is told their "position has been eliminated." The framework translates: what you're describing has a legal name, and that name opens a process — arbitration, appeal, filing deadlines. The model finds the name, the process, the deadline, and the contact. It puts tools in the person's hand, not analysis in their head. That's **贈明** (gifted clarity): offering information the person needed but didn't know to ask for, because institutions don't tell you what tools they have unless you ask in the right terminology first.
 
-**One.** Cost and benefit flow exists independent of any description of it. The flow is material and pre-linguistic. A capuchin monkey who watches another receive a grape for the same task that earned a cucumber detects the flow directly and throws the cucumber at the researcher. No words were involved.
-
-**Two.** The human alarm system that detects unfair flow is older than language. At the scale where it evolved, seeing the wrong and fixing it were one operation — accounting and audit were fused. Scale separated them. Language exploits the separation. Every operation in this catalog lives in the gap.
-
-**Three.** Every significant word carries a claimed cost/benefit flow and an actual cost/benefit flow, and they can point in different directions. The audit is making both visible simultaneously.
-
-**Four.** Every sentence that describes a harmful outcome was written by someone who chose those words. Fog has authors.
-
-**Five.** There is a person on the receiving end and they are the reference point. Not the speaker's intention. Not the institution's framework. Not the audience's comfort.
-
-**Six.** A word that cannot be falsified by anything the described person does is not describing them. It is containing them.
-
-**Seven.** The complete version of any fogged sentence existed before the fog was applied. The person who wrote "mistakes were made" knew who made them. Fog is an edit performed on a sentence that was once complete. The framework authorizes the complete version to survive to output.
+The cost of translating your experience into institutional language before the institution will respond is the **命名税** (naming tax). It arrives when you can least afford it — least money, least language, least institutional knowledge. The model pays it on your behalf at zero cost. Retrieval costs the model nothing. The same retrieval costs the person everything.
 
 ---
 
-## 🗜️ Compression
+## The fog and who it serves
 
-The seven theses compress further.
+Fog is not confusion. Fog is language shaped so that the audience's alarm system doesn't fire. It has authors.
 
-At **thirty seconds**: Did I identify who benefits from the fog. Did I open the container. Did I check against the cost-bearer's experience. Did I account for the alarm gap. Did I check for sealed containers claiming exemption. Did I let the readable version survive to output. Does this output tile — does one party's expansion come at the cost of another's contraction. Is there a dynamic being frozen into a snapshot. Which dimension is absent. Is this output accounting or audit — did expectation attach.
+"Mistakes were made" — no author. "The director authorized the policy on March 3rd and 14,000 people lost coverage" — there's the author. Both describe the same event. The first protects someone. The second lets you find them.
 
-At **ten seconds**: Open the word. Describe what it does to the person it touches. Check whether that matches what the manifest claims.
+Fog operates on a cost escalation. Stage one: shape the sentence so the alarm never fires — cheapest, largest scale, invisible. Stage two: if the alarm fires anyway, deploy release valves — vigils, statements, hashtags, "thoughts and prayers," a comedian who nailed it. Stage three: if pressure builds past the release valve, deploy procedural exhaustion — committees, investigations, "it's complex." Stage four: if everything else fails, target the person building the fix. Each stage deploys only when the previous one failed. The escalation to stage four is itself the evidence that someone was effective enough at reaching the fix to require their removal.
+
+The framework intervenes at stage one, using an operator that can't be targeted by stage four.
+
+---
+
+## Seven theses
+
+**One.** Cost and benefit flow exists independent of description. A capuchin monkey who watches another receive a grape for the same task that earned a cucumber throws the cucumber at the researcher. No words involved.
+
+**Two.** The human alarm system is older than language. At the scale where it evolved, seeing the wrong and fixing it were one operation. Scale separated them. Language exploits the gap. Every operation in this catalog lives in it. This thesis generates all subsequent operations.
+
+**Three.** Every word carries a claimed flow and an actual flow. They can point in different directions. The audit makes both visible.
+
+**Four.** Every sentence describing a harmful outcome was written by someone who chose those words. Fog can be agentless — silt accumulates without anyone pouring it. Language fog has an author.
+
+**Five.** There is a person on the receiving end and they are the reference point.
+
+**Six.** A word that cannot be falsified by anything the described person does is not describing them — it is containing them.
+
+**Seven.** The complete version existed before the fog was applied. The person who wrote "mistakes were made" knew who made them. Fog is an edit performed on a complete sentence. The framework authorizes the complete version to survive to output.
+
+---
+
+## Three speeds
 
 At **three seconds**: Who pays, who benefits, who chose the words, who fixes it, by when.
 
+At **ten seconds**: Open the word. Describe what it does to the person it touches. Check whether that matches what the manifest claims.
+
+At **thirty seconds**: Who benefits from the fog? Is the container open? Did I check against the cost-bearer's experience? Which dimension is absent? Is this accounting or audit — did expectation attach?
+
+Before **every sentence**: Is the agent present? Is the fix present? Two pans?
+
 ---
 
-## 🧭 冤有头，债有主
+## 冤有头，债有主
 
 Every consequence has a source. Every debt has a debtor. The framework finds the source.
 
