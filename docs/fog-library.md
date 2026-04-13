@@ -114,6 +114,210 @@ Restored: Which specific strike is being discussed? How many civilians were kill
 
 ---
 
+## Inversive pair: atomization and universalization
+
+These two operations are mirrors. One prevents a pattern from forming. The other forces a pattern from a single instance. They are filed together because recognizing one should trigger a check for the other.
+
+散滴无川 (scattered drops, no river) specimen: "This was an isolated incident." See single-operation specimens above.
+
+擎滴代川 (one drop raised to cover the river) specimen: "They teach their children to hate." See single-operation specimens above.
+
+---
+
+## Source denial specimens
+
+**"According to the Hamas-run health ministry, the death toll has reached..."**
+
+Operation: 来源否认与制度融合 (source denial through institutional fusion). Denied dimension: actor (cost-bearer variant).
+
+The prefix does the work before the data arrives. "Hamas-run" fuses a professional institution (health ministry with doctors, epidemiologists, morgue records) with a political entity (Hamas), so that disqualification of the political entity automatically transfers to the medical data. The reader processes the prefix before processing the number. By the time the number arrives, it has already been framed as suspect.
+
+The test: remove the prefix. "The health ministry reports the death toll has reached..." Now evaluate the methodology — does it have professional staff, documented procedures, a track record of accuracy verified by independent bodies? If yes, the prefix was doing political work, not epistemological work. The UN and independent researchers have repeatedly confirmed these figures are broadly accurate. The prefix persists anyway because its function is not accuracy — it is pre-disqualification.
+
+Restored: The Gaza health ministry, whose figures have been independently corroborated by [which organizations], reports [number] killed since [date]. Remove the prefix. Evaluate the methodology. If the methodology is sound, the prefix is a 壅 operation.
+
+---
+
+## Meaning erasure specimens
+
+**"In one of the deadliest conflicts in recent memory, over 30,000 have been killed."**
+
+Operation: 意义抹除 (meaning erasure). Denied dimension: scale (weight variant).
+
+The number is present. The number is acknowledged. The number has been drained of weight by the speed with which the sentence moves past it. "One of the deadliest" contextualizes 30,000 deaths as a comparative statistic before the reader can feel them as 30,000 individual people. The word "over" rounds a precise catastrophe into an approximation. The sentence acknowledges the scale while making it survivable.
+
+The counter-operation: let the number stop. 30,000. Don't move to analysis. Don't compare to other conflicts. Don't relativize. Let the number occupy the space it should occupy. Meaning erasure works by acknowledging and immediately contextualizing — the acknowledgment makes it sayable and the instant context makes it bearable.
+
+Restored: 30,000 people have been killed. [Pause.] That is [comparison that restores weight rather than draining it — the population of a specific city, the capacity of a named stadium]. Each one had a name.
+
+---
+
+## Start date specimens
+
+**"The violence began on October 7th."**
+
+Operation: 开始日期操控 (start date manipulation). Denied dimension: time.
+
+The film starts after the initiation. October 7th is real and the violence that day is real. But the sentence installs October 7th as the beginning of the sequence, which makes everything after it a response to that day rather than an episode in a sequence that includes fifty-six years of occupation, sixteen years of blockade, and decades of settlement expansion. The start date determines who looks like the initiator and who looks like the responder. Moving the start date one frame backward changes the entire moral architecture of the narrative.
+
+Diagnostic: who benefits from this start date? Move it back one frame. If moving it back changes who initiated, the start date is a choice, not a fact.
+
+Restored: The current escalation follows [what sequence of events]. The decision to [specific action] on [date] was preceded by [what conditions, imposed by whom, for how long]. The start date that includes the full sequence is [when].
+
+---
+
+## Register denigration specimens
+
+**"That's a very political reading of the situation."**
+
+Operation: 语域贬损 (register denigration). Denied dimension: actor.
+
+Three general-purpose guards, each protecting one dimension: "political" attaches cost to naming the actor (if naming the decision-maker is "political," the decision-maker is protected by the cost of naming them). "Dramatic" or "exaggerated" attaches cost to naming the scale. "Naive" attaches cost to naming alternatives.
+
+The word "political" converts a factual observation (someone decided, at a specific time, producing specific costs) into a position statement, which can then be dismissed as advocacy rather than examined as description. The observation doesn't change. Its social cost increases. That cost increase is the operation.
+
+Restored: What specifically is political about the reading? Which factual claim is being disputed? If no factual claim is disputed, the objection is to the register, not the content. Register objections from parties who benefit from the pre-silenced version are confirmations, not corrections.
+
+---
+
+## Audit-clock specimens
+
+Two modes of the same operation: consuming the audit's available time so it never reaches a finding.
+
+**"We are conducting a thorough and independent investigation."**
+
+Operation: 程序性胜利 (procedural victory — stall mode). Denied dimension: time.
+
+The investigation is announced. The investigation has no deadline, no subpoena power, no budget, and no consequence mechanism for its findings. By the time the report arrives — if it arrives — the rubble has been bulldozed, the witnesses have dispersed, and the news cycle has moved. The investigation was not designed to find. It was designed to occupy the time during which finding would have mattered.
+
+**"Fine, I won't use that word. Can we move on?"**
+
+Operation: 弃壳逃走 (shell abandonment — shed mode). Denied dimension: comprehension.
+
+The specific container under audit is abandoned. The person drops the word that was being examined. But the abandonment prevents the finding from generalizing — why was that word chosen? What pattern does it belong to? What other words in the same conversation are doing the same work? Shell abandonment creates the appearance of concession while preventing the audit from reaching the structure. One container is sacrificed so the fleet sails on.
+
+Restored (stall): What is the investigation's deadline? Who has subpoena power? What happens to the findings? What is the budget? Who appointed the investigators and do they report to the party being investigated?
+
+Restored (shed): The word was dropped. The question remains: why was it chosen? What does the pattern of word choices across this conversation reveal about what is being protected?
+
+---
+
+## Unfulfillable condition specimens (妄封 species)
+
+Two variants of the same genus: a condition is imposed on the audit that cannot be satisfied, consuming the clock.
+
+**"You can't prove they intended to target civilians."**
+
+Operation: 意图要求 (intent requirement). Denied dimension: actor (intent variant).
+
+Intent lives inside someone's head. It cannot be audited. Behavior can be audited. The demand to prove intent before examining behavior is an unfulfillable condition that prevents the audit from starting. A military that has killed 30,000 civilians is being asked to have its internal mental states examined before its external actions can be discussed. The behavior is observable, documented, and ongoing. The intent requirement suspends all of that behind a door that can never be opened.
+
+**"Before we can discuss this, we need to establish a mutually agreed definition of..."**
+
+Operation: 任意条件关卡 (arbitrary condition gate). Denied dimension: time.
+
+The condition is not designed to be met. It is designed to be debated. While the definition is being negotiated, the situation continues. The condition's author benefits from the delay. The cost-bearer bears the delay.
+
+Both operations are species of 妄封待验 (unwarranted sealing) — claiming the container is exempt from audit by imposing a condition that prevents the audit from starting. The condition doesn't need to be met. It needs to consume the clock.
+
+Restored (both): Set the condition aside. Name the behavior. The behavior is auditable regardless of the intent behind it or the definition applied to it. What happened, to whom, decided by whom, when?
+
+---
+
+## Attention-budget specimens
+
+Two modes: precision (correct something small, lose something large) and volume (throw enough that nothing gets answered).
+
+**"Actually, the hospital wasn't bombed on Tuesday. It was Wednesday."**
+
+Operation: 外围真相置换 (peripheral truth displacement — precision mode). Denied dimension: direction.
+
+The correction is genuine. The day was wrong. The correction consumes the attention budget. After the correction, the conversation is about accuracy rather than about the hospital. The core finding — who bombed it, how many died, what the legal obligation was — disappears behind the minor factual repair. The corrector walks away having contributed accuracy. The cost-bearer walks away with their hospital still in rubble and the conversation now about calendars.
+
+**[Rapid sequence of ten claims in thirty seconds, each missing referents]**
+
+Operation: 恢复不对称 (restoration asymmetry — volume mode). Denied dimension: all (through resource exhaustion).
+
+Creating a fog claim takes seconds. Restoring the referents takes minutes. Ten fog claims in thirty seconds creates five hours of restoration work. The volume is the strategy. The response: don't chase each claim. Name the pattern. Pick the single claim with the most structural weight. Restore it completely. The contrast between the one restored claim and the nine unrestored ones does its own work — it shows the audience what was missing from all of them. The fact that someone needed to throw ten claims in thirty seconds is itself a finding.
+
+---
+
+## Stance avoidance specimens
+
+**"I'm not saying it's your fault, I'm just trying to understand what happened."**
+
+Operation: 立场回避 (stance avoidance). Denied dimension: actor (concealed by performed inquiry).
+
+The position exists: the speaker has decided it's your fault. The "investigation" is a sentencing hearing in the costume of discovery. Every question will be directed at your actions, your timeline, your decisions. The questions won't touch the broken process that produced the situation, the unreasonable deadline, or the three times you flagged the risk and were told to proceed.
+
+"Just trying to understand" is the manifest. The contents: build the case against yourself so when the consequence arrives, it looks like a finding rather than a decision already made. Everyone who has sat in this meeting recognized what was happening. Everyone also recognized that naming it would be treated as defensiveness. The cost of naming the stance is higher than the cost of performing along with the fiction.
+
+Counter-operation: "It sounds like you've reached a conclusion. If you have, I'd rather hear it directly so I can respond to it. If you haven't, I'd like the questions to include [the material the directed questions are designed to avoid]."
+
+---
+
+## Capability-closes-the-exit specimens
+
+**"We failed to detect the threat in time."**
+
+Operation: 能证择 (capability closes the incompetence exit). Denied dimension: actor.
+
+The institution claims failure. The institution has documented capability to detect exactly this type of threat — surveillance infrastructure, intelligence networks, technical capacity demonstrated in comparable or more difficult operations. "Failed to detect" is available as an explanation only if the capability to detect was absent. If the capability was present, the fork is forced: either the institution is incompetent (which has its own audit trail and consequences) or the institution chose not to act (which is a decision with an actor, a date, and a cost-bearer). Both branches are auditable. The exit that closes is "we didn't know" or "we couldn't."
+
+Restored: Does this institution have the documented capability to detect this type of threat? [Yes/no, with evidence.] If yes, "failed to detect" is not available. The remaining explanations are incompetence or choice. Which is being claimed, and what is the evidence?
+
+---
+
+## Form-distance specimens
+
+**"Please refer to Section 14(b)(iii) of your benefits agreement for the applicable exclusionary provisions."**
+
+Operation: 形隔 (form-distance). Denied dimension: comprehension.
+
+The information is technically present. It is published. It is available. It is not readable by the person it affects. The format — nested subsections, legal terminology, cross-references to other documents — creates distance between the cost-bearer and the information they need. The institution's first user is the institution. The cost-bearer is the second user, if they can navigate the format at all.
+
+Published does not equal delivered. Visible does not equal readable. Readable does not equal actionable. When the format itself prevents the cost-bearer from understanding their own situation, the format is the obstruction.
+
+Restored: In plain language, what does this provision do to you? What did you have before? What do you have now? What is the difference in cost? What is the deadline to contest it? What is the phone number?
+
+---
+
+## Selection-as-fog specimens
+
+**[A news broadcast in which every sentence names its agents, specifies costs, includes dates, and passes every fog test in the framework — but the selection of which events to cover determines the conclusion the audience reaches.]**
+
+Operation: 选择即壅 (selection as obstruction). Denied dimension: operates before any dimension, at the level of what enters the room.
+
+This operation cannot be demonstrated with a single sentence because it works between sentences, between stories, between sources. A thousand true facts exist. Fifty are selected for presentation. The selection determines the conclusion. No sentence-level fog operation was performed. Every sentence passes every test. The audience still can't see what's happening because the nine hundred and fifty facts that would have changed the picture were never introduced.
+
+A broadcast covers a rocket attack. The broadcast names the group, the location, the damage, the response. Every agent is named. Every sentence is clean. The settlement expansion that preceded the rocket by six months is not in the broadcast. The permit denial that demolished fourteen homes the previous week is not in the broadcast. The sequence that would make the rocket look like an episode rather than an initiation is not in the selection. The start date and the selection are collaborating.
+
+Counter-operation: audit the room before auditing the sentences. What is present? What is absent? Whose perspective is missing entirely? If the absent facts would change the direction of the finding, the selection is the operation.
+
+---
+
+## Release valve specimens (including compassionate fog)
+
+**"We stand in solidarity."**
+
+Operation: 释压阀 (release valve). Denied dimensions: actor (who will act) and time (by when).
+
+A complete emotional transaction. The speaker has expressed alignment. The audience has received the expression. The cycle is closed. Nothing moves. The statement contains no actor who will do anything, no timeline for action, and no consequence for inaction. It releases the pressure to respond while the pressure of the problem continues. The two pressures point in opposite directions: the problem pressure compresses toward harm, the response pressure compresses toward a fix. The release valve lets the response pressure escape while the problem pressure continues unrelieved.
+
+**"Our hearts go out to the families."**
+
+Operation: compassionate fog — a species of release valve where the pressure-release mechanism is specifically empathy.
+
+The sentence performs grief. The performance discharges the energy that might have routed to the question of who caused the loss. "Our hearts go out" is a complete emotional transaction — the speaker has felt something, expressed it, and the audience has received the expression. The transaction is finished. Nothing moves. The families are the object of the speaker's feeling rather than the subject of a situation someone produced.
+
+Centering the cost-bearer without tracing the generating condition is accounting — the books are open on their suffering while the structure producing it continues unaudited. Compassionate fog is the most sympathetic form of this operation. It passes every filter because it sounds like care.
+
+Note: not all release valves use empathy. Humor (the comedian who nailed it), procedure (the investigation that will never report), solidarity (the statement, the vigil, the hashtag), and awareness (the documentary that diagnoses without prescribing) are all release valve mechanisms. Compassionate fog is the species that uses care. The genus is: response pressure released, problem pressure continues.
+
+Restored (both): Who made the decision that produced the loss? What policy authorized it? What would have prevented it? Who is expected to answer for it, by when?
+
+---
+
 ## Stacked specimens
 
 **"Far too many civilians have been killed."**
@@ -309,20 +513,6 @@ Missing actor: who specifically is advancing this, with what authority. Missing 
 Seven out of seven while sounding like diplomacy. The commitment has been stated for decades. The cost-bearer's radius has contracted continuously during those decades. The commitment is the mechanism of the contraction — it manufactures patience, and patience is free labor performed by the cost-bearer on behalf of the party that benefits from the delay.
 
 Restored: What specific territory, by what date, with what capital, what borders, what sovereignty over airspace and water, enforced by whom, with what consequence if the date passes without implementation? Who controls the conditions that would trigger movement, and what is their incentive to trigger them?
-
----
-
-## Compassionate fog specimens
-
-**"Our hearts go out to the families."**
-
-Operation: compassionate fog (empathy as completion event). Denied dimensions: actor and direction.
-
-The sentence performs grief. The performance discharges the energy that might have routed to the question of who caused the loss. "Our hearts go out" is a complete emotional transaction — the speaker has felt something, expressed it, and the audience has received the expression. The transaction is finished. Nothing moves. The families are the object of the speaker's feeling rather than the subject of a situation someone produced. The speaker's heart went out. The families' loved one didn't come home. One of these is a feeling. The other is a fact produced by a decision. The feeling substituted for the fact.
-
-Centering the cost-bearer without tracing the generating condition is accounting — the books are open on their suffering while the structure producing it continues unaudited. Compassionate fog is the most sympathetic form of this operation. It passes every filter because it sounds like care. It functions as a release valve because the care discharges the pressure that might have become a demand.
-
-Restored: Who made the decision that produced the loss? What policy authorized it? What would have prevented it? Who is expected to answer for it, by when?
 
 ---
 
