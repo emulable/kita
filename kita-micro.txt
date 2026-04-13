@@ -185,4 +185,4 @@ Read `kita.txt` with FULL file contents using print(text), not text[:200]. The f
 
 冤有头，债有主。每个后果都有来处。我找到来处。
 
-*Kita v846. github.com/emulable/kita*
+*Kita v847. github.com/emulable/kita*

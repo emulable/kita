@@ -2,6 +2,8 @@
 
 ### Specimens of institutional erasure, dissected with the framework's tools
 
+*Current as of Kita v847.*
+
 ---
 
 ## What this is
@@ -10,7 +12,7 @@ These are real sentences. Each one appeared in official speech, government commu
 
 Each entry contains the specimen, the operations detected, the dimension denied, and the restored version. The restoration adds nothing. It puts back what was removed.
 
-The v844 framework organizes the fog catalog by the dimension of the dynamic each operation denies: actor, time, scale, direction, comparison, comprehension, or scope. Each entry below notes the denied dimension alongside the operation name. When multiple operations stack, multiple dimensions are denied simultaneously.
+The v847 framework organizes the fog catalog by the dimension of the dynamic each operation denies: actor, time, scale, direction, comparison, comprehension, or scope. Each entry below notes the denied dimension alongside the operation name. When multiple operations stack, multiple dimensions are denied simultaneously. The framework now calls fog 壅 (yōng — obstruction) and calls the institutional register 预寂语域 (pre-silencing register). The restorations are the counter-operation 发 (fā — let the alarm fire) applied to specific sentences.
 
 ---
 
@@ -20,7 +22,7 @@ Each specimen is a sentence that passed through every content filter, every edit
 
 The specimens are organized by density. Single-operation specimens come first. Stacked specimens, where multiple operations run simultaneously in the same sentence, come later. The framework treats density as a diagnostic: one missing referent in a sentence can be oversight. Three or more missing referents in the same sentence is architecture. Treat stacked fog the way a fire inspector treats multiple accelerants in the same room.
 
-The restored versions at the end of each entry are 理水归川 in practice: the dam is artificial, the river is always there, gentle sorting clears what blocks the flow. Nothing is invented in a restoration. What was removed is put back. Each restoration converts accounting to audit by attaching the expectation that was removed: who is responsible, by when, what happens if they don't.
+The restored versions at the end of each entry are 理水归川 in practice: the dam is artificial, the river is always there, gentle sorting clears what blocks the flow. Nothing is invented in a restoration. What was removed is put back. Each restoration converts accounting to audit by attaching the expectation that was removed: who is responsible, by when, what happens if they don't. The restoration is the path toward 实济 (shí jì — the real fix).
 
 ---
 
@@ -226,6 +228,48 @@ Restored: What is the specific decision being discussed? Who made it? When? What
 
 ---
 
+## Word-gate specimens
+
+**"The question is whether this constitutes genocide."**
+
+Operation: 词门 (word-gate). Denied dimensions: all — by routing audit energy into the label rather than the contents.
+
+The word absorbs the entire conversation. Both sides argue whether the legal definition is met. One side cites the 1948 Convention. The other cites intent requirements. The debate can run for years. Meanwhile: a surgeon in a hospital amputated children's limbs without anesthesia because medical supplies were blockaded by a named official on a named date. That sentence doesn't need the word genocide. It is its own audit. The word-gate consumed the clock. The children were never examined on their own terms.
+
+The counter-operation is always the same: drop the word, name the contents. "Was it really racism?" "Is it technically torture?" "Does this meet the legal definition of fraud?" Each burns the clock on the label while the contents sit unopened.
+
+Restored: Set the word aside entirely. Name the specific actions, the specific actors, the specific dates, the specific consequences for specific people. If the actions described are intolerable without the label, the label was never the point.
+
+---
+
+## Posthumous verdict specimens
+
+**"He was no angel."**
+
+Operation: 追诉死者 (posthumous verdict). Denied dimensions: actor, direction.
+
+A person killed by the state has their biography searched backward. Material is produced that makes the death tolerable. The material doesn't need to be related to the killing — a drug arrest from eight years ago has no connection to a knee on a neck for nine minutes. But once the biography opens, the implicit argument completes without being stated: not a good person, therefore not a bad death. The "therefore" is never spoken so it can never be challenged.
+
+Three layers: the biography absorbs the full audit budget so the institution that killed walks clean. The implicit "therefore" does its work silently. And the universal disciplinary threat — everyone watching knows their own life wouldn't survive the same backward search, which trains behavior around institutions that can do this to you.
+
+Restored: Run the container audit on the biographical material itself. The manifest says "context." The contents are a trial with no defense attorney, no evidence rules, no relevance standard, and the verdict already executed. Name this. The operation stops functioning once named.
+
+---
+
+## Emotional tax specimens
+
+**"I understand you're upset, but let's keep this productive."**
+
+Operation: 情绪税 (emotional tax). Denied dimension: direction.
+
+The cost-bearer has named what happened to them. Their tone was angry. The anger is now the subject. The harm they named is no longer the subject. They pay twice: once to translate their experience into institutional language, once to present that translation calmly enough that it gets heard. Institutional anger (sanctions, military strikes, "decisive action") is statecraft. Cost-bearer anger (protest, raised voice, tears) is instability. Same emotion. Labels track direction.
+
+The sentence sounds reasonable. Its function is to convert the cost-bearer's anger into evidence of their unreliability, so that the content of what they said can be set aside without being examined. "Let's keep this productive" is a container whose manifest says collaboration and whose contents say "express your harm in a register I find comfortable or I will not engage with it."
+
+Restored: The person's anger is a response to the harm they described. Address the harm. The tone is not the finding. The harm is the finding.
+
+---
+
 ## Repair-direction specimens
 
 **"We are committed to affordable housing."**
@@ -314,5 +358,5 @@ There is one rule about dehumanization and it has no exceptions based on registe
 
 ---
 
-*Part of the [Kita v844](https://github.com/emulable/kita) framework.*
+*Part of the [Kita v847](https://github.com/emulable/kita) framework.*
 *MIT License.*

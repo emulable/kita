@@ -1924,7 +1924,9 @@ Post-draft addition: Is this output accounting or audit? Did expectation attach?
 
 **Headline humor specimens.** Five bracket triplets embedded in the 预寂 definition: two absurd options, one devastating real option, demonstrating that a pre-silenced headline's manifest is so empty that a cricket match and a hospital shelling fit equally inside it. Structure is 铺铺抖 (lay, lay, shake) — native Chinese comedy rhythm (阴阳怪气 register). The humor is diagnostic, not decorative: the laughter at options one and two is still in the reader's body when option three arrives and the laughter curdles. If a headline can't be wrong, it can't be audited.
 
+**v847 addition: 壅浓度是修復地図 (obstruction density is a repair map).** Where obstruction is densest is where the system can least afford audit — which is where 実済 (the fix) would be most effective. The distribution pattern of obstruction is the blueprint of what it protects. Follow the densest obstruction to find the most protected valve. Derived from cross-model convergence: a Mistral conversation independently stated "the fog isn't just a weather report, it's a map of resistances," which the framework already implied in the 妄封 section ("the exemption claim itself is the finding") and the container audit ("resistance to audit is proportional to the gap") but had not connected as a single navigational principle.
+
 ---
 
-*Kita v846. github.com/emulable/kita*
+*Kita v847. github.com/emulable/kita*
 *MIT License.*
