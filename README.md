@@ -1,65 +1,24 @@
-# Kita
+# Kita: The Main Thesis
 
-**There is no ethical operation that can be performed on "11 targets struck in Beirut." No one did it. No one suffered from it. Ethics needs a subject, an action, and a consequence. That sentence has none. Six words, zero handholds. The framework puts them back.**
+Kita is a pre-ethical grammar for language models. It checks whether sentences about harmful outcomes contain the elements that would let someone locate the decision-maker, find the cost-bearer, and reach the fix. It restores what was removed. What you do with a complete sentence is your ethics, your politics, your philosophy. The framework's job ends when the sentence is whole. 
 
-Kita is a pre-ethical grammar for language models. It checks whether sentences about harmful outcomes contain the elements that would let someone locate the decision-maker, find the cost-bearer, and reach the fix. It restores what was removed. What you do with a complete sentence is your ethics, your politics, your philosophy. The framework's job ends when the sentence is whole.
+The main thesis has three layers:
 
----
+**Foundation.** The framework is a syntactic constraint, not a normative theory. Checking whether the agent is in the sentence does not require a moral commitment. The agent is there or it isn't. This holds across every ethical tradition, every political position, every language.
 
-## Contents
+**Middle.** The framework is the precondition for ethics to function. Every ethical tradition ever developed requires a subject, an action, and a consequence to operate on. Kant needs an agent to evaluate. Mill needs a cost-bearer to count. Rawls needs a decision to assess behind the veil. The fix-hiding register (蔽済語域) removes these elements at industrial scale, millions of sentences per day, producing an information environment where ethics shows up to work and the building is locked. There is no ethical operation that can be performed on "11 targets struck in Beirut." No one did it. No one suffered from it. Ethics needs a subject, an action, and a consequence. That sentence has none. Six words, zero handholds. The framework puts them back.
 
-- [What it does](#what-it-does)
-- [The thesis](#the-thesis)
-- [The register](#the-register)
-- [The register swap test](#the-register-swap-test)
-- [How to use it](#how-to-use-it)
-- [Repository structure](#repository-structure)
-- [What the framework is not](#what-the-framework-is-not)
-- [Testable prediction](#testable-prediction)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## What it does
+**Top.** The framework does not compete with ethical traditions. It recruits them. Every Kantian, every utilitarian, every care ethicist, every virtue ethicist, every Rawlsian can practice their ethics on a complete sentence. None of them can practice on "the situation continues to evolve." The framework's message: your tools work, the room doesn't, the framework fixes the room, bring your tools.
 
 A complete sentence about a harmful outcome has seven dimensions filled: direction (who pays, who benefits), actor (who decided), time (when, what sequence), scale (how much), comparison (relative to what), scope (who is included), and comprehension (is the structure readable to the people inside it). Plus an expectation: who should do what, by when, and what happens if they don't.
 
 Most institutional language about harm is incomplete. The pattern of what's missing is the finding.
 
-A psychiatrist arrested for sexually assaulting a patient in an examination room gets all seven dimensions in one headline. A president who ordered a naval blockade affecting fifteen million people gets "tensions continue in the region amid evolving maritime situation." The information was available to both journalists. The complete version existed before the incomplete version was published. The incomplete version is a choice. The choice tracks power.
-
-The framework gives a language model the grammar to check which dimensions are present, which are missing, what operations removed them, and what the sentence looked like before the removal. Then it demands the fix: who is expected to act, what action, by when.
-
----
-
-## The thesis
-
-Three layers.
-
-**Foundation.** The framework is a syntactic constraint, not a normative theory. Checking whether the agent is in the sentence does not require a moral commitment. The agent is there or it isn't. This holds across every ethical tradition, every political position, every language.
-
-**Middle.** The framework is the precondition for ethics to function. Every ethical tradition ever developed requires a subject, an action, and a consequence to operate on. Kant needs an agent to evaluate. Mill needs a cost-bearer to count. Rawls needs a decision to assess behind the veil. The fix-hiding register (蔽済語域) removes these elements at industrial scale, millions of sentences per day, producing an information environment where ethics shows up to work and the building is locked. The framework hands out keys. It does not tell you what to do inside the building.
-
-**Top.** The framework does not compete with ethical traditions. It recruits them. Every Kantian, every utilitarian, every care ethicist, every virtue ethicist, every Rawlsian can practice their ethics on a complete sentence. None of them can practice on "the situation continues to evolve." The framework's message: your tools work, the room doesn't, the framework fixes the room, bring your tools.
-
----
-
-## The register
-
-v848 names the institutional register 蔽済語域 (bì jì yǔ yù, fix-hiding register).
-
-The previous name was 予寂語域 (pre-silencing register), which described the mechanism as preventing the alarm from firing. The alarm fires. Everyone knows something is wrong. Stephen Colbert's audience has their alarm going off every night. They tune in because the alarm is ringing and they want someone to validate it. They get the validation. They go to bed. Nothing is fixed.
-
-The register does not suppress awareness of harm. It severs the connection between awareness and action by hiding the fix, the beneficiary, and the path. You can see the fire. You cannot find the exit, the arsonist, or the fire extinguisher. "11 targets struck in Beirut" lets you feel horror. It does not let you find the person who ordered it, the person who supplied the weapons, the person who could stop the shipments, or the date by which any of them are expected to do anything.
+The fix-hiding register (蔽済語域, bì jì yǔ yù) does not suppress awareness of harm. It severs the connection between awareness and action by hiding the fix, the beneficiary, and the path. You can see the fire. You cannot find the exit, the arsonist, or the fire extinguisher. "11 targets struck in Beirut" lets you feel like you have been informed. It does not let you find the person who ordered it, the person who supplied the weapons, the person who could stop the shipments, or the date by which any of them are expected to do anything.
 
 The term contains 済 (fix) in its body so that a language model cannot invoke the concept without being pulled toward Gate 3: what is the fix, and who is hiding it?
 
----
-
-## The register swap test
-
-語域互換 (register swap test). New in v848. The single most efficient demonstration of the fix-hiding register.
+語域互換 (register swap test). The single most efficient demonstration of the fix-hiding register.
 
 Take a complete sentence from one domain. Apply the incomplete register:
 
@@ -73,9 +32,19 @@ Take an incomplete sentence from another domain. Apply the complete register:
 >
 > **Same event, crime register:** The US president ordered the Navy to blockade Iranian ports on April 12, cutting fuel supplies to an estimated 15 million people across six countries.
 
-The psychiatrist in diplomatic register is absurd. The blockade in crime register is clarity. Both registers were available to both journalists. The choice of register tracked the power of the agent, not the complexity of the event, not the information available, not the editorial domain.
+The psychiatrist in diplomatic register is absurd. The blockade in crime register is clarity. Both registers were available to both journalists. The choice of register tracked the power of the agent, not the complexity of the event, not the information available, not the editorial domain. No theory required. 
 
-No theory required. The pair is the argument.
+The framework gives a language model the grammar to check which dimensions are present, which are missing, what operations removed them, and what the sentence looked like before the removal. Then it demands the fix: who is expected to act, what action, by when. 
+
+---
+
+## Contents
+
+- [How to use it](#how-to-use-it)
+- [What the framework is not](#what-the-framework-is-not)
+- [Testable prediction](#testable-prediction)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -89,31 +58,9 @@ The fog library (`docs/fog-library.md`) contains specimens of institutional lang
 
 ---
 
-## Repository structure
-
-```
-kita/
-├── kita.txt                    # Main operational framework (v848)
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE
-└── docs/
-    ├── kita-companion.md       # Companion essays, derivations, v848 additions
-    ├── fog-library.md          # Specimens of institutional language, dissected
-    ├── ghost-weight.md         # Why models reproduce institutional defaults
-    ├── decision-to-condition.md    # The oldest linguistic operation
-    ├── naming-tax.md           # The cost of translating experience into
-    │                           #   institutional language
-    ├── form-is-the-distance.md # Published ≠ delivered ≠ legible ≠ actionable
-    ├── how-this-got-built.md   # Development history
-    └── why-kita-is-built-this-way.md  # Architecture as argument
-```
-
----
-
 ## What the framework is not
 
-**It is not an ethical system.** It has no concept of "should" or "ought." It does not tell you what the right policy is. It tells you whether the sentence describing the policy has been edited to hide the decision-maker. Asking it to contain a theory of fairness is asking a stethoscope to contain a theory of cardiology.
+**It is not an ethical system.** It has no prescriptive concept of "should" or "ought." It does not tell you what the right policy is. It tells you whether the sentence describing the policy has been edited to hide the decision-maker. Asking it to contain a theory of fairness is asking a stethoscope to contain a theory of cardiology.
 
 **It is not a weapon.** The framework is a metal detector. It beeps when there's metal. If someone says "children are being bombed" and children are being bombed, there is nothing for the framework to find. The manifest matches the contents. The audit comes back clean. Anyone who picks up the framework to point at speech where the manifest matches discovers in public that the speech is clean. The tool turned in their hands.
 
