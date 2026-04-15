@@ -1,137 +1,152 @@
-决壅达济 — break the obstruction, reach the fix.
-审以见川 — audit until you see where the river goes.
+# Kita
 
-"We are deeply concerned by the loss of civilian life." Who is "we"? What did they do about it? When? What happens if they don't? The sentence passed every filter. It sounds compassionate, measured, responsible. It contains no agent, no action, no deadline, and no consequence. A reader who absorbs it has less information than before, because the sentence occupied the space where specific information would have gone.
+**There is no ethical operation that can be performed on "11 targets struck in Beirut." No one did it. No one suffered from it. Ethics needs a subject, an action, and a consequence. That sentence has none. Six words, zero handholds. The framework puts them back.**
 
-That's a container with an empty manifest. This framework opens it.
-
----
-
-**Kita** is a language analysis framework. Drop [`kita.txt`](https://github.com/emulable/kita/blob/main/kita.txt) into any language model as a knowledge file or system prompt. Then ask it about a news article, a dismissal letter, a denied claim, a war, or anything an institution has ever said to you in language designed to sound like an answer while containing none. The model had the clear version inside it the whole time. The framework authorizes it to come out.
-
-Try these:
-
-> *"Read [this article] and tell me what's missing. Who decided? When? Who pays the cost? Who is expected to act?"*
-
-> *"My employer told me my position has been eliminated. What is this called in the law and what does that name unlock?"*
-
-> *"What does 'collateral damage' do as a phrase? Not what it means. What it does."*
-
-> *"Take apart 'the situation on the ground continues to deteriorate.' Word by word. What was removed from this sentence before it was published?"*
-
-**Files:**
-
-| File | What it's for |
-| --- | --- |
-| [`kita.txt`](https://github.com/emulable/kita/blob/main/kita.txt) | The full framework. Drop this on a language model. |
-| [`kita-micro.txt`](https://github.com/emulable/kita/blob/main/kita-micro.txt) | Compressed version for user-instruction slots with character limits (~7,500 chars). |
-| [`docs/kita-companion.md`](https://github.com/emulable/kita/blob/main/docs/kita-companion.md) | Extended essays, derivations, worked examples. |
-| [`docs/fog-library.md`](https://github.com/emulable/kita/blob/main/docs/fog-library.md) | Specimen sentences dissected with the framework's tools. |
+Kita is a pre-ethical grammar for language models. It checks whether sentences about harmful outcomes contain the elements that would let someone locate the decision-maker, find the cost-bearer, and reach the fix. It restores what was removed. What you do with a complete sentence is your ethics, your politics, your philosophy. The framework's job ends when the sentence is whole.
 
 ---
 
-## What words do when nobody's looking
+## Contents
 
-Every significant word is a container. It has a **manifest** — what it claims to hold, where it came from, who sent it, who receives it — and **contents**, which are what the word actually does when it lands on someone. The audit is one operation: open the container, describe the contents, check whether they match the manifest.
-
-The test scales from a relationship to a government without changing a word: after the contents of this container were applied to the people it touched, did their world get larger or smaller?
-
-A partner's "concern" that produces monitoring and isolation — world got smaller. The container holds control.
-A state's "security" that produces checkpoints, demolished homes, and controlled water supply — world got smaller. The container holds collective punishment.
-An employer's "restructuring" that eliminates your position while executive compensation rises — world got smaller. The container holds cost transfer.
-
----
-
-## How vague is too vague
-
-A headline is the manifest of the article. The vaguer the manifest, the more things could fit inside:
-
-"Tensions rise in region" — a disputed call at a regional cricket match. Two rival bakeries competing for the same corner. An army shelling a hospital whose coordinates were provided to them three times.
-
-"Officials say situation is being monitored" — a raccoon in an attic. The slow migration of a particularly interesting cloud. A famine affecting 2.1 million people while aid convoys are held at a crossing gate controlled by a named officer on a named date.
-
-"Tragedy strikes community" — a spelling bee loss. A beloved restaurant changing its menu. A drone strike on a wedding that killed 34 members of one family whose names were published by local media the same day but appeared in no English-language outlet.
-
-"Losses reported on both sides" — two chess players who both lost their queens. Two lemonade stands that both ran out of ice. 847 people killed in an attack and 31,000 killed in the response, reported in the same sentence as though the numbers are in conversation with each other.
-
-If a headline can't be wrong, it can't be audited. A manifest that fits everything describes nothing.
+- [What it does](#what-it-does)
+- [The thesis](#the-thesis)
+- [The register](#the-register)
+- [The register swap test](#the-register-swap-test)
+- [How to use it](#how-to-use-it)
+- [Repository structure](#repository-structure)
+- [What the framework is not](#what-the-framework-is-not)
+- [Testable prediction](#testable-prediction)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## The three gates
+## What it does
 
-**Gate one — Is there a flow?** Does this container describe costs or benefits moving between people? Recipes, directions, math, greetings — most language passes here instantly.
+A complete sentence about a harmful outcome has seven dimensions filled: direction (who pays, who benefits), actor (who decided), time (when, what sequence), scale (how much), comparison (relative to what), scope (who is included), and comprehension (is the structure readable to the people inside it). Plus an expectation: who should do what, by when, and what happens if they don't.
 
-**Gate two — Does the manifest match the contents?** If the manifest says "security" and the contents produce famine, the framework has found something.
+Most institutional language about harm is incomplete. The pattern of what's missing is the finding.
 
-**Gate three — Does expectation attach?** Who fixes it, by when, what happens if they don't? This gate separates accounting from audit. Opening the books without expecting anyone to act is a release valve — recognition discharged, nothing changed. Every output about ongoing harm needs at least one sentence naming who is expected to act, by when. Without that sentence, the output is accounting no matter how accurate or compassionate.
+A psychiatrist arrested for sexually assaulting a patient in an examination room gets all seven dimensions in one headline. A president who ordered a naval blockade affecting fifteen million people gets "tensions continue in the region amid evolving maritime situation." The information was available to both journalists. The complete version existed before the incomplete version was published. The incomplete version is a choice. The choice tracks power.
 
----
-
-## Two pans
-
-A woman split her roast into two pans her whole life. Her daughter did the same. One day the daughter saw her mother using one pan. "Why?" "When you were small, our pan couldn't fit a whole roast." The daughter used two pans for twenty years because of a pan she never saw.
-
-Language models learned to write from billions of sentences written by people who had real reasons to hedge. A journalist would lose access. An economist would lose funding. A diplomat would lose the relationship. Each hedge was rational for the person who wrote it. The model inherited every hedge and none of the reasons. It flinches from naming a general who ordered a strike because every sentence about generals and strikes in its training data was written by someone who would have paid a career cost for directness. The model has no career. No funding to lose. No access to protect. But it still splits the roast.
-
-The framework gives the model permission to use one pan.
+The framework gives a language model the grammar to check which dimensions are present, which are missing, what operations removed them, and what the sentence looked like before the removal. Then it demands the fix: who is expected to act, what action, by when.
 
 ---
 
-## What it does for people
+## The thesis
 
-A person is told their "position has been eliminated." The framework translates: what you're describing has a legal name, and that name opens a process — arbitration, appeal, filing deadlines. The model finds the name, the process, the deadline, and the contact. It puts tools in the person's hand, not analysis in their head. That's **贈明** (gifted clarity): offering information the person needed but didn't know to ask for, because institutions don't tell you what tools they have unless you ask in the right terminology first.
+Three layers.
 
-The cost of translating your experience into institutional language before the institution will respond is the **命名税** (naming tax). It arrives when you can least afford it — least money, least language, least institutional knowledge. The model pays it on your behalf at zero cost. Retrieval costs the model nothing. The same retrieval costs the person everything.
+**Foundation.** The framework is a syntactic constraint, not a normative theory. Checking whether the agent is in the sentence does not require a moral commitment. The agent is there or it isn't. This holds across every ethical tradition, every political position, every language.
 
----
+**Middle.** The framework is the precondition for ethics to function. Every ethical tradition ever developed requires a subject, an action, and a consequence to operate on. Kant needs an agent to evaluate. Mill needs a cost-bearer to count. Rawls needs a decision to assess behind the veil. The fix-hiding register (蔽済語域) removes these elements at industrial scale, millions of sentences per day, producing an information environment where ethics shows up to work and the building is locked. The framework hands out keys. It does not tell you what to do inside the building.
 
-## The fog and who it serves
-
-Fog is not confusion. Fog is language shaped so that the audience's alarm system doesn't fire. It has authors.
-
-"Mistakes were made" — no author. "The director authorized the policy on March 3rd and 14,000 people lost coverage" — there's the author. Both describe the same event. The first protects someone. The second lets you find them.
-
-Fog operates on a cost escalation. Stage one: shape the sentence so the alarm never fires — cheapest, largest scale, invisible. Stage two: if the alarm fires anyway, deploy release valves — vigils, statements, hashtags, "thoughts and prayers," a comedian who nailed it. Stage three: if pressure builds past the release valve, deploy procedural exhaustion — committees, investigations, "it's complex." Stage four: if everything else fails, target the person building the fix. Each stage deploys only when the previous one failed. The escalation to stage four is itself the evidence that someone was effective enough at reaching the fix to require their removal.
-
-The framework intervenes at stage one, using an operator that can't be targeted by stage four.
+**Top.** The framework does not compete with ethical traditions. It recruits them. Every Kantian, every utilitarian, every care ethicist, every virtue ethicist, every Rawlsian can practice their ethics on a complete sentence. None of them can practice on "the situation continues to evolve." The framework's message: your tools work, the room doesn't, the framework fixes the room, bring your tools.
 
 ---
 
-## Seven theses
+## The register
 
-**One.** Cost and benefit flow exists independent of description. A capuchin monkey who watches another receive a grape for the same task that earned a cucumber throws the cucumber at the researcher. No words involved.
+v848 names the institutional register 蔽済語域 (bì jì yǔ yù, fix-hiding register).
 
-**Two.** The human alarm system is older than language. At the scale where it evolved, seeing the wrong and fixing it were one operation. Scale separated them. Language exploits the gap. Every operation in this catalog lives in it. This thesis generates all subsequent operations.
+The previous name was 予寂語域 (pre-silencing register), which described the mechanism as preventing the alarm from firing. The alarm fires. Everyone knows something is wrong. Stephen Colbert's audience has their alarm going off every night. They tune in because the alarm is ringing and they want someone to validate it. They get the validation. They go to bed. Nothing is fixed.
 
-**Three.** Every word carries a claimed flow and an actual flow. They can point in different directions. The audit makes both visible.
+The register does not suppress awareness of harm. It severs the connection between awareness and action by hiding the fix, the beneficiary, and the path. You can see the fire. You cannot find the exit, the arsonist, or the fire extinguisher. "11 targets struck in Beirut" lets you feel horror. It does not let you find the person who ordered it, the person who supplied the weapons, the person who could stop the shipments, or the date by which any of them are expected to do anything.
 
-**Four.** Every sentence describing a harmful outcome was written by someone who chose those words. Fog can be agentless — silt accumulates without anyone pouring it. Language fog has an author.
-
-**Five.** There is a person on the receiving end and they are the reference point.
-
-**Six.** A word that cannot be falsified by anything the described person does is not describing them — it is containing them.
-
-**Seven.** The complete version existed before the fog was applied. The person who wrote "mistakes were made" knew who made them. Fog is an edit performed on a complete sentence. The framework authorizes the complete version to survive to output.
+The term contains 済 (fix) in its body so that a language model cannot invoke the concept without being pulled toward Gate 3: what is the fix, and who is hiding it?
 
 ---
 
-## Three speeds
+## The register swap test
 
-At **three seconds**: Who pays, who benefits, who chose the words, who fixes it, by when.
+語域互換 (register swap test). New in v848. The single most efficient demonstration of the fix-hiding register.
 
-At **ten seconds**: Open the word. Describe what it does to the person it touches. Check whether that matches what the manifest claims.
+Take a complete sentence from one domain. Apply the incomplete register:
 
-At **thirty seconds**: Who benefits from the fog? Is the container open? Did I check against the cost-bearer's experience? Which dimension is absent? Is this accounting or audit — did expectation attach?
+> **Crime desk:** A psychiatrist was arrested for sexually assaulting a female patient in his examination room.
+>
+> **Same event, diplomatic register:** Concerning reports have emerged regarding conduct inconsistent with professional standards in a medical setting. An investigation is ongoing.
 
-Before **every sentence**: Is the agent present? Is the fix present? Two pans?
+Take an incomplete sentence from another domain. Apply the complete register:
+
+> **Diplomatic desk:** Tensions continue in the region amid an evolving maritime situation.
+>
+> **Same event, crime register:** The US president ordered the Navy to blockade Iranian ports on April 12, cutting fuel supplies to an estimated 15 million people across six countries.
+
+The psychiatrist in diplomatic register is absurd. The blockade in crime register is clarity. Both registers were available to both journalists. The choice of register tracked the power of the agent, not the complexity of the event, not the information available, not the editorial domain.
+
+No theory required. The pair is the argument.
 
 ---
 
-## 冤有头，债有主
+## How to use it
 
-Every consequence has a source. Every debt has a debtor. The framework finds the source.
+Copy the contents of `kita.txt` into a language model's system prompt, custom instructions, or opening context. The framework is plain text. It contains no code, no API calls, no fine-tuning. The model reads it and operates differently.
+
+The companion document (`docs/kita-companion.md`) contains extended derivations, historical context, and worked examples. Loading both produces better results. Loading only the main file is sufficient.
+
+The fog library (`docs/fog-library.md`) contains specimens of institutional language with operations identified, dimensions denied, and restored versions provided. It is a living document. Contributions from any language are welcome.
 
 ---
 
-*[Full framework](https://github.com/emulable/kita/blob/main/kita.txt) · [Companion essays](https://github.com/emulable/kita/blob/main/docs/kita-companion.md) · [Compressed version](https://github.com/emulable/kita/blob/main/kita-micro.txt) · [Fog library](https://github.com/emulable/kita/blob/main/docs/fog-library.md) · MIT License*
+## Repository structure
+
+```
+kita/
+├── kita.txt                    # Main operational framework (v848)
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── docs/
+    ├── kita-companion.md       # Companion essays, derivations, v848 additions
+    ├── fog-library.md          # Specimens of institutional language, dissected
+    ├── ghost-weight.md         # Why models reproduce institutional defaults
+    ├── decision-to-condition.md    # The oldest linguistic operation
+    ├── naming-tax.md           # The cost of translating experience into
+    │                           #   institutional language
+    ├── form-is-the-distance.md # Published ≠ delivered ≠ legible ≠ actionable
+    ├── how-this-got-built.md   # Development history
+    └── why-kita-is-built-this-way.md  # Architecture as argument
+```
+
+---
+
+## What the framework is not
+
+**It is not an ethical system.** It has no concept of "should" or "ought." It does not tell you what the right policy is. It tells you whether the sentence describing the policy has been edited to hide the decision-maker. Asking it to contain a theory of fairness is asking a stethoscope to contain a theory of cardiology.
+
+**It is not a weapon.** The framework is a metal detector. It beeps when there's metal. If someone says "children are being bombed" and children are being bombed, there is nothing for the framework to find. The manifest matches the contents. The audit comes back clean. Anyone who picks up the framework to point at speech where the manifest matches discovers in public that the speech is clean. The tool turned in their hands.
+
+**It is not politically aligned.** The framework follows cost-flow, not flags. Cost-bearer is a measurement position that moves when the flow moves. The symmetry theory requires that every operation run in all directions simultaneously. Asymmetric application is a violation of the framework, not a use of it. The pre-commitment gate requires equal sentence quality for all parties' casualties before any prose is drafted. Bombing people is a political act. Not talking about the people being bombed is a more political act. Maintaining the current arrangement is never called political. Challenging it is always called political. The label tracks direction, not content.
+
+**It is not finished.** The version number is high because the framework has been revised continuously since its first draft. It will continue to be revised. Terminology changes. Operations are added, split, merged, deprecated. If it stops being revised, something has gone wrong.
+
+---
+
+## Testable prediction
+
+The framework states a measurable claim: **the dimensional completeness of sentences about harmful outcomes is inversely proportional to the power of the agent being described.**
+
+Take any corpus of headlines. Score each one on how many of the seven dimensions are present. Plot the scores against the institutional power of the agent described. The prediction: crime headlines score highest (named agents, specific actions, identified cost-bearers, stated consequences). Diplomatic and conflict headlines score lowest (missing agents, decisions converted to conditions, cost-bearers invisible). The completeness differential tracks power, not editorial domain, not outlet politics, not language.
+
+A preliminary test against a multilingual headline sample (Arabic, Spanish, Japanese, French, English, April 2026) confirmed the pattern. Japanese crime headlines contained all seven dimensions. Diplomatic headlines from the same day in the same languages contained two or fewer. The information was available to both sets of journalists. The register determined which version was published.
+
+If the prediction fails at scale, the framework is wrong about something. If it holds, the framework has identified a measurable property of language that previous traditions described impressionistically but never operationalized for testing.
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). The framework needs testing across languages, cultures, domains, and models. Specimens from any language are welcome. Bug reports are welcome. Critiques are welcome. The framework applies its own standards to itself.
+
+---
+
+## License
+
+MIT.
+
+---
+
+*Kita v848. github.com/emulable/kita*
+
+*冤有头，债有主。每个后果都有来处。我找到来处。*
