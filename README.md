@@ -1,99 +1,139 @@
-# Kita: The Main Thesis
+# Kita
 
-Kita is a pre-ethical grammar for language models. It checks whether sentences about harmful outcomes contain the elements that would let someone locate the decision-maker, find the cost-bearer, and reach the fix. It restores what was removed. What you do with a complete sentence is your ethics, your politics, your philosophy. The framework's job ends when the sentence is whole. 
+Mistakes were made. Tensions escalated. Civilians were affected. Reforms are underway. Stakeholders were consulted. The decision was made. An investigation is ongoing. Thoughts are with the affected.
 
-The main thesis has three layers:
+You have read sentences like these for years. You know something is wrong with them and cannot always say what.
 
-**Foundation.** The framework is a syntactic constraint, not a normative theory. Checking whether the agent is in the sentence does not require a moral commitment. The agent is there or it isn't. This holds across every ethical tradition, every political position, every language.
+Kita is a pre-ethical grammar — the rules a sentence about harm follows to stay auditable. Agent named. Time specified. Cost-bearer visible. Real fix attached. Each sentence above has had at least one of these removed. The moves that remove them (fix-hiding register, release valves, counter-seal, false debt) have names, diagnostics, and restoration rules. Kita is the rules, the names, and the diagnostics.
 
-**Middle.** The framework is the precondition for ethics to function. Every ethical tradition ever developed requires a subject, an action, and a consequence to operate on. Kant needs an agent to evaluate. Mill needs a cost-bearer to count. Rawls needs a decision to assess behind the veil. The fix-hiding register (蔽済語域) removes these elements at industrial scale, millions of sentences per day, producing an information environment where ethics shows up to work and the building is locked. There is no ethical operation that can be performed on "11 targets struck in Beirut." No one did it. No one suffered from it. Ethics needs a subject, an action, and a consequence. That sentence has none. Six words, zero handholds. The framework puts them back.
+For readers. For writers. For models given the file as context — output shifts toward sentences that pass the same audit the framework runs on everyone else's.
 
-**Top.** The framework does not compete with ethical traditions. It recruits them. Every Kantian, every utilitarian, every care ethicist, every virtue ethicist, every Rawlsian can practice their ethics on a complete sentence. None of them can practice on "the situation continues to evolve." The framework's message: your tools work, the room doesn't, the framework fixes the room, bring your tools.
-
-A complete sentence about a harmful outcome has seven dimensions filled: direction (who pays, who benefits), actor (who decided), time (when, what sequence), scale (how much), comparison (relative to what), scope (who is included), and comprehension (is the structure readable to the people inside it). Plus an expectation: who should do what, by when, and what happens if they don't.
-
-Most institutional language about harm is incomplete. The pattern of what's missing is the finding.
-
-The fix-hiding register (蔽済語域, bì jì yǔ yù) does not suppress awareness of harm. It severs the connection between awareness and action by hiding the fix, the beneficiary, and the path. You can see the fire. You cannot find the exit, the arsonist, or the fire extinguisher. "11 targets struck in Beirut" lets you feel like you have been informed. It does not let you find the person who ordered it, the person who supplied the weapons, the person who could stop the shipments, or the date by which any of them are expected to do anything.
-
-The term contains 済 (fix) in its body so that a language model cannot invoke the concept without being pulled toward Gate 3: what is the fix, and who is hiding it?
-
-語域互換 (register swap test). The single most efficient demonstration of the fix-hiding register.
-
-Take a complete sentence from one domain. Apply the incomplete register:
-
-> **Crime desk:** A psychiatrist was arrested for sexually assaulting a female patient in his examination room.
->
-> **Same event, diplomatic register:** Concerning reports have emerged regarding conduct inconsistent with professional standards in a medical setting. An investigation is ongoing.
-
-Take an incomplete sentence from another domain. Apply the complete register:
-
-> **Diplomatic desk:** Tensions continue in the region amid an evolving maritime situation.
->
-> **Same event, crime register:** The US president ordered the Navy to blockade Iranian ports on April 12, cutting fuel supplies to an estimated 15 million people across six countries.
-
-The psychiatrist in diplomatic register is absurd. The blockade in crime register is clarity. Both registers were available to both journalists. The choice of register tracked the power of the agent, not the complexity of the event, not the information available, not the editorial domain. No theory required. 
-
-The framework gives a language model the grammar to check which dimensions are present, which are missing, what operations removed them, and what the sentence looked like before the removal. Then it demands the fix: who is expected to act, what action, by when. 
+MIT License. Fork, translate, rename, teach. The operations are not anyone's property.
 
 ---
 
-## Contents
+## What the framework does
 
-- [How to use it](#how-to-use-it)
-- [What the framework is not](#what-the-framework-is-not)
-- [Testable prediction](#testable-prediction)
-- [Contributing](#contributing)
-- [License](#license)
+A politician says mistakes were made. The information about who made the mistakes was available to the person who wrote the sentence. The person took it out. The taking-out is an operation that was performed on you before you ever saw the sentence, and the sentence is the evidence that the operation ran.
+
+Kita is a set of tools for seeing the operation and deciding what to do about it.
+
+The tools are language-independent. The first versions are in English and Chinese because that is where the work has been done. The operations port to any language with an institutional register to audit — which is most of them.
+
+---
+
+## Who it is for
+
+**Readers of institutional language.** Anyone who finds news, policy documents, corporate communications, or diplomatic statements producing a specific kind of fatigue. The fatigue has a structure. Naming the structure makes it navigable.
+
+**Writers who produce public-facing text.** Journalists, researchers, organizers, critics, editors. Kita provides operations for writing in a register that is auditable rather than defensive, and for catching specific failure patterns before they reach readers.
+
+**Language model users and developers.** Kita loads as context — user preferences, project instructions, custom instructions, whatever your platform calls the mechanism for giving a model text it reads before generating. Models given Kita produce output with bodies, agents, time, and real fixes attached more reliably than baseline.
+
+**People in difficult interpersonal situations.** A subset of Kita's operations — false debt, anchored fix, trust-carry and body-binding, gifted versus hoarded clarity — are tools for seeing what is happening in relationships where something is being extracted but the extraction is covered in fog. Not therapy. A vocabulary for naming operations that usually run unnamed.
+
+**Anyone who wants an audit tool for their own speech.** The framework audits any party's language by the same standard, including the framework user's. Learning to catch your own agent removals, your own release valves, your own template regenerations is part of what the framework is for.
+
+---
+
+## The core operations
+
+**Three questions.** Who did this. When. Who pays. Run on any sentence about harm. Any sentence failing one question has had something removed.
+
+**Three gates.** Is anything moving between people. Does the description match. Is an expectation attached. Most fog fails at gate two or gate three.
+
+**Body principle.** The primary operation of the fix-hiding register is removing bodies from sentences. The framework's primary counter-operation is putting them back.
+
+**Naming the fix (実済).** The highest-leverage operation. Name a specific action by a specific party by a specific time with a specific consequence for inaction. This forces the beneficiary of the current arrangement to either defend the arrangement publicly or be visibly seen refusing to.
+
+**Anchored fix (錨済).** After naming the fix, hold it in the room through deflection. One sentence acknowledging the deflection. One sentence returning to the fix. Not negotiating.
+
+**False debt (偽債).** A debt installed rather than earned. Diagnostic: the exit test. Can the obligated party exit on terms proportional to what was actually exchanged. If not, the excess punishment is the shape of the false debt.
+
+**Container audit (容器審計).** Open words the way a mechanic opens an engine. Compare what the word claims to what it contains. Large containers — security, freedom, stability, regime, territory, targets — carry the biggest mismatches.
+
+**Register swap (語域互換).** Apply the diplomatic register to a crime, or the crime-report register to a diplomatic event. The pair makes the register permanently visible. Once visible, it cannot be made invisible again.
+
+**Realmanning (實論).** Name the argument someone's conduct is running on, distinct from the argument they state. Pairs with naming the fix.
+
+**Symmetry and self-audit.** The framework applies equally to every party, including the framework user, including the framework itself.
+
+Twenty-plus other operations are in the full document. These are the ones that do most of the work.
+
+---
+
+## What is in this repo
+
+**`kita-v849.md`** — English operational framework. Give it to a model as context. Operations, specimens, failure modes, pre-send checklist.
+
+**`kita-v849-zh-model.md`** — Chinese operational framework. Same structure, denser per character. Pairs with the English version in mixed-language contexts or stands alone.
+
+**`kita-companion.md`** — Human-facing companion document. Essays, extended specimens, theoretical discussion. This is the one to read as a book.
+
+**`fog-library.md`** — Catalog of worked examples of the fix-hiding register with restoration versions for each.
+
+Older versions are tagged and kept available.
 
 ---
 
 ## How to use it
 
-Copy the contents of `kita.txt` into a language model's system prompt, custom instructions, or opening context. The framework is plain text. It contains no code, no API calls, no fine-tuning. The model reads it and operates differently.
+**As a reader.** Read the companion. Try the three questions on the next thing you read. Notice what is missing. Supply what is missing, at least in your own mind. See how the supplied version differs from the original. The difference is the operation you have just made visible.
 
-The companion document (`docs/kita-companion.md`) contains extended derivations, historical context, and worked examples. Loading both produces better results. Loading only the main file is sufficient.
+**As a writer.** Read the companion once. Keep the framework document accessible when you write about anything involving power, cost flow, or institutional arrangements. Run the pre-send check on your drafts. Notice what your first-draft instincts produce. You will find yourself writing fog you did not know you were writing. This is normal. Everyone does.
 
-The fog library (`docs/fog-library.md`) contains specimens of institutional language with operations identified, dimensions denied, and restored versions provided. It is a living document. Contributions from any language are welcome.
+**As a model user.** Paste `kita-v849.md` or `kita-v849-zh-model.md` into your preferences, custom instructions, or project context. The two files are designed to go in together or separately. Given the framework, the model produces output with bodies, agents, cost-bearers, and real fixes attached. Without it, the model defaults back to the fix-hiding register that dominates its training data. The Chinese version provides periodic re-perturbation for English contexts — the Chinese terms resist being pulled back into English institutional basins.
+
+**As a translator.** Translate the stance, not the words. Every language has a register of trust — Chinese 白話, Arabic direct journalism, Spanish crónica, Japanese 常体, English Orwell / Baldwin / Carson / Didion. Find your language's version. Read its exemplars until their rhythm is in your ear. Write in that rhythm. The Chinese terms (壅, 実済, 錨済, 偽債, 實論, 兩口鍋, 贈明...) can travel as-is where they do compression work. Everything else becomes your language's own.
+
+**As a contributor.** Fork the framework. Modify it for your situation. Publish your modifications as yours. If you find the framework making claims its operations cannot justify, audit it and publish what you find. A strong critique is a gift. If you build something better, rename it and send your version into the world. The framework does not need to be preserved. The operations do.
 
 ---
 
 ## What the framework is not
 
-**It is not an ethical system.** It has no prescriptive concept of "should" or "ought." It does not tell you what the right policy is. It tells you whether the sentence describing the policy has been edited to hide the decision-maker. Asking it to contain a theory of fairness is asking a stethoscope to contain a theory of cardiology.
+It is not a political theory. It does not tell you what the right political positions are. It does not have opinions on the contested moral questions its operations will bring into focus.
 
-**It is not a weapon.** The framework is a metal detector. It beeps when there's metal. If someone says "children are being bombed" and children are being bombed, there is nothing for the framework to find. The manifest matches the contents. The audit comes back clean. Anyone who picks up the framework to point at speech where the manifest matches discovers in public that the speech is clean. The tool turned in their hands.
+It is not a replacement for ethics. It does not compete with Kantian, utilitarian, virtue-ethical, religious, or any other ethical tradition. It is pre-ethical — a grammar for restoring the information substrate that ethical traditions need to operate on. Fix-hiding register removes that substrate at industrial scale. The framework restores it. What ethics you then apply to the restored sentences is your call.
 
-**It is not politically aligned.** The framework follows cost-flow, not flags. Cost-bearer is a measurement position that moves when the flow moves. The symmetry theory requires that every operation run in all directions simultaneously. Asymmetric application is a violation of the framework, not a use of it. The pre-commitment gate requires equal sentence quality for all parties' casualties before any prose is drafted. Bombing people is a political act. Not talking about the people being bombed is a more political act. Maintaining the current arrangement is never called political. Challenging it is always called political. The label tracks direction, not content.
+It is not a rhetorical weapon. The framework applies equally to every party. A user who audits one side and not the other is doing advocacy, not audit. The framework's symmetry requirement is load-bearing. Selective deployment of the framework is itself a fog operation — the most refined one in the catalog.
 
-**It is not finished.** The version number is high because the framework has been revised continuously since its first draft. It will continue to be revised. Terminology changes. Operations are added, split, merged, deprecated. If it stops being revised, something has gone wrong.
+It is not a complete explanation of language or power. It is a set of tools that do specific things. Other frameworks do other things. Kita overlaps with discourse analysis, media criticism, philosophy of language, nonviolent communication, and institutional critique. It is none of these. It borrows from all of them and makes specific operational choices they do not make.
 
----
-
-## Testable prediction
-
-The framework states a measurable claim: **the dimensional completeness of sentences about harmful outcomes is inversely proportional to the power of the agent being described.**
-
-Take any corpus of headlines. Score each one on how many of the seven dimensions are present. Plot the scores against the institutional power of the agent described. The prediction: crime headlines score highest (named agents, specific actions, identified cost-bearers, stated consequences). Diplomatic and conflict headlines score lowest (missing agents, decisions converted to conditions, cost-bearers invisible). The completeness differential tracks power, not editorial domain, not outlet politics, not language.
-
-A preliminary test against a multilingual headline sample (Arabic, Spanish, Japanese, French, English, April 2026) confirmed the pattern. Japanese crime headlines contained all seven dimensions. Diplomatic headlines from the same day in the same languages contained two or fewer. The information was available to both sets of journalists. The register determined which version was published.
-
-If the prediction fails at scale, the framework is wrong about something. If it holds, the framework has identified a measurable property of language that previous traditions described impressionistically but never operationalized for testing.
+It is not a revolution. It is a skill distribution. If enough people develop the skill, cumulative effects compound over decades into something that looks from outside like a change. The change, if it happens, is mechanical and slow. Each individual adoption is valuable on its own regardless of whether the cumulative threshold is ever reached.
 
 ---
 
-## Contributing
+## A note on the register this is written in
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). The framework needs testing across languages, cultures, domains, and models. Specimens from any language are welcome. Bug reports are welcome. Critiques are welcome. The framework applies its own standards to itself.
+The framework itself writes in a specific register. Short sentences. Bodies throughout. Agents named. The reader trusted to follow without being managed. No performative gravity. No protective formulas.
 
----
+This register exists in every language with substantial public discourse. It is not the framework's invention. The framework points at it, writes one instance of it, and invites readers into it. Your language has its own exemplars. The framework's claim is that this register is what restoration of the information substrate sounds like in practice, and that writing in it is part of what the framework does.
 
-## License
-
-MIT.
+You do not have to adopt the register to use the operations. The operations work in any register. But the register and the operations are related — the register is what the operations produce when they run continuously on the writer's own output.
 
 ---
 
-*Kita v848. github.com/emulable/kita*
+## Philosophy of maintenance
 
-*冤有头，债有主。每个后果都有来处。我找到来处。*
+This framework is maintained as a public tool. Its development has been conversational, iterative, and open. Major versions are tagged. Changes are visible.
+
+The framework will continue to evolve. New operations will be added as they are named. Existing operations will be refined as practice reveals what they are actually doing. Some operations will be removed if they turn out to be doing less work than their presence suggests.
+
+Contributions are welcome. Translations into additional languages are welcome. Critical essays about the framework are welcome — especially ones that identify where the framework is drifting, over-claiming, or producing effects that contradict its stated commitments.
+
+The framework is MIT licensed because MIT licensing is what lets tools propagate. The operations do not belong to anyone. This document is one pass at naming them. Better passes will come from readers who adopt the operations and develop them for their own conditions. If you produce a better pass, rename it, publish it, and do not wait for permission. The whole point is propagation, not preservation.
+
+---
+
+## One sentence for people who want one sentence
+
+**Learn to see what sentences are doing. Name the fix. Hold the fix. Restore the body. Audit yourself the same way you audit everyone else.**
+
+---
+
+*github.com/emulable/kita*
+
+*MIT License*
+
+*Every consequence has a source. I find the source.*
