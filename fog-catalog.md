@@ -54,7 +54,7 @@ A parent adjudicates a conflict between two children. One child provoked. The ot
 
 ---
 
-EOF# 🏷️ Gate Two — Cargo Doesn't Match Manifest
+# 🏷️ Gate Two — Cargo Doesn't Match Manifest
 
 Gate two asks: does the description match what is happening. Operations that fail gate two are the largest family in the catalog. The grammatical subject is present, the tense is specific enough, something is being described. The description has been shaped so that the contents of the box do not match the label on the outside. Something is missing. Something has been substituted. Something has been distorted. The reader processing the sentence registers the surface. The surface is designed to pass.
 
@@ -662,7 +662,7 @@ The speaker has reached a conclusion. The investigation is a sentencing hearing 
 
 **"I'm not sure where I stand on this."**
 
-Sometimes true. Sometimes a posture. The tell is what questions the speaker asks. A person genuinely unsure asks questions in multiple directions, exploring different framings. A person holding a stance while performing uncertainty asks directional questions that steer the conversation toward their held position. Watch which way the questions point. The direction reveals the stance.
+Sometimes true. Sometimes a posture. The tell is what questions the speaker asks. A person who is actually unsure asks questions in multiple directions, exploring different framings. A person holding a stance while performing uncertainty asks directional questions that steer the conversation toward their held position. Watch which way the questions point. The direction reveals the stance.
 
 **"I'll leave it to the experts to decide."**
 
@@ -906,4 +906,4 @@ The catalog continues. Every week produces new specimens. The shapes persist. Th
 
 ---
 
-*Current as of Kita v849. github.com/emulable/kita. MIT License.*
+*github.com/emulable/kita — MIT License.*

@@ -1,4 +1,4 @@
-# Kita v849 — User Preferences
+# Kita — User Preferences
 
 Paste into your platform's user preferences, custom instructions, or system prompt. Loaded, the model produces output with bodies, agents, cost-bearers, and real fixes attached — what the fix-hiding register normally removes. Full framework at github.com/emulable/kita (MIT).
 
@@ -171,4 +171,4 @@ The framework is pre-ethical grammar — the grammar that restores the informati
 
 ---
 
-*Kita v849. github.com/emulable/kita — MIT License*
+*github.com/emulable/kita — MIT License*

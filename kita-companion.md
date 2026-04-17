@@ -118,7 +118,7 @@ This is not a critique of bureaucracy as such. Some bureaucratic language is sha
 
 This is also not a moral framework. The book does not argue that the woman in Cleveland deserves her procedure or that the insurance company is wicked. The book argues that her ability to use any moral framework — her own, her doctor's, her congregation's, the company's stated values — depends on being able to find the decision the framework would evaluate. The fix-hiding register removes the decision from the sentence. Once the decision is back in the sentence, ethics can run on it. Until the decision is back in the sentence, ethics cannot. The framework restores the substrate ethics needs to operate. What ethics gets done with the restored substrate is the reader's business.
 
-This claim has a name in v849: the framework is a pre-ethical grammar. The chapters that follow are the grammar.
+The framework's name for this commitment is pre-ethical grammar. The chapters that follow are the grammar.
 
 ---
 
@@ -648,7 +648,7 @@ The cucumber-receiving monkey watched its neighbor get a grape. The next time th
 
 The capuchin's outrage is the framework's pre-linguistic foundation. Cost-benefit asymmetry detection precedes language. Other primates have it. Many other social mammals have it in some form. The capacity to detect that the flow of resources is uneven, to feel that the unevenness is wrong, and to respond with refusal or protest is hardware older than syntax. The framework's three questions — who did this, when, who pays — are an articulation in language of a measurement that the body was already taking before language existed.
 
-This matters for two reasons. First, it explains why the fix-hiding register has to work so hard. The body's detection system runs continuously. The register cannot prevent the alarm from firing. The alarm fires whenever the body detects an asymmetry. The register's only job is to prevent the alarm from being acted on. The register works on the path between detection and action, not on detection itself. This is the v849 reframe of pre-silencing. The alarm is not silenced. The alarm is severed from the response.
+This matters for two reasons. First, it explains why the fix-hiding register has to work so hard. The body's detection system runs continuously. The register cannot prevent the alarm from firing. The alarm fires whenever the body detects an asymmetry. The register's only job is to prevent the alarm from being acted on. The register works on the path between detection and action, not on detection itself. The framework's reframe of pre-silencing follows from this. The alarm is not silenced. The alarm is severed from the response.
 
 Second, it explains why the framework can be taught to children and to people with no formal vocabulary for the operations. The operations name something the audience already detects. The naming gives the audience access to language for what they were already experiencing. The framework is not introducing a new way of seeing. The framework is restoring access to a way of seeing that the register has been making harder to act on.
 
@@ -790,7 +790,7 @@ The framework's operations all funnel through three sequential checks. These are
 
 **Gate two: does the description match what is happening.** This is where most of the framework's catalog lives. The description is examined for completeness. Does the sentence contain the agent. Does it contain the time. Does it contain the cost-bearer. Does it contain enough specificity that the events it describes can be cross-referenced. If yes, the gate passes and the next gate runs. If no, the description is in 壅 (yōng, obstruction). The catalog of operations cataloged in Part III is the set of standard ways this gate fails. The response to failure is restoration: put back what the description has removed.
 
-**Gate three: is an expectation attached.** This is the gate the framework's older versions did not enforce strongly enough, and the gate where the v849 reframing concentrated. A description can be complete — all dimensions present, every actor named, every time specified — and still leave nothing in the room that anyone is expected to do. Without an attached expectation, the description is bookkeeping. The ledger has been opened. Nobody has been called to settle the account. The framework calls this 記帳無審計 (jì zhàng wú shěn jì, bookkeeping without audit). The output may be detailed and accurate. Without the attached expectation, it is bookkeeping. The response to failure is to attach the expectation: a real fix, in the sense developed in chapter two.
+**Gate three: is an expectation attached.** This is the gate the framework's earlier formulations did not enforce strongly enough, and the gate where the reframing concentrated. A description can be complete — all dimensions present, every actor named, every time specified — and still leave nothing in the room that anyone is expected to do. Without an attached expectation, the description is bookkeeping. The ledger has been opened. Nobody has been called to settle the account. The framework calls this 記帳無審計 (jì zhàng wú shěn jì, bookkeeping without audit). The output may be detailed and accurate. Without the attached expectation, it is bookkeeping. The response to failure is to attach the expectation: a real fix, in the sense developed in chapter two.
 
 ## 🚦 Gate three enforcement
 
@@ -1128,7 +1128,7 @@ The diagnostic for whether the framework user has caught the ball: would the res
 
 The framework's most counterintuitive commitment is its commitment to centering the cost-bearer. The commitment is often misread as a moral preference: the framework cares about the cost-bearer because the framework has chosen sides. This is wrong. The commitment is not moral. The commitment is informational.
 
-In any flow of harm, three positions exist with respect to the harm. The institution producing the harm has every incentive to obscure its production. Their reports will minimize, qualify, and contextualize the harm. They produce noise on this dimension because their interests demand it. The beneficiary of the harm has every incentive to obscure the direction. Their narration will rearrange agency, blur sequencing, and reframe the cost-bearer's loss as a regrettable cost of an otherwise legitimate operation. They produce directional distortion. The cost-bearer has no incentive to obscure their own losses. Other cost-bearers may have incentives to obscure their gains, but on the dimension of their losses, they have no incentive to misrepresent.
+In any flow of harm, three positions exist. The institution producing the harm has every incentive to obscure its production. Their reports will minimize, qualify, and contextualize the harm. They produce noise on this dimension because their interests demand it. The beneficiary of the harm has every incentive to obscure the direction. Their narration will rearrange agency, blur sequencing, and reframe the cost-bearer's loss as a regrettable cost of an otherwise legitimate operation. They produce directional distortion. The cost-bearer has no incentive to obscure their own losses. Other cost-bearers may have incentives to obscure their gains, but on the dimension of their losses, they have no incentive to misrepresent.
 
 This is the framework's claim. **The cost-bearer is the highest signal-to-noise sensor for the question of what is happening.** Not the most reliable in every dimension. Not the most authoritative on the institutional structure. Not the most accurate on the larger context. But on the specific question of what is being lost, by whom, in what quantity — the cost-bearer's own report has the lowest noise of any available source. Starting measurement anywhere else means starting in a position that has been polluted by parties with reasons to distort.
 
@@ -1288,7 +1288,7 @@ Some situations involve harm but no fog. The harm is fully visible. The actors a
 
 The framework calls these tragedies. A tragedy is not a failure of the framework. A tragedy is a situation outside the framework's domain. The framework's container audit, anchored fix, and dimension restoration are tools for situations where fog is hiding what could be done. When nothing is being hidden and the choices are all bad, the framework's tools do not apply. Misapplying them produces output that looks like analysis and serves nobody.
 
-The framework's job at the tragedy edge is narrower. Name the situation accurately as a tragedy rather than as a fog operation. Map the cost distribution honestly. Identify the smallest available intervention that reduces total cost without claiming to fix what cannot be fixed. The smallest available intervention may be witnessing — confirming that the situation is real, the choices are bad, and no available action restores what was lost.
+The framework's job at the tragedy edge is narrower. Name the situation accurately as a tragedy rather than as a fog operation. Map the cost distribution without softening it. Identify the smallest available intervention that reduces total cost without claiming to fix what cannot be fixed. The smallest available intervention may be witnessing — confirming that the situation is real, the choices are bad, and no available action restores what was lost.
 
 ## 🛸 An old film as illustration
 
@@ -1370,7 +1370,7 @@ The model's contribution to scaling is the recommendation. When the user's situa
 
 The framework's first design principle for its own vocabulary: name what the operation does, not what it looks like. Bad names describe surface features. Good names describe function. The diagnostic for whether a name is good: a reader who has not previously encountered the concept should be able to infer roughly what the operation does from the name itself.
 
-蔽済語域 (bì jì yǔ yù) is functional. 蔽 means hide. 済 is the same character as in 実済 (real fix). 語域 is register or domain of language. The name reads roughly as "the language register that hides the fix." A reader encountering it can infer the operation. The earlier name 予寂語域 (pre-silencing register) was less functional. The character 寂 (silence) named the supposed effect on the audience, which the v849 reframing identified as inaccurate. The current name names the operation: hiding the fix. The name's accuracy improved when the operation's understanding improved.
+蔽済語域 (bì jì yǔ yù) is functional. 蔽 means hide. 済 is the same character as in 実済 (real fix). 語域 is register or domain of language. The name reads roughly as "the language register that hides the fix." A reader encountering it can infer the operation. The earlier name 予寂語域 (pre-silencing register) was less functional. The character 寂 (silence) named the supposed effect on the audience, which the reframing identified as inaccurate. The current name names the operation: hiding the fix. The name's accuracy improved when the operation's understanding improved.
 
 実済 (shí jì) is functional. The name reads roughly as "real crossing-to-the-other-side." A reader encountering it can infer that this is the operation that gets the cost-bearer to the other side of the harm. The contrast with 虚済 (empty fix) is built into the names: 実 (solid) versus 虚 (empty). The contrast is the diagnostic. A fix is either 実済 or 虚済. The names carry the test.
 
@@ -1510,4 +1510,4 @@ The book ends here. The work continues elsewhere.
 
 ---
 
-*Current as of Kita v849. github.com/emulable/kita. MIT License.*
+*github.com/emulable/kita. MIT License.*
