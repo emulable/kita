@@ -64,7 +64,7 @@ Twenty-plus other operations are in the full document. These are the ones that d
 
 ## What is in this repo
 
-The framework ships as a family of related files. Three operational versions at different character-budget scales, plus companion material that extends them with specimens, register guidance, and essays.
+The framework ships as a family of related files. Three operational versions at different character-budget scales, plus companion material that extends them with specimens and essays.
 
 **[kita.txt](https://github.com/emulable/kita/blob/main/kita.txt)** — the main operational framework. Load it as context in anything that gives a model text before generation. Full operations, specimens, failure modes, pre-send checklist.
 
@@ -74,13 +74,9 @@ The framework ships as a family of related files. Three operational versions at 
 
 **[kita-companion.md](https://github.com/emulable/kita/blob/main/kita-companion.md)** — the human-facing companion. Essays, extended specimens, theoretical discussion. Read this as a book. Load alongside kita.txt when you want both operational instruction and expository framing in a model's context.
 
-**[fog-library.md](https://github.com/emulable/kita/blob/main/fog-library.md)** — specimen catalog. Institutional sentences paired with diagnosis and restoration. Reference material for writers checking their own drafts against known patterns, and for readers who want more worked examples than the main framework document carries. Load alongside kita.txt when you want a model to have more specimen coverage.
+**[fog-catalog.md](https://github.com/emulable/kita/blob/main/fog-catalog.md)** — institutional sentences paired with diagnosis and restoration. Reference material for writers checking their own drafts against known patterns, and for readers who want more worked examples than the main framework document carries. Load alongside kita.txt when you want a model to have more specimen coverage.
 
-**[kita-register-guide.md](https://github.com/emulable/kita/blob/main/kita-register-guide.md)** — bilingual writer's guide for anyone authoring or rewriting Kita material. Covers register decisions, term-selection rationale, how to write each version (including the micro's character-budget math), context awareness before writing, the final-pass discipline, and a shared English-and-Chinese context exercise. For contributors, translators, and models given the job of generating or refining Kita documents.
-
-**[kita-knowledge-zh.md](https://github.com/emulable/kita/blob/main/kita-knowledge-zh.md)** — Chinese-language knowledge file that pairs with kita-micro.txt specifically for ChatGPT deployment. Extends what the micro has to cut at its character budget: the seven dimensions, intervention routing, deep model calibration, the framework-user self-checkpoint, interpersonal fog patterns, release-valve vocabulary, conversation architecture, and worked specimens across domains. Upload as a knowledge file when the micro is in custom instructions.
-
-Older versions and additional material are preserved in the [docs folder](https://github.com/emulable/kita/tree/main/docs).
+Contributor and maintainer documentation, including the register guide for anyone authoring or rewriting Kita material, lives in the [docs folder](https://github.com/emulable/kita/tree/main/docs) along with older versions and additional reference material.
 
 ---
 
@@ -90,11 +86,11 @@ Older versions and additional material are preserved in the [docs folder](https:
 
 **As a writer.** Read the companion once. Keep [kita.txt](https://github.com/emulable/kita/blob/main/kita.txt) accessible when you write about anything involving power, cost flow, or institutional arrangements. Run the pre-send check on your drafts. Notice what your first-draft instincts produce. You will find yourself writing fog you did not know you were writing. This is normal. Everyone does.
 
-**As a model user.** Paste the appropriate file into your preferences, custom instructions, or project context. Use kita-prefs.txt for most platforms. Use kita-micro.txt when the preferences slot is very tight — on ChatGPT specifically, pair the micro in custom instructions with [kita-knowledge-zh.md](https://github.com/emulable/kita/blob/main/kita-knowledge-zh.md) uploaded as a knowledge file so the model can retrieve extended operations on demand. Use kita.txt when your platform supports loading knowledge files or has generous project instructions. Models given Kita produce output with bodies, agents, cost-bearers, and real fixes attached more reliably than baseline. Without the framework loaded, the model defaults back to the fix-hiding register that dominates its training data.
+**As a model user.** Paste the appropriate file into your preferences, custom instructions, or project context. Use kita-prefs.txt for most platforms. Use kita-micro.txt when the preferences slot is very tight. Use kita.txt when your platform supports loading knowledge files or has generous project instructions. Models given Kita produce output with bodies, agents, cost-bearers, and real fixes attached more reliably than baseline. Without the framework loaded, the model defaults back to the fix-hiding register that dominates its training data.
 
 **As a translator.** Translate the stance, not the words. Every language has a register of trust — Chinese 白話, Arabic direct journalism, Spanish crónica, Japanese 常体, English Orwell / Baldwin / Carson / Didion. Find your language's version. Read its exemplars until their rhythm is in your ear. Write in that rhythm. The Chinese terms (壅, 実済, 錨済, 偽債, 實論, 兩口鍋, 贈明...) can travel as-is where they do compression work. Everything else becomes your language's own.
 
-**As a contributor.** Fork the framework. Modify it for your situation. Publish your modifications as yours. If you find the framework making claims its operations cannot justify, audit it and publish what you find. A strong critique is a gift. Read [kita-register-guide.md](https://github.com/emulable/kita/blob/main/kita-register-guide.md) before significant rewrite work — it covers the register decisions, the term-selection rationale, how each version gets written, and a context exercise worth working through before starting. If you build something better, rename it and send your version into the world. The framework does not need to be preserved. The operations do. See [CONTRIBUTING.md](https://github.com/emulable/kita/blob/main/docs/CONTRIBUTING.md) for how contributions flow back into this repo specifically.
+**As a contributor.** Fork the framework. Modify it for your situation. Publish your modifications as yours. If you find the framework making claims its operations cannot justify, audit it and publish what you find. A strong critique is a gift. Read [kita-register-guide.md](https://github.com/emulable/kita/blob/main/docs/kita-register-guide.md) before significant rewrite work — it covers the register decisions, the term-selection rationale, how each version gets written, and a context exercise worth working through before starting. If you build something better, rename it and send your version into the world. The framework does not need to be preserved. The operations do. See [CONTRIBUTING.md](https://github.com/emulable/kita/blob/main/docs/CONTRIBUTING.md) for how contributions flow back into this repo specifically.
 
 ---
 
