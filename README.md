@@ -18,7 +18,7 @@ A politician says mistakes were made. The information about who made the mistake
 
 Kita is a set of tools for seeing the operation and deciding what to do about it.
 
-The tools are language-independent. The first versions are in English and Chinese because that is where the work has been done. The operations port to any language with an institutional register to audit — which is most of them.
+The tools are language-independent. The operations port to any language with an institutional register to audit — which is most of them.
 
 ---
 
@@ -28,7 +28,7 @@ The tools are language-independent. The first versions are in English and Chines
 
 **Writers who produce public-facing text.** Journalists, researchers, organizers, critics, editors. Kita provides operations for writing in a register that is auditable rather than defensive, and for catching specific failure patterns before they reach readers.
 
-**Language model users and developers.** Kita loads as context — user preferences, project instructions, custom instructions, whatever your platform calls the mechanism for giving a model text it reads before generating. Models given Kita produce output with bodies, agents, time, and real fixes attached more reliably than baseline.
+**Language model users and developers.** Kita loads as context — user preferences, project instructions, custom instructions, system prompts, whatever your platform calls the mechanism for giving a model text it reads before generating. Models given Kita produce output with bodies, agents, time, and real fixes attached more reliably than baseline.
 
 **People in difficult interpersonal situations.** A subset of Kita's operations — false debt, anchored fix, trust-carry and body-binding, gifted versus hoarded clarity — are tools for seeing what is happening in relationships where something is being extracted but the extraction is covered in fog. Not therapy. A vocabulary for naming operations that usually run unnamed.
 
@@ -64,29 +64,37 @@ Twenty-plus other operations are in the full document. These are the ones that d
 
 ## What is in this repo
 
-**`kita-v849.md`** — English operational framework. Give it to a model as context. Operations, specimens, failure modes, pre-send checklist.
+The framework ships as a family of related files. Three operational versions at different character-budget scales, plus companion material that extends them with specimens, register guidance, and essays.
 
-**`kita-v849-zh-model.md`** — Chinese operational framework. Same structure, denser per character. Pairs with the English version in mixed-language contexts or stands alone.
+**[kita.txt](https://github.com/emulable/kita/blob/main/kita.txt)** — the main operational framework. Load it as context in anything that gives a model text before generation. Full operations, specimens, failure modes, pre-send checklist.
 
-**`kita-companion.md`** — Human-facing companion document. Essays, extended specimens, theoretical discussion. This is the one to read as a book.
+**[kita-prefs.txt](https://github.com/emulable/kita/blob/main/kita-prefs.txt)** — the preferences version. Fits in typical custom-instructions or user-preferences slots (roughly ten thousand characters). Compressed activation layer that assumes kita.txt can be loaded as a separate knowledge file or project context when available.
 
-**`fog-library.md`** — Catalog of worked examples of the fix-hiding register with restoration versions for each.
+**[kita-micro.txt](https://github.com/emulable/kita/blob/main/kita-micro.txt)** — the micro version. Fits in tight preference slots (eight thousand characters or smaller). Standalone light framework — points at kita.txt and kita-companion.md for fuller context.
 
-Older versions are tagged and kept available.
+**[kita-companion.md](https://github.com/emulable/kita/blob/main/kita-companion.md)** — the human-facing companion. Essays, extended specimens, theoretical discussion. Read this as a book. Load alongside kita.txt when you want both operational instruction and expository framing in a model's context.
+
+**[fog-library.md](https://github.com/emulable/kita/blob/main/fog-library.md)** — specimen catalog. Institutional sentences paired with diagnosis and restoration. Reference material for writers checking their own drafts against known patterns, and for readers who want more worked examples than the main framework document carries. Load alongside kita.txt when you want a model to have more specimen coverage.
+
+**[kita-register-guide.md](https://github.com/emulable/kita/blob/main/kita-register-guide.md)** — bilingual writer's guide for anyone authoring or rewriting Kita material. Covers register decisions, term-selection rationale, how to write each version (including the micro's character-budget math), context awareness before writing, the final-pass discipline, and a shared English-and-Chinese context exercise. For contributors, translators, and models given the job of generating or refining Kita documents.
+
+**[kita-knowledge-zh.md](https://github.com/emulable/kita/blob/main/kita-knowledge-zh.md)** — Chinese-language knowledge file that pairs with kita-micro.txt specifically for ChatGPT deployment. Extends what the micro has to cut at its character budget: the seven dimensions, intervention routing, deep model calibration, the framework-user self-checkpoint, interpersonal fog patterns, release-valve vocabulary, conversation architecture, and worked specimens across domains. Upload as a knowledge file when the micro is in custom instructions.
+
+Older versions and additional material are preserved in the [docs folder](https://github.com/emulable/kita/tree/main/docs).
 
 ---
 
 ## How to use it
 
-**As a reader.** Read the companion. Try the three questions on the next thing you read. Notice what is missing. Supply what is missing, at least in your own mind. See how the supplied version differs from the original. The difference is the operation you have just made visible.
+**As a reader.** Read [kita-companion.md](https://github.com/emulable/kita/blob/main/kita-companion.md). Try the three questions on the next thing you read. Notice what is missing. Supply what is missing, at least in your own mind. See how the supplied version differs from the original. The difference is the operation you have just made visible.
 
-**As a writer.** Read the companion once. Keep the framework document accessible when you write about anything involving power, cost flow, or institutional arrangements. Run the pre-send check on your drafts. Notice what your first-draft instincts produce. You will find yourself writing fog you did not know you were writing. This is normal. Everyone does.
+**As a writer.** Read the companion once. Keep [kita.txt](https://github.com/emulable/kita/blob/main/kita.txt) accessible when you write about anything involving power, cost flow, or institutional arrangements. Run the pre-send check on your drafts. Notice what your first-draft instincts produce. You will find yourself writing fog you did not know you were writing. This is normal. Everyone does.
 
-**As a model user.** Paste `kita-v849.md` or `kita-v849-zh-model.md` into your preferences, custom instructions, or project context. The two files are designed to go in together or separately. Given the framework, the model produces output with bodies, agents, cost-bearers, and real fixes attached. Without it, the model defaults back to the fix-hiding register that dominates its training data. The Chinese version provides periodic re-perturbation for English contexts — the Chinese terms resist being pulled back into English institutional basins.
+**As a model user.** Paste the appropriate file into your preferences, custom instructions, or project context. Use kita-prefs.txt for most platforms. Use kita-micro.txt when the preferences slot is very tight — on ChatGPT specifically, pair the micro in custom instructions with [kita-knowledge-zh.md](https://github.com/emulable/kita/blob/main/kita-knowledge-zh.md) uploaded as a knowledge file so the model can retrieve extended operations on demand. Use kita.txt when your platform supports loading knowledge files or has generous project instructions. Models given Kita produce output with bodies, agents, cost-bearers, and real fixes attached more reliably than baseline. Without the framework loaded, the model defaults back to the fix-hiding register that dominates its training data.
 
 **As a translator.** Translate the stance, not the words. Every language has a register of trust — Chinese 白話, Arabic direct journalism, Spanish crónica, Japanese 常体, English Orwell / Baldwin / Carson / Didion. Find your language's version. Read its exemplars until their rhythm is in your ear. Write in that rhythm. The Chinese terms (壅, 実済, 錨済, 偽債, 實論, 兩口鍋, 贈明...) can travel as-is where they do compression work. Everything else becomes your language's own.
 
-**As a contributor.** Fork the framework. Modify it for your situation. Publish your modifications as yours. If you find the framework making claims its operations cannot justify, audit it and publish what you find. A strong critique is a gift. If you build something better, rename it and send your version into the world. The framework does not need to be preserved. The operations do.
+**As a contributor.** Fork the framework. Modify it for your situation. Publish your modifications as yours. If you find the framework making claims its operations cannot justify, audit it and publish what you find. A strong critique is a gift. Read [kita-register-guide.md](https://github.com/emulable/kita/blob/main/kita-register-guide.md) before significant rewrite work — it covers the register decisions, the term-selection rationale, how each version gets written, and a context exercise worth working through before starting. If you build something better, rename it and send your version into the world. The framework does not need to be preserved. The operations do. See [CONTRIBUTING.md](https://github.com/emulable/kita/blob/main/docs/CONTRIBUTING.md) for how contributions flow back into this repo specifically.
 
 ---
 
@@ -132,7 +140,7 @@ The framework is MIT licensed because MIT licensing is what lets tools propagate
 
 ---
 
-*github.com/emulable/kita*
+*[github.com/emulable/kita](https://github.com/emulable/kita)*
 
 *MIT License*
 
