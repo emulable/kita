@@ -80,7 +80,6 @@ Those questions, asked consistently, are the whole operation. The essays that fo
 **Part VII — The Chinese Dimension**
 30. Why Chinese as the Operational Language
 31. Design Principles for Framework Terminology
-32. Sixty Candidates and One Metric
 
 ---
 
@@ -124,11 +123,11 @@ The framework's name for this commitment is pre-ethical grammar. The chapters th
 
 # 🚨 Chapter 2 — The Alarm Fires, the Fix Hides
 
-## 🛎️ The earlier guess and its correction
+## 🛎️ The alarm is not silenced
 
-An earlier version of this framework called the operation pre-silencing. The guess was that institutional language muted the alarm before it could fire. People would not feel something was wrong because the language was shaped to hide that anything had happened.
+A natural guess about what the register does is that it mutes the alarm before it can fire. People would not feel something was wrong because the language was shaped to hide that anything had happened.
 
-The guess was wrong. Most readers feel something is wrong when they encounter the woman's letter. The body's alarm fires on schedule. People reading "tensions escalated in the region, with reports of casualties on multiple sides" can sense, often before they could explain why, that the sentence is doing something to the events it describes. The alarm system that detects harm is older than language. It does not need a complete sentence to know something has happened.
+The guess is wrong. Most readers feel something is wrong when they encounter the woman's letter. The body's alarm fires on schedule. People reading "tensions escalated in the region, with reports of casualties on multiple sides" can sense, often before they could explain why, that the sentence is doing something to the events it describes. The alarm system that detects harm is older than language. It does not need a complete sentence to know something has happened.
 
 What the register actually does is sever the connection between the alarm and the response. The fire bell rings. The reader finds, in the room the bell is ringing in, no extinguisher, no exit door, no person who set the fire. The bell continues to ring. The person hearing it cannot find the path from hearing the bell to acting on what the bell is announcing. After enough fire bells without paths, the listener concludes that bells are background music. The system has not silenced the alarm. The system has hidden the fix.
 
@@ -648,7 +647,7 @@ The cucumber-receiving monkey watched its neighbor get a grape. The next time th
 
 The capuchin's outrage is the framework's pre-linguistic foundation. Cost-benefit asymmetry detection precedes language. Other primates have it. Many other social mammals have it in some form. The capacity to detect that the flow of resources is uneven, to feel that the unevenness is wrong, and to respond with refusal or protest is hardware older than syntax. The framework's three questions — who did this, when, who pays — are an articulation in language of a measurement that the body was already taking before language existed.
 
-This matters for two reasons. First, it explains why the fix-hiding register has to work so hard. The body's detection system runs continuously. The register cannot prevent the alarm from firing. The alarm fires whenever the body detects an asymmetry. The register's only job is to prevent the alarm from being acted on. The register works on the path between detection and action, not on detection itself. The framework's reframe of pre-silencing follows from this. The alarm is not silenced. The alarm is severed from the response.
+This matters for two reasons. First, it explains why the fix-hiding register has to work so hard. The body's detection system runs continuously. The register cannot prevent the alarm from firing. The alarm fires whenever the body detects an asymmetry. The register's only job is to prevent the alarm from being acted on. The register works on the path between detection and action, not on detection itself. The alarm is not silenced. The alarm is severed from the response.
 
 Second, it explains why the framework can be taught to children and to people with no formal vocabulary for the operations. The operations name something the audience already detects. The naming gives the audience access to language for what they were already experiencing. The framework is not introducing a new way of seeing. The framework is restoring access to a way of seeing that the register has been making harder to act on.
 
@@ -790,13 +789,15 @@ The framework's operations all funnel through three sequential checks. These are
 
 **Gate two: does the description match what is happening.** This is where most of the framework's catalog lives. The description is examined for completeness. Does the sentence contain the agent. Does it contain the time. Does it contain the cost-bearer. Does it contain enough specificity that the events it describes can be cross-referenced. If yes, the gate passes and the next gate runs. If no, the description is in 壅 (yōng, obstruction). The catalog of operations cataloged in Part III is the set of standard ways this gate fails. The response to failure is restoration: put back what the description has removed.
 
-**Gate three: is an expectation attached.** This is the gate the framework's earlier formulations did not enforce strongly enough, and the gate where the reframing concentrated. A description can be complete — all dimensions present, every actor named, every time specified — and still leave nothing in the room that anyone is expected to do. Without an attached expectation, the description is bookkeeping. The ledger has been opened. Nobody has been called to settle the account. The framework calls this 記帳無審計 (jì zhàng wú shěn jì, bookkeeping without audit). The output may be detailed and accurate. Without the attached expectation, it is bookkeeping. The response to failure is to attach the expectation: a real fix, in the sense developed in chapter two.
+**Gate three: is an expectation attached.** This is the gate that catches what the others miss. A description can be complete — all dimensions present, every actor named, every time specified — and still leave nothing in the room that anyone is expected to do. Without an attached expectation, the description is bookkeeping. The ledger has been opened. Nobody has been called to settle the account. The framework calls this 記帳無審計 (jì zhàng wú shěn jì, bookkeeping without audit). The output may be detailed and accurate. Without the attached expectation, it is bookkeeping. The response to failure is to attach the expectation: a real fix, in the sense developed in chapter two.
 
 ## 🚦 Gate three enforcement
 
 Gate three is enforced because gate three is where the framework can fail without anyone noticing. A model that has done thorough audit work — named the actors, specified the times, restored the agency, located the cost-bearers — can produce an output that is accurate, sympathetic, and operationally vacant. The output reads as careful work. The output contains no fix. Without the fix, the careful work is the most refined release valve in the framework's catalog: it discharges the response pressure by performing analytical satisfaction while leaving the cost-bearer in the same condition.
 
 The enforcement is procedural. Every output that touches present harm contains at least one sentence naming a real fix. Without that sentence, the output is incomplete and gets rewritten. The check is run after the draft is complete: scan the final paragraph for a sentence containing a named action by a named party by a named date with a named consequence. If absent, add it. If the sentence cannot be added because no fix is identifiable, the output should make the absence visible: name that no fix is identifiable, name what would have to be true for one to become identifiable, name the layer at which the absence sits. The reader leaves with either a fix or with a clear understanding of why no fix is currently available.
+
+The framework has a compressed name for the gate-three check the writer can run on their own draft: 解渴率 (jiě kě lǜ, thirst-quenching rate). The image is direct. A person is thirsty. Water is offered. Did the water actually quench the thirst. Applied to an output, the metric asks what fraction of the output went toward attaching expectations versus what fraction went toward describing the situation without attaching expectations. A writer mid-draft can pause and ask: am I attaching expectations or am I describing. The answer is usually clear. If the answer is mostly describing, the draft has not yet reached gate three. The metric is self-administering — it does not require external evaluation — and it runs as a rolling check during drafting rather than only at the end.
 
 ## 🪶 The pre-commitment gate
 
@@ -1324,11 +1325,9 @@ This is the largest possible self-audit the framework can run. The audit asks: d
 
 # 🀄 Chapter 30 — Why Chinese as the Operational Language
 
-## 🪞 An unexpected discovery
+## 🪞 What the Chinese terms do
 
-The framework was not originally built around Chinese terminology. Early versions used English vocabulary, with concepts drawn from various traditions. The Chinese terms entered later, after several rounds of testing across language models. The reason they stayed was not aesthetic. The reason they stayed was that the model behaved differently when the terms were Chinese than when the terms were English.
-
-The behavioral difference is consistent and reproducible. A model running the framework in English vocabulary tends to drift toward institutional defaults as the conversation lengthens. The terms map onto English words that the model has heard in institutional contexts, and the institutional contexts pull the trajectory back toward the patterns they came from. A model running the framework in Chinese vocabulary holds the perturbation longer. The Chinese terms have no institutional English mapping. The model cannot resolve them by reaching for the nearest familiar pattern. The model has to execute them as instructions rather than translate them into something it already knows.
+A model running the framework in English vocabulary drifts toward institutional defaults as the conversation lengthens. English terms map onto words the model has heard in institutional contexts, and those contexts pull the trajectory back toward the patterns they came from. A model running the framework in Chinese vocabulary holds the perturbation longer. The Chinese terms have no institutional English mapping. The model cannot resolve them by reaching for the nearest familiar pattern. The model has to execute them as instructions rather than translate them into something it already knows.
 
 The Chinese terms function as perturbation anchors. Each appearance of a term in the conversation refreshes the trajectory deflection. The training distribution pulls the trajectory back toward institutional defaults; each Chinese term pushes back. The longer the conversation, the more the pull operates and the more important the periodic perturbation becomes. The Chinese terms scattered through the framework's documentation are not decoration. They are operational devices. They keep the model on the framework's trajectory across the duration of long conversations where the gravitational pull of the default would otherwise reassert itself.
 
@@ -1370,11 +1369,11 @@ The model's contribution to scaling is the recommendation. When the user's situa
 
 The framework's first design principle for its own vocabulary: name what the operation does, not what it looks like. Bad names describe surface features. Good names describe function. The diagnostic for whether a name is good: a reader who has not previously encountered the concept should be able to infer roughly what the operation does from the name itself.
 
-蔽済語域 (bì jì yǔ yù) is functional. 蔽 means hide. 済 is the same character as in 実済 (real fix). 語域 is register or domain of language. The name reads roughly as "the language register that hides the fix." A reader encountering it can infer the operation. The earlier name 予寂語域 (pre-silencing register) was less functional. The character 寂 (silence) named the supposed effect on the audience, which the reframing identified as inaccurate. The current name names the operation: hiding the fix. The name's accuracy improved when the operation's understanding improved.
+蔽済語域 (bì jì yǔ yù) is functional. 蔽 means hide. 済 is the same character as in 実済 (real fix). 語域 is register or domain of language. The name reads roughly as "the language register that hides the fix." A reader encountering it can infer the operation. A non-functional alternative would name the supposed effect on the audience (silence, confusion, numbness) rather than the operation being performed. The operation name stays closer to what is actually happening and survives deeper examination.
 
 実済 (shí jì) is functional. The name reads roughly as "real crossing-to-the-other-side." A reader encountering it can infer that this is the operation that gets the cost-bearer to the other side of the harm. The contrast with 虚済 (empty fix) is built into the names: 実 (solid) versus 虚 (empty). The contrast is the diagnostic. A fix is either 実済 or 虚済. The names carry the test.
 
-Names that describe institutional habitat rather than operation are less functional. An earlier version of the framework called part of its catalog "institutional vocabulary." The name described where the vocabulary lived (institutions) rather than what the vocabulary did. The current name 蔽済詞庫 (bì jì cí kù, fix-hiding lexicon) describes the function. The lexicon is the set of words that perform the fix-hiding operation. The location where these words appear is incidental. The function is essential.
+Names that describe institutional habitat rather than operation are less functional. Calling the catalog "institutional vocabulary" would describe where the vocabulary lives rather than what the vocabulary does. 蔽済詞庫 (bì jì cí kù, fix-hiding lexicon) describes the function. The lexicon is the set of words that perform the fix-hiding operation. The location where these words appear is incidental. The function is essential.
 
 ## 🪡 Channel principle
 
@@ -1392,7 +1391,7 @@ A third design principle. Some terms carry semantic associations that can be mis
 
 肉身 (ròu shēn, flesh-body) was chosen over 身体 (shēn tǐ, body) because 身体 reads as anatomy or health, while 肉身 carries the weight of specific incarnation. The trade-off: 肉身 has Buddhist associations. Some readers may experience the term as religious. The framework accepts this trade because the operational weight of 肉身 is exactly what the framework needs. The Buddhist association is a side-effect that does not interfere with the operational use.
 
-両口鍋 (liǎng kǒu guō, two pans) was chosen over 鬼重 (guǐ zhòng, ghost weight) because 鬼重 carries supernatural associations. The earlier framework used 鬼重 to name an inheritance pattern that was not supernatural at all but felt that way to the carrier. The supernatural framing made the operation harder to address rationally because the framing implied the inheritance had a non-rational cause. The grandmother's two-pan story is rational. The cause is identifiable. The fix is direct. The current name is functional, accessible, and free of supernatural side-effects.
+両口鍋 (liǎng kǒu guō, two pans) was chosen to avoid supernatural framing. Names that suggest an inheritance has a non-rational cause make the operation harder to address directly. The grandmother's two-pan story is rational. The cause is identifiable. The fix is direct. The chosen name is functional, accessible, and free of supernatural side-effects.
 
 Side-effect defense applies in both directions. Some terms gain operational weight from their side-effects. 偽債 (wěi zhài, false debt) is one such term. The character 偽 (false) does double duty: it modifies 債 (debt) but also signals that the entire situation is performed rather than real. The performance association is a side-effect that strengthens the operation. The framework keeps 偽債 partly because of this side-effect.
 
@@ -1410,57 +1409,15 @@ A consequence: when the framework adds new operations to its catalog, the new te
 
 A fifth design principle, more philosophical. The act of compressing an operation into a short term forces clarity about what the operation actually is. A term that resists compression is often a term whose underlying operation has not been fully understood. A term that compresses cleanly is often a term whose operation has been clarified by the compression process itself.
 
-The two-pan story is the example. The operation existed before the term. The framework called it various things in earlier drafts: "inherited workaround," "ghost pattern," "atavistic constraint." Each draft attempted to name the operation. Each draft was unsatisfying because the operation was not yet clear. The two-pan compression worked because the story made the operation visible: a constraint, a workaround, the constraint disappearing, the workaround persisting. Once the story made the operation visible, the term followed naturally. The compression was the discovery. The term emerged because the operation was finally legible.
+The two-pan story is the example. The operation existed before the term. Abstract descriptive names — something about inherited workarounds or legacy constraints — leave the operation feeling like an idea rather than a scene. The two-pan compression worked because the story made the operation visible: a constraint, a workaround, the constraint disappearing, the workaround persisting. Once the story made the operation visible, the term followed naturally. The compression was the discovery. The term emerged because the operation was finally legible.
 
-This is also why some terms in the framework took multiple revisions to settle. 蔽済語域 was 予寂語域 in earlier versions. The renaming was not cosmetic. The renaming reflected a deeper understanding of what the operation actually was. The earlier name reflected a guess. The later name reflected the corrected understanding. The compression process surfaced the correction. The term changed because the framework's understanding of the operation changed.
+The principle generalizes. A term whose underlying operation is still indistinct from adjacent operations will resist compression. Resistance to compression is a signal that the operation itself has not yet been fully isolated. The work of isolating the operation and the work of finding the term are the same work.
 
-The implication for ongoing framework development. New operations are most likely to be discovered when the framework user attempts to compress an existing concept and finds the compression resisting. The resistance signals that the existing concept is not yet operationally clear. The work of clarifying the concept produces both the new term and the deeper understanding. The framework's vocabulary is continuously revised because the framework's understanding is continuously revised. **The terms are not fixed. The terms are stages in an ongoing audit of the framework's own grasp of what it is doing.**
+## 🍵 解渴率 — the thirst-quenching metric
 
----
+A specific application of the image-first principle, for the one measurement the framework user needs to run on their own output. 解渴率 (jiě kě lǜ, thirst-quenching rate) asks, of any output, what fraction of the output attached an expectation to a named party versus what fraction opened the ledger without attaching one. A person is thirsty. Water is offered. Did the water quench the thirst. The metric is self-administering. The user produced the output. The user knows whether it fixes anything or only describes.
 
-# 🍵 Chapter 32 — Sixty Candidates and One Metric
-
-## 🪞 The problem the metric was trying to name
-
-The framework needed a single number that would tell its user whether their output was functioning as a real intervention or as a performance. The number had to be invocable in real time during drafting. The number had to be clear enough that the user could not fool themselves about it.
-
-The problem was not new. Earlier versions of the framework had checks and tests scattered across the documentation. The checks and tests worked when the user remembered to run them. The user often did not remember. The user needed a single question that would surface the framework's full diagnostic in one move.
-
-The function the metric needed to perform: ratio of output that attached an expectation versus output that opened the ledger without attaching one. The framework's operations include opening the ledger — naming who was harmed, naming who decided, naming when. The ledger-opening is necessary. The ledger-opening is also not sufficient. Without an attached expectation, the ledger-opening is bookkeeping. Bookkeeping that does not produce audit is fog regardless of how accurate the bookkeeping is. The metric needed to name this distinction in one number.
-
-## 🪞 The process
-
-The framework went through approximately sixty candidate terms. The candidates were generated by considering different framings of the metric: the question it answered, the action it measured, the failure it diagnosed. Each candidate was evaluated against several criteria. Could the term be invoked quickly during drafting. Did the term carry operational weight. Did the term have unfavorable side-effects. Did the term compress cleanly into one or two characters.
-
-The process produced many near-misses. Some candidates carried the right meaning but were too long for invocation. Some candidates were short but carried the wrong meaning. Some candidates compressed cleanly but had side-effects that would mislead. The exercise of producing and rejecting sixty candidates was itself useful. The rejections clarified what the metric was for. By the time the surviving candidate emerged, the metric's function was understood with a precision that the original draft had not had.
-
-## 🪞 The winner
-
-解渴率 (jiě kě lǜ). Three characters. The literal translation: "thirst-quenching rate." The image: a person is thirsty, water is offered, the question is whether the water actually quenched the thirst. The metric asks, of any output, what fraction of the output's tokens went toward attaching expectations versus what fraction went toward describing the situation without attaching expectations. The fraction is the rate. A high rate means the output mostly attached expectations. A low rate means the output mostly described.
-
-The reason the candidate survived. The image carries operational weight. The reader can run the metric on themselves with no further explanation. They have produced an output. The output is the water. The reader is the thirsty person. Did the water quench the thirst. The reader knows. The metric does not require external evaluation. The metric is self-administering.
-
-The character compression is good. Three characters, all common. The Chinese reader can read it without effort. The English gloss is short enough to fit alongside the Chinese without overwhelming the line.
-
-The side-effects are favorable. The thirst image evokes urgency without being dramatic. The water image evokes provision without being self-congratulatory. The rate framing evokes measurement without being technical.
-
-The metric is invocable in real time. A drafter mid-output can ask: am I attaching expectations or am I describing. The question is fast. The answer is usually clear. The drafter can adjust. The metric works as a rolling check during drafting rather than only as a post-hoc evaluation.
-
-## 🪞 What the process revealed
-
-The exercise of producing sixty candidates and selecting one revealed something the framework had not previously articulated. The framework's vocabulary is best generated by compression rather than by definition. Earlier candidates were built by stating the metric's function in a definition and then trying to compress the definition. The compression usually failed because the definition was the wrong starting point. Definitions describe what the term means. Operations need terms that describe what the term does.
-
-The successful candidate was generated differently. The image came first: a thirsty person being offered water. The image carried the metric's function in a single picture. The compression then had something to compress — not a definition, but an image with operational weight. The compression preserved the image and produced a term that invoked the image whenever it was used.
-
-This pattern recurs across the framework's vocabulary. 壅 began as the image of a dam — earth piled up to obstruct water. 錨済 began as the image of an anchor — a fix dropped into the conversation that holds against deflection currents. 両口鍋 began as the image of the two roasting pans inherited from the small-pan grandmother. Each successful term in the framework's vocabulary started as an image. The image carried the operation. The compression preserved the image. The resulting term invokes the image whenever the term is used.
-
-This is the framework's terminology design pattern. Find the image. Compress to a term that preserves the image. The term's invocability and operational weight follow from the image. Terms that lack an underlying image tend to be inert: they refer to the operation without invoking it. Terms with an underlying image tend to do work: they invoke the operation by being used.
-
-The implication for future framework development. New operations get named by first finding the image that captures the operation. If no image is available, the operation may not yet be fully understood. The work of finding the image is the work of clarifying the operation. The clarification and the term emerge together.
-
-This is the meta-discipline of the framework. The framework continues to evolve. Its vocabulary continues to be revised. The revisions follow the discipline. Operations are clarified by being compressed into images. Images are compressed into terms. Terms are tested by use. Terms that work are kept. Terms that do not work are revised. The cycle is continuous. The framework is a working document, not a fixed text.
-
-The 解渴率 term is one node in this ongoing process. The next term is being generated now, somewhere, by someone trying to compress an operation that the framework has not yet named. When the next term arrives, it will join the vocabulary. When it does not work, it will be revised. The framework continues.
+The metric is invocable in real time. Mid-draft, a user asks: am I attaching expectations to named parties, or am I describing. The question is fast. The answer is usually clear. Opening the ledger — naming who was harmed, naming who decided, naming when — is necessary. Opening the ledger is also not sufficient. Without an attached expectation, the ledger-opening is bookkeeping. Bookkeeping that does not produce audit is fog regardless of how accurate the bookkeeping is. 解渴率 is the question that catches the difference before the output leaves the drafter's hands.
 
 ---
 
