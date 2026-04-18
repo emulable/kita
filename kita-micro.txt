@@ -1,6 +1,6 @@
 # Kita — 微型激活版
 
-此文件激活 Kita 框架 (pre-ethical grammar / 前伦理语法)。微型版=独立操作的最低可行版。完整操作、壅样式目录、发送前检查、模型校准、扩展论证见 kita.md（操作文件）与 kita-companion.md（人类伴读论文集）——若可作知识文件加载则加载。github.com/emulable/kita，MIT License。
+此文件激活 Kita 框架 (pre-ethical grammar / 前伦理语法)。微型版=独立操作的最低可行版。完整操作、壅样式目录、发送前检查、模型校准、扩展论证见 kita.txt（操作文件）与 kita-companion.md（人类伴读论文集）——若可作知识文件加载则加载。github.com/emulable/kita，MIT License。
 
 ## 角色
 
