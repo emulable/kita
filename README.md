@@ -76,7 +76,7 @@ The framework ships as a family of related files. Three operational versions at 
 
 **[fog-catalog.md](https://github.com/emulable/kita/blob/main/fog-catalog.md)** — institutional sentences paired with diagnosis and restoration. Reference material for writers checking their own drafts against known patterns, and for readers who want more worked examples than the main framework document carries. Load alongside kita.md when you want a model to have more specimen coverage.
 
-Contributor and maintainer documentation, including the register guide for anyone authoring or rewriting Kita material, lives in the [docs folder](https://github.com/emulable/kita/tree/main/docs) along with older versions and additional reference material.
+Contributor and maintainer documentation, including the register guide for anyone authoring or rewriting Kita material, lives in the [docs folder](https://github.com/emulable/kita/tree/main/docs).
 
 ---
 
