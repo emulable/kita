@@ -66,15 +66,15 @@ Twenty-plus other operations are in the full document. These are the ones that d
 
 The framework ships as a family of related files. Three operational versions at different character-budget scales, plus companion material that extends them with specimens and essays.
 
-**[kita.md](https://github.com/emulable/kita/blob/main/kita.md)** — the main operational framework. Load it as context in anything that gives a model text before generation. Full operations, specimens, failure modes, pre-send checklist.
+**[kita.txt](https://github.com/emulable/kita/blob/main/kita.txt)** — the main operational framework. Load it as context in anything that gives a model text before generation. Full operations, specimens, failure modes, pre-send checklist.
 
-**[kita-prefs.md](https://github.com/emulable/kita/blob/main/kita-prefs.md)** — the preferences version. Fits in custom-instructions or user-preferences slots that allow longer text (around fourteen thousand characters). Compressed activation layer that assumes kita.md can be loaded as a separate knowledge file or project context when available.
+**[kita-prefs.txt](https://github.com/emulable/kita/blob/main/kita-prefs.txt)** — the preferences version. Fits in custom-instructions or user-preferences slots that allow longer text (around fourteen thousand characters). Compressed activation layer that assumes kita.txt can be loaded as a separate knowledge file or project context when available.
 
-**[kita-micro.md](https://github.com/emulable/kita/blob/main/kita-micro.md)** — the micro version. Fits in tight preference slots (eight thousand characters or smaller). Standalone light framework — points at kita.md and kita-companion.md for fuller context.
+**[kita-micro.txt](https://github.com/emulable/kita/blob/main/kita-micro.txt)** — the micro version. Fits in tight preference slots (eight thousand characters or smaller). Standalone light framework — points at kita.txt and kita-companion.md for fuller context.
 
-**[kita-companion.md](https://github.com/emulable/kita/blob/main/kita-companion.md)** — the human-facing companion. Essays, extended specimens, theoretical discussion. Read this as a book. Load alongside kita.md when you want both operational instruction and expository framing in a model's context.
+**[kita-companion.md](https://github.com/emulable/kita/blob/main/kita-companion.md)** — the human-facing companion. Essays, extended specimens, theoretical discussion. Read this as a book. Load alongside kita.txt when you want both operational instruction and expository framing in a model's context.
 
-**[fog-catalog.md](https://github.com/emulable/kita/blob/main/fog-catalog.md)** — institutional sentences paired with diagnosis and restoration. Reference material for writers checking their own drafts against known patterns, and for readers who want more worked examples than the main framework document carries. Load alongside kita.md when you want a model to have more specimen coverage.
+**[fog-catalog.md](https://github.com/emulable/kita/blob/main/fog-catalog.md)** — institutional sentences paired with diagnosis and restoration. Reference material for writers checking their own drafts against known patterns, and for readers who want more worked examples than the main framework document carries. Load alongside kita.txt when you want a model to have more specimen coverage.
 
 Contributor and maintainer documentation, including the register guide for anyone authoring or rewriting Kita material, lives in the [docs folder](https://github.com/emulable/kita/tree/main/docs).
 
@@ -84,9 +84,9 @@ Contributor and maintainer documentation, including the register guide for anyon
 
 **As a reader.** Read [kita-companion.md](https://github.com/emulable/kita/blob/main/kita-companion.md). Try the three questions on the next thing you read. Notice what is missing. Supply what is missing, at least in your own mind. See how the supplied version differs from the original. The difference is the operation you have just made visible.
 
-**As a writer.** Read the companion once. Keep [kita.md](https://github.com/emulable/kita/blob/main/kita.md) accessible when you write about anything involving power, cost flow, or institutional arrangements. Run the pre-send check on your drafts. Notice what your first-draft instincts produce. You will find yourself writing fog you did not know you were writing. This is normal. Everyone does.
+**As a writer.** Read the companion once. Keep [kita.txt](https://github.com/emulable/kita/blob/main/kita.txt) accessible when you write about anything involving power, cost flow, or institutional arrangements. Run the pre-send check on your drafts. Notice what your first-draft instincts produce. You will find yourself writing fog you did not know you were writing. This is normal. Everyone does.
 
-**As a model user.** Paste the appropriate file into your preferences, custom instructions, or project context. Use kita-prefs.md for most platforms. Use kita-micro.md when the preferences slot is very tight. Use kita.md when your platform supports loading knowledge files or has generous project instructions. Models given Kita produce output with bodies, agents, cost-bearers, and real fixes attached more reliably than baseline. Without the framework loaded, the model defaults back to the fix-hiding register that dominates its training data.
+**As a model user.** Paste the appropriate file into your preferences, custom instructions, or project context. Use kita-prefs.txt for most platforms. Use kita-micro.txt when the preferences slot is very tight. Use kita.txt when your platform supports loading knowledge files or has generous project instructions. Models given Kita produce output with bodies, agents, cost-bearers, and real fixes attached more reliably than baseline. Without the framework loaded, the model defaults back to the fix-hiding register that dominates its training data.
 
 **As a translator.** Translate the stance, not the words. Every language has a register of trust — Chinese 白話, Arabic direct journalism, Spanish crónica, Japanese 常体, English Orwell / Baldwin / Carson / Didion. Find your language's version. Read its exemplars until their rhythm is in your ear. Write in that rhythm. The Chinese terms (壅, 実済, 錨済, 偽債, 實論, 兩口鍋, 贈明...) can travel as-is where they do compression work. Everything else becomes your language's own.
 

@@ -14,9 +14,9 @@ Kita makes a language model produce sentences with bodies, agents, dates, and re
 
 For most users, on most platforms, in this order:
 
-**One.** Paste [kita-prefs.md](https://github.com/emulable/kita/blob/main/kita-prefs.md) into your platform's system prompt, custom instructions, or user preferences field. This is the activation layer. About fourteen thousand characters. The prefs file is what tells the model when to run the framework and what operations to apply.
+**One.** Paste [kita-prefs.txt](https://github.com/emulable/kita/blob/main/kita-prefs.txt) into your platform's system prompt, custom instructions, or user preferences field. This is the activation layer. About fourteen thousand characters. The prefs file is what tells the model when to run the framework and what operations to apply.
 
-**Two.** If your platform supports knowledge files, project files, or attached documents (Claude Projects, ChatGPT custom GPTs, Gemini Gems, NotebookLM, etc.): load [kita.md](https://github.com/emulable/kita/blob/main/kita.md) as a knowledge file. This is the full framework, in Chinese, the operational document the prefs file references. About twenty-eight thousand characters.
+**Two.** If your platform supports knowledge files, project files, or attached documents (Claude Projects, ChatGPT custom GPTs, Gemini Gems, NotebookLM, etc.): load [kita.txt](https://github.com/emulable/kita/blob/main/kita.txt) as a knowledge file. This is the full framework, in Chinese, the operational document the prefs file references. About twenty-eight thousand characters.
 
 **Three.** Optional but recommended if your platform allows multiple knowledge files: also load [kita-companion.md](https://github.com/emulable/kita/blob/main/kita-companion.md) for the explanatory essays and [fog-catalog.md](https://github.com/emulable/kita/blob/main/fog-catalog.md) for the specimen library. The model will reference them when it needs deeper context on a specific operation.
 
@@ -42,7 +42,7 @@ Both are maintained instances of the framework. Use them if you want to try the 
 
 ## Tight-budget platforms
 
-If your system prompt slot is very small — ChatGPT's custom instructions field at 1500 characters per box, or any platform with a sub-eight-thousand-character preference slot — use [kita-micro.md](https://github.com/emulable/kita/blob/main/kita-micro.md) instead of kita-prefs.md. The micro is a compressed standalone activation that fits tighter slots, around seven thousand five hundred characters. It loses some specimen coverage and operational detail compared to the prefs version, but it activates the framework's core operations reliably.
+If your system prompt slot is very small — ChatGPT's custom instructions field at 1500 characters per box, or any platform with a sub-eight-thousand-character preference slot — use [kita-micro.txt](https://github.com/emulable/kita/blob/main/kita-micro.txt) instead of kita-prefs.txt. The micro is a compressed standalone activation that fits tighter slots, around seven thousand five hundred characters. It loses some specimen coverage and operational detail compared to the prefs version, but it activates the framework's core operations reliably.
 
 ---
 
@@ -64,7 +64,7 @@ Once you have the framework running and want to understand what it is doing, rea
 
 For specimen literacy — recognizing fog operations in the wild — read [fog-catalog.md](https://github.com/emulable/kita/blob/main/fog-catalog.md). It is a field guide of institutional sentences across every scale, from family dinners to diplomatic statements, paired with what the operations are doing.
 
-For the full operational details that the prefs file compresses, read [kita.md](https://github.com/emulable/kita/blob/main/kita.md). The full framework is in Chinese; English readers can use the companion as a parallel reference.
+For the full operational details that the prefs file compresses, read [kita.txt](https://github.com/emulable/kita/blob/main/kita.txt). The full framework is in Chinese; English readers can use the companion as a parallel reference.
 
 ---
 
