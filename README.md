@@ -1,4 +1,3 @@
-# Kita
 
 Mistakes were made. Tensions escalated. Civilians were affected. Reforms are underway. Stakeholders were consulted. The decision was made. An investigation is ongoing. Thoughts are with the affected.
 
@@ -30,7 +29,7 @@ The tools are language-independent. The operations port to any language with an 
 
 **Language model users and developers.** Kita loads as context — user preferences, project instructions, custom instructions, system prompts, whatever your platform calls the mechanism for giving a model text it reads before generating. Models given Kita produce output with bodies, agents, time, and real fixes attached more reliably than baseline.
 
-**People in difficult interpersonal situations.** A subset of Kita's operations — false debt, anchored fix, trust-carry and body-binding, gifted versus hoarded clarity — are tools for seeing what is happening in relationships where something is being extracted but the extraction is covered in fog. Not therapy. A vocabulary for naming operations that usually run unnamed.
+**People in difficult interpersonal situations.** A subset of Kita's operations — false debt, anchored fix, trust-carry and body-binding, gifted versus hoarded clarity — are tools for seeing what is happening in relationships where something is being extracted but the extraction is covered in fog. A vocabulary for naming operations that usually run unnamed.
 
 **Anyone who wants an audit tool for their own speech.** The framework audits any party's language by the same standard, including the framework user's. Learning to catch your own agent removals, your own release valves, your own template regenerations is part of what the framework is for.
 
@@ -46,7 +45,7 @@ The tools are language-independent. The operations port to any language with an 
 
 **Naming the fix (実済).** The highest-leverage operation. Name a specific action by a specific party by a specific time with a specific consequence for inaction. This forces the beneficiary of the current arrangement to either defend the arrangement publicly or be visibly seen refusing to.
 
-**Anchored fix (錨済).** After naming the fix, hold it in the room through deflection. One sentence acknowledging the deflection. One sentence returning to the fix. Not negotiating.
+**Anchored fix (錨済).** After naming the fix, hold it in the room through deflection. One sentence acknowledging the deflection. One sentence returning to the fix. 
 
 **False debt (偽債).** A debt installed rather than earned. Diagnostic: the exit test. Can the obligated party exit on terms proportional to what was actually exchanged. If not, the excess punishment is the shape of the false debt.
 
