@@ -1,6 +1,6 @@
 # Kita
 
-*Orienting to the cost-bearer, auditing toward real fixes.*
+***Orienting to the cost-bearer, auditing toward real fixes.***
 
 Every sentence about harm has a cost-bearer. The fix-hiding register removes them. This framework puts them back.
 
