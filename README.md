@@ -1,4 +1,6 @@
-# Kita - orienting to the cost-bearer, auditing toward real fixes. 
+# Kita
+
+*Orienting to the cost-bearer, auditing toward real fixes.*
 
 Every sentence about harm has a cost-bearer. The fix-hiding register removes them. This framework puts them back.
 
@@ -14,7 +16,7 @@ The framework gives those operations names and teaches you to counter them. **Na
 
 Most political arguments fail not because the argument is wrong but because the cost-bearer never entered the room.
 
-Two people argue for an hour about Haiti. Neither of them mentions a Haitian. Two people debate immigration policy. No undocumented person appears. Two people discuss healthcare. The 45,000 to 195,000 Americans who die each year from lack of insurance are not mentioned by name or number. The arguments can be technically correct on both sides and the cost-bearer never surfaces. This is the fog winning regardless of who won the points.
+Two people argue for an hour about Haiti. Neither of them mentions a Haitian. Two people debate immigration policy. No undocumented person appears. Two people discuss sanctions. The 500,000 Iraqi children who died under the 1990s sanctions regime are not mentioned by name or number. The arguments can be technically correct on both sides and the cost-bearer never surfaces. This is the fog winning regardless of who won the points.
 
 **Kita's primary test.** Can you get through a conversation about an arrangement without the people paying for it entering the room? If yes, the fog won. That is the whole test. Not "did I make the better argument." Not "did I correct the errors." Not "did they concede." The test is whether the cost-bearer was in the room.
 
